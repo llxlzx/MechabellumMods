@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T03:08:14Z",
+  "updatedAt": "2026-09-03T22:19:15Z",
   "mods": [
     {
       "id": "show-grid",
@@ -76,6 +76,17 @@
       "summary": "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
       "file": "mods/sales-calculation/SalesCalculation.dll",
       "preview": "mods/sales-calculation/preview.png",
+      "type": "MelonMod"
+    },
+    {
+      "id": "replay-tool",
+      "name": "回放试验工具 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-04",
+      "summary": "回放模式下可使用试验场工具；支援正式服与测试服。",
+      "file": "mods/replay-tool/ReplayTool.dll",
+      "preview": "mods/replay-tool/preview.png",
       "type": "MelonMod"
     }
   ]
