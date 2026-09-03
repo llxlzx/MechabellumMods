@@ -102,7 +102,7 @@ After review, maintainers upload accepted mods into this GitHub repo; players **
 【联系方式 / Contact】（可选）
 ```
 
-管理器内「投稿 Mod」「举报」按钮会尽量帮你预填 mailto；若本机没有邮件客户端，请手动发信到 **llxmod@foxmail.com** 并粘贴上述模板。
+管理器内「投稿 Mod」「举报」会按界面语言打开 QQ 邮箱网页（中文）或 Gmail 写信页（其他语言），并复制主题/正文模板；若网页未打开，请手动发信到 **llxmod@foxmail.com** 并粘贴模板。
 
 维护者将在合理时间内审阅并处理您的来信。受日常生活与个人事务安排影响，处理进度或有短暂延误，敬请谅解并耐心等待。请勿重复发送同一内容。
 
