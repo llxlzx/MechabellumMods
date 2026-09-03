@@ -49,6 +49,20 @@ MechabellumMods/
 - `file` 路径真实存在且可下载；
 - `version` / `updatedAt` / `summary` 与实际发布一致。
 
+PR / push 会跑 GitHub Actions：`scripts/validate_catalog.py`（`id` 唯一、`file`/`preview` 路径存在）。
+
+## 举报
+
+- 管理器会打开预填的 Issue（模板 `mod_report.md`，标签 `report`）。
+- 也可在 GitHub「New issue」里选择 **Mod Report** 模板。
+- 维护者请在仓库创建标签 **`report`**（Settings → Labels），否则管理器 URL 中的 `labels=report` 会被忽略。
+
+创建标签命令示例：
+
+```bash
+gh label create report --repo llxlzx/MechabellumMods --color D73A4A --description "Mod reports from manager"
+```
+
 ## 相关项目
 
 - Mod 管理器：https://github.com/llxlzx/MechabellumModManager
