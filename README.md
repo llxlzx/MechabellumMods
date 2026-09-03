@@ -4,16 +4,21 @@
 
 Community MOD catalog for Mechabellum. Files here are fetched by the [Mechabellum Mod Manager](https://github.com/llxlzx/MechabellumModManager).
 
+> **⚠️ AI 生成声明 / AI-generated notice**  
+> 本 README 的中英文教程主要由 AI 辅助撰写与翻译，可能存在表述偏差。请以仓库实际结构与 CI 校验为准。  
+> **This README’s Chinese/English guides were largely AI-assisted and may contain inaccuracies. Prefer the real repo layout and CI checks.**
+
 ## 语言 / Language
 
-**请向下滚动本页**，可找到另一种语言的完整投稿教程。
+使用下方链接在本页各节间跳转（中英文内容均在同一 README 中）。
 
-**Scroll down this page** to find the full submit guide in the other language.
+Use the links below to jump within this page (Chinese and English sections share one README).
 
-- 中文教程：[新手投稿教程（中文）](#新手投稿教程网页操作无需安装-git中文)
-- English guide: [Beginner submit guide (English)](#beginner-submit-guide-web-only-no-git--english)
+- 中文教程：[新手投稿教程（中文）](#新手投稿教程网页操作无需安装git-中文)
+- English guide: [Beginner submit guide (English)](#beginner-submit-guide-english)
 
 ---
+
 ## 目录结构 / Layout
 
 ```
@@ -51,9 +56,7 @@ Each MOD entry:
 
 ---
 
-## 新手投稿教程（网页操作，无需安装 Git）·中文
-
-> 完整英文版请**继续向下滚动** → [English guide](#beginner-submit-guide-web-only-no-git--english)
+## 新手投稿教程网页操作无需安装Git (中文)
 
 适合第一次发 Mod 的作者。全程用浏览器即可，**不必**安装 Git 或会敲命令。
 
@@ -137,10 +140,7 @@ Each MOD entry:
 
 ---
 
-## Beginner submit guide (web only, no Git) · English
-
-> Full Chinese version is **above** — or jump to [中文教程](#新手投稿教程网页操作无需安装-git中文).  
-> If you opened this page looking for Chinese: **scroll up**.
+## Beginner submit guide (English)
 
 For first-time authors. Do everything in the browser—**no** Git install and **no** command line required.
 
