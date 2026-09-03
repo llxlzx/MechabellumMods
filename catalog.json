@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-09-03T03:08:14Z",
+  "mods": [
+    {
+      "id": "show-grid",
+      "name": "地面格线 MOD",
+      "author": "巴巴",
+      "version": "1.1.0",
+      "updatedAt": "2026-09-02",
+      "summary": "按 G 开关永久地面格线；支援正式服与测试服。",
+      "file": "mods/show-grid/ShowGrid.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "quick-item",
+      "name": "快速道具 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-02",
+      "summary": "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
+      "file": "mods/quick-item/QuickItem.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "quick-camera",
+      "name": "快速相机视角 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-02",
+      "summary": "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
+      "file": "mods/quick-camera/QuickCamera.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "undo-plus",
+      "name": "快速撤回 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-02",
+      "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支援正式服与测试服。",
+      "file": "mods/undo-plus/UndoPlus.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "auto-speed",
+      "name": "自动加速战斗 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-31",
+      "summary": "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
+      "file": "mods/auto-speed/AutoSpeed.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "damage-rank",
+      "name": "伤害排名 MOD",
+      "author": "巴巴",
+      "version": "0.8.27",
+      "updatedAt": "2026-08-31",
+      "summary": "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
+      "file": "mods/damage-rank/DamageRank.dll",
+      "type": "MelonMod"
+    },
+    {
+      "id": "sales-calculation",
+      "name": "增援计算净赚 MOD",
+      "author": "巴巴",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-31",
+      "summary": "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
+      "file": "mods/sales-calculation/SalesCalculation.dll",
+      "type": "MelonMod"
+    }
+  ]
+}
