@@ -1,2 +1,8 @@
-blank_issues_enabled: true
-contact_links: []
+blank_issues_enabled: false
+contact_links:
+  - name: Email mod submit / report / feedback（推荐）
+    url: https://github.com/llxlzx/MechabellumMods/blob/main/docs/submit.html
+    about: 发邮件至 llxmod@foxmail.com（标准主题前缀）。作者无需 Fork/PR。
+  - name: Full email guide in README
+    url: https://github.com/llxlzx/MechabellumMods#投稿与举报--submit--report
+    about: Templates for Submit / Update / Report / Feedback.

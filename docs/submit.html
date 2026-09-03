@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MechabellumMods — 投稿 / 举报 / Submit</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a222c;
+      --text: #e8eef4;
+      --muted: #9aa8b5;
+      --accent: #3d9cf0;
+      --accent2: #5ecf8e;
+      --warn: #e6a23c;
+      --danger: #e36a6a;
+      --border: #2a3542;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #1b2a3a 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 2rem 1.25rem 3rem;
+    }
+    main { max-width: 820px; margin: 0 auto; }
+    h1 { font-size: 1.55rem; margin: 0 0 0.35rem; font-weight: 650; }
+    .sub { color: var(--muted); margin-bottom: 1.25rem; }
+    .inbox {
+      display: inline-block;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.65rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .inbox a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .inbox a:hover { text-decoration: underline; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin: 1.25rem 0 1.75rem;
+    }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+    .btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 650;
+      padding: 1rem 0.85rem;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      transition: transform 0.12s ease, filter 0.12s ease;
+    }
+    .btn:hover { transform: translateY(-1px); filter: brightness(1.06); }
+    .btn small { display: block; font-weight: 500; opacity: 0.9; margin-top: 0.25rem; font-size: 0.8rem; }
+    .b-submit { background: linear-gradient(180deg, #3d9cf0, #2b7fc9); }
+    .b-update { background: linear-gradient(180deg, #5ecf8e, #3aa86a); }
+    .b-report { background: linear-gradient(180deg, #e36a6a, #c44d4d); }
+    .b-feedback { background: linear-gradient(180deg, #e6a23c, #c98620); }
+    h2 { font-size: 1.1rem; margin: 1.75rem 0 0.5rem; }
+    pre {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      font-size: 0.86rem;
+      color: #d7e2ec;
+    }
+    ul.rules { color: var(--muted); padding-left: 1.2rem; }
+    ul.rules li { margin: 0.35rem 0; }
+    footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>投稿 · 更新 · 举报 · 建议</h1>
+    <p class="sub">Submit · Update · Report · Feedback — MechabellumMods</p>
+
+    <div class="inbox">
+      收件邮箱 / Inbox：
+      <a href="mailto:llxmod@foxmail.com">llxmod@foxmail.com</a>
+    </div>
+
+    <p class="sub">
+      点下方按钮会打开本机邮件客户端并预填主题与正文模板。作者无需 Fork/PR；维护者审核后上传本仓库，玩家在管理器中刷新目录即可。<br />
+      Buttons open your mail app with subject + body templates. No Fork/PR required.
+    </p>
+
+    <div class="grid">
+      <a class="btn b-submit" id="btn-submit" href="#">
+        投稿 / Submit
+        <small>[Mod投稿/Submit] …</small>
+      </a>
+      <a class="btn b-update" id="btn-update" href="#">
+        更新 / Update
+        <small>[Mod更新/Update] …</small>
+      </a>
+      <a class="btn b-report" id="btn-report" href="#">
+        举报 / Report
+        <small>[Mod举报/Report] …</small>
+      </a>
+      <a class="btn b-feedback" id="btn-feedback" href="#">
+        建议 / Feedback
+        <small>[管理器建议/Feedback] …</small>
+      </a>
+    </div>
+
+    <h2>规则 / Rules</h2>
+    <ul class="rules">
+      <li>主题必须以四个前缀之一开头（见按钮小字）。Subject must start with one of the four prefixes.</li>
+      <li>一封邮件只办一件事。One email = one request.</li>
+      <li>投稿/更新请附加 <code>.dll</code>（可选 <code>preview.png</code>）；附件过大（约 &gt;40MB）请写网盘链接。</li>
+      <li>不要主动发送源码。Do not send source unless asked.</li>
+    </ul>
+
+    <h2>投稿模板 / Submit</h2>
+    <pre id="tpl-submit">【类型 / Type】投稿 / Submit（新 Mod）
+【Mod 名称 / Name】
+【作者 / Author】
+【版本 / Version】
+【一句话简介 / Summary】
+【游戏端 / Game】正式服 / 测试服 / 两者（Official / Test / Both）
+【联系方式 / Contact】（可选）
+【备注 / Notes】</pre>
+
+    <h2>更新模板 / Update</h2>
+    <pre id="tpl-update">【类型 / Type】更新 / Update
+【Mod 名称 / Name】
+【作者 / Author】
+【原版本 → 新版本 / Version】
+【更新说明 / Changelog】
+【联系方式 / Contact】（可选）</pre>
+
+    <h2>举报模板 / Report</h2>
+    <pre id="tpl-report">【类型 / Type】举报 / Report
+【Mod 名称 / Name】
+【Mod Id】（若知道）
+【来源 / Source】社区目录 / 本地库（Catalog / Library）
+【类别 / Category】作弊相关 / 病毒或恶意 / 与游戏无关 / 其他（Cheat / Malware / Unrelated / Other）
+【说明 / Details】
+【管理器版本 / App】</pre>
+
+    <h2>建议模板 / Feedback</h2>
+    <pre id="tpl-feedback">【类型 / Type】管理器建议 / Feedback
+【标题 / Title】
+【详细说明 / Details】
+【管理器版本 / App】（可选）
+【联系方式 / Contact】（可选）</pre>
+
+    <footer>
+      仓库 / Repo：
+      <a href="https://github.com/llxlzx/MechabellumMods">llxlzx/MechabellumMods</a>
+      · 管理器 /
+      <a href="https://github.com/llxlzx/MechabellumModManager">MechabellumModManager</a>
+      · 完整说明见 README「投稿与举报」一节。
+    </footer>
+  </main>
+  <script>
+    const INBOX = "llxmod@foxmail.com";
+    function mailto(subject, body) {
+      return "mailto:" + INBOX +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+    }
+    const submitBody = document.getElementById("tpl-submit").textContent;
+    const updateBody = document.getElementById("tpl-update").textContent;
+    const reportBody = document.getElementById("tpl-report").textContent;
+    const feedbackBody = document.getElementById("tpl-feedback").textContent;
+    document.getElementById("btn-submit").href =
+      mailto("[Mod投稿/Submit] ModName", submitBody);
+    document.getElementById("btn-update").href =
+      mailto("[Mod更新/Update] ModName", updateBody);
+    document.getElementById("btn-report").href =
+      mailto("[Mod举报/Report] ModName", reportBody);
+    document.getElementById("btn-feedback").href =
+      mailto("[管理器建议/Feedback] ShortTitle", feedbackBody);
+  </script>
+</body>
+</html>
