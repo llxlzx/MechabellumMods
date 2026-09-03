@@ -1,0 +1,54 @@
+# MechabellumMods — License & Terms / 许可与条款
+
+Bilingual summary. Author-declared terms for a specific mod always prevail.
+
+中英摘要如下。若某 Mod 作者自行公布了许可/条款，则以作者声明为准。
+
+---
+
+## 1. Author license wins / 作者声明优先
+
+If a mod author publishes their own license or terms with the mod, **those terms apply** to that mod’s files.
+
+若作者随 Mod 公布了自己的许可或条款，则**以该声明为准**。
+
+## 2. Default grant on email submission / 邮件投稿的默认授权
+
+Otherwise, by submitting a mod to this catalog via email (`llxmod@foxmail.com`), the author:
+
+- retains copyright in their mod; and
+- grants the catalog maintainer permission to **host, distribute, and list** the mod **non-commercially** via this MechabellumMods repository and the Mechabellum Mod Manager community browser (including metadata, preview images, and downloadable binaries as submitted).
+
+否则，作者通过邮件向本目录投稿，即表示：作者保留著作权；并授权目录维护者以**非商业**方式，通过本仓库与 Mechabellum Mod 管理器社区浏览功能**托管、分发与展示**该 Mod（含元数据、预览图及所提交的二进制文件）。
+
+## 3. Catalog text / metadata default / 目录文案与元数据默认
+
+Unless a more specific license is stated for a given text or metadata entry, catalog text and metadata in this repository are available for **non-commercial community use**; attribution is appreciated.
+
+Suggested SPDX-style label for catalog metadata: **CC BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International), applied to catalog text/metadata only — **not** automatically to third-party mod binaries (see §1–§2).
+
+除非对特定文案或元数据另有说明，本仓库中的目录文案与元数据供**非商业社区使用**，欢迎署名。目录元数据建议适用 **CC BY-NC-SA 4.0**；**不自动**适用于第三方 Mod 二进制（见 §1–§2）。
+
+## 4. Disclaimer / 免责声明
+
+- Third-party binaries are provided by their authors. Use at your own risk.
+- The maintainer does not guarantee safety, legality, quality, or compatibility.
+- Catalog listing is not an endorsement. The maintainer may refuse, delay, edit metadata, or remove content.
+- This project is an independent community effort and is **not affiliated** with Mechabellum, its publishers, or Steam.
+
+- 第三方二进制文件由其作者提供，使用风险自负。
+- 维护者不保证安全性、合法性、质量或兼容性。
+- 收录不代表背书；维护者可拒绝、延期、编辑元数据或下架内容。
+- 本项目为独立社区努力，与 Mechabellum、其发行商或 Steam **无官方从属关系**。
+
+## 5. Processing delay / 处理时效
+
+维护者将在合理时间内审阅并处理您的来信。受日常生活与个人事务安排影响，处理进度或有短暂延误，敬请谅解并耐心等待。请勿重复发送同一内容。
+
+The maintainer will review and process your message within a reasonable time. Handling may be briefly delayed due to daily life and personal schedule; thank you for your patience. Please do not resend the same request.
+
+## Contact / 联系
+
+- Email: **llxmod@foxmail.com**
+- Subject prefixes: `[Mod投稿/Submit]`, `[Mod更新/Update]`, `[Mod举报/Report]`, `[管理器建议/Feedback]`
+- Guide: [README](README.md#投稿与举报--submit--report) · [docs/submit.html](docs/submit.html)

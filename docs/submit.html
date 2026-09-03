@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -77,6 +77,16 @@
     ul.rules li { margin: 0.35rem 0; }
     footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
     footer a { color: var(--accent); }
+    .notice {
+      background: rgba(230, 162, 60, 0.12);
+      border: 1px solid var(--warn);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      margin: 0 0 1.35rem;
+      color: var(--text);
+      font-size: 0.92rem;
+    }
+    .notice .en { color: var(--muted); margin-top: 0.45rem; }
   </style>
 </head>
 <body>
@@ -87,6 +97,11 @@
     <div class="inbox">
       收件邮箱 / Inbox：
       <a href="mailto:llxmod@foxmail.com">llxmod@foxmail.com</a>
+    </div>
+
+    <div class="notice" role="note">
+      维护者将在合理时间内审阅并处理您的来信。受日常生活与个人事务安排影响，处理进度或有短暂延误，敬请谅解并耐心等待。请勿重复发送同一内容。
+      <div class="en">The maintainer will review and process your message within a reasonable time. Handling may be briefly delayed due to daily life and personal schedule; thank you for your patience. Please do not resend the same request.</div>
     </div>
 
     <p class="sub">
@@ -160,7 +175,7 @@
       <a href="https://github.com/llxlzx/MechabellumMods">llxlzx/MechabellumMods</a>
       · 管理器 /
       <a href="https://github.com/llxlzx/MechabellumModManager">MechabellumModManager</a>
-      · 完整说明见 README「投稿与举报」一节。
+      · 完整说明见 README「投稿与举报」一节 · <a href="../LICENSE">LICENSE</a>。
     </footer>
   </main>
   <script>

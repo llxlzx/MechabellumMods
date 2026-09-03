@@ -1,4 +1,4 @@
-# MechabellumMods
+﻿# MechabellumMods
 
 钢铁指挥官（Mechabellum）社区 MOD 目录仓库。本仓库存放可供 [Mechabellum Mod 管理器](https://github.com/llxlzx/MechabellumModManager) 拉取的 MOD 清单与文件。
 
@@ -104,6 +104,10 @@ After review, maintainers upload accepted mods into this GitHub repo; players **
 
 管理器内「投稿 Mod」「举报」按钮会尽量帮你预填 mailto；若本机没有邮件客户端，请手动发信到 **llxmod@foxmail.com** 并粘贴上述模板。
 
+维护者将在合理时间内审阅并处理您的来信。受日常生活与个人事务安排影响，处理进度或有短暂延误，敬请谅解并耐心等待。请勿重复发送同一内容。
+
+The maintainer will review and process your message within a reasonable time. Handling may be briefly delayed due to daily life and personal schedule; thank you for your patience. Please do not resend the same request.
+
 ---
 
 ## 目录结构 / Layout
@@ -145,6 +149,19 @@ Each MOD entry:
 维护者合并进本仓库后的路径与字段须符合上表与 CI（Validate catalog）。作者走邮件投稿时，**不必**自己改 `catalog.json`。
 
 ---
+
+## 许可与免责 / License & Disclaimer
+
+详见根目录 [`LICENSE`](LICENSE)。摘要：
+
+1. 作者自行公布的许可/条款优先适用于该 Mod。  
+2. 否则，邮件投稿即授权维护者以非商业方式托管、分发与展示（作者保留著作权）。  
+3. 目录文案/元数据默认非商业社区使用（建议 CC BY-NC-SA 4.0）；不自动覆盖第三方二进制。  
+4. 第三方二进制风险自负；收录不代表背书；与游戏官方无从属关系。  
+5. 处理时效见上文（合理时间内审阅；或有短暂延误；请勿重复发送）。
+
+See root [`LICENSE`](LICENSE). Author terms win; otherwise email submission grants non-commercial host/distribute/list permission. Catalog metadata defaults to non-commercial community use (CC BY-NC-SA 4.0 suggested). Third-party binaries at your own risk; no affiliation with the game publisher.
+
 
 ## 相关项目 / Related
 

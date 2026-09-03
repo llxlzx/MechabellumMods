@@ -1,4 +1,4 @@
----
+﻿---
 name: Mod Report
 about: Prefer email — this Issue template is retired for normal reports.
 title: "[Deprecated] Please email instead"
@@ -32,3 +32,5 @@ Or open the manager **Report** button, or visit https://github.com/llxlzx/Mechab
 ---
 
 本模板已停用日常举报。请发邮件至 **llxmod@foxmail.com**，主题以 `[Mod举报/Report]` 开头。
+
+维护者将在合理时间内审阅邮件；或有短暂延误，请勿重复发送同一内容。 / Review within a reasonable time; please do not resend.
