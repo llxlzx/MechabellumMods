@@ -2,44 +2,58 @@
 
 钢铁指挥官（Mechabellum）社区 MOD 目录仓库。本仓库存放可供 [Mechabellum Mod 管理器](https://github.com/llxlzx/MechabellumModManager) 拉取的 MOD 清单与文件。
 
-## 目录结构
+Community MOD catalog for Mechabellum. Files here are fetched by the [Mechabellum Mod Manager](https://github.com/llxlzx/MechabellumModManager).
+
+## 语言 / Language
+
+**请向下滚动本页**，可找到另一种语言的完整投稿教程。
+
+**Scroll down this page** to find the full submit guide in the other language.
+
+- 中文教程：[新手投稿教程（中文）](#新手投稿教程网页操作无需安装-git中文)
+- English guide: [Beginner submit guide (English)](#beginner-submit-guide-web-only-no-git--english)
+
+---
+## 目录结构 / Layout
 
 ```
 MechabellumMods/
   README.md
-  catalog.json          # MOD 目录清单
+  catalog.json          # MOD catalog / 目录清单
   mods/
     <mod-id>/
-      <ModName>.dll     # MelonLoader 插件
-      preview.png       # 可选预览图
+      <ModName>.dll     # MelonLoader plugin
+      preview.png       # optional preview
 ```
 
-## catalog.json 字段说明
+## catalog.json 字段 / Fields
 
-根对象：
+Root object:
 
-| 字段 | 说明 |
+| Field | Meaning |
 |------|------|
-| `updatedAt` | 目录整体更新时间（ISO 8601，例如 `2026-09-03T12:00:00Z`） |
-| `mods` | MOD 条目数组 |
+| `updatedAt` | Catalog update time (ISO 8601, e.g. `2026-09-03T12:00:00Z`) |
+| `mods` | Array of MOD entries |
 
-每个 MOD 条目：
+Each MOD entry:
 
-| 字段 | 说明 | 示例 |
+| Field | Meaning | Example |
 |------|------|------|
-| `id` | 唯一标识（**小写英文/数字 + 短横线**，与文件夹名相同） | `show-grid` |
-| `name` | 显示名称 | `地面格线 MOD` |
-| `author` | 作者 | `你的名字` |
-| `version` | 版本号 | `1.0.0` |
-| `updatedAt` | 该 MOD 更新日期 | `2026-09-03` |
-| `summary` | 一两句功能说明 | `按 G 开关格线` |
-| `file` | DLL 相对仓库根目录的路径 | `mods/show-grid/ShowGrid.dll` |
-| `preview` | 可选预览图路径 | `mods/show-grid/preview.png` |
-| `type` | 固定填 | `MelonMod` |
+| `id` | Unique id (**lowercase letters/digits/hyphens**, same as folder name) | `show-grid` |
+| `name` | Display name | `Show Grid` |
+| `author` | Author | `YourName` |
+| `version` | Version | `1.0.0` |
+| `updatedAt` | MOD date | `2026-09-03` |
+| `summary` | Short description | `Toggle grid with G` |
+| `file` | DLL path relative to repo root | `mods/show-grid/ShowGrid.dll` |
+| `preview` | Optional preview path | `mods/show-grid/preview.png` |
+| `type` | Always | `MelonMod` |
 
 ---
 
-## 新手投稿教程（网页操作，无需安装 Git）
+## 新手投稿教程（网页操作，无需安装 Git）·中文
+
+> 完整英文版请**继续向下滚动** → [English guide](#beginner-submit-guide-web-only-no-git--english)
 
 适合第一次发 Mod 的作者。全程用浏览器即可，**不必**安装 Git 或会敲命令。
 
@@ -123,16 +137,101 @@ MechabellumMods/
 
 ---
 
-## 举报
+## Beginner submit guide (web only, no Git) · English
 
-- 管理器会打开预填的 Issue（模板 `mod_report.md`，标签 `report`）。
-- 也可在 GitHub「New issue」里选择 **Mod Report** 模板。
-- 维护者请在仓库创建标签 **`report`**（Settings → Labels），否则管理器 URL 中的 `labels=report` 会被忽略。
+> Full Chinese version is **above** — or jump to [中文教程](#新手投稿教程网页操作无需安装-git中文).  
+> If you opened this page looking for Chinese: **scroll up**.
+
+For first-time authors. Do everything in the browser—**no** Git install and **no** command line required.
+
+### Before you start
+
+1. Create / sign in to a [GitHub](https://github.com/signup) account.
+2. Have a MelonLoader-ready **`.dll`** (this repo accepts DLLs only, not uncompiled source).
+3. Choose an **`id`** (folder name): lowercase letters, digits, and hyphens only, e.g. `my-first-mod`.  
+   **Do not** use spaces, Chinese characters, or names like `My Mod` as the `id`.
+
+### Step 1: Fork the repository
+
+1. Open https://github.com/llxlzx/MechabellumMods  
+2. Click **Fork** (top right) → **Create fork**.  
+3. You will land on **your copy**, e.g.  
+   `https://github.com/YOUR_USERNAME/MechabellumMods`  
+   Upload only to this fork. You normally cannot push directly to `llxlzx/MechabellumMods`.
+
+### Step 2: Upload the DLL
+
+1. In **your fork**, open the **`mods`** folder.  
+2. Click **Add file** → **Upload files**.  
+3. Drop your DLL. The final path **must** be:
+
+   `mods/your-id/YourFile.dll`  
+
+   Correct: `mods/my-first-mod/MyFirstMod.dll`  
+   Wrong: `mods/MyFirstMod.dll` (missing the `id` folder).
+
+4. Scroll down → **Commit changes**.
+
+(Optional) Upload `preview.png` in the same folder.
+
+### Step 3: Edit `catalog.json`
+
+1. Go back to your fork **root** and open **`catalog.json`**.  
+2. Click the pencil icon **Edit this file**.  
+3. Find the `"mods": [` array. After the **last existing entry’s `}`**, add a comma `,`, then paste your new object.  
+4. Example (use English punctuation/quotes; replace with your info):
+
+```json
+    {
+      "id": "my-first-mod",
+      "name": "My First Mod",
+      "author": "YourName",
+      "version": "1.0.0",
+      "updatedAt": "2026-09-03",
+      "summary": "One sentence describing what this mod does.",
+      "file": "mods/my-first-mod/MyFirstMod.dll",
+      "type": "MelonMod"
+    }
+```
+
+5. Update the root **`updatedAt`** to now (UTC is fine), e.g. `"2026-09-03T12:00:00Z"`.  
+6. **Commit changes**.
+
+Checklist:
+
+- `id` equals the folder name;  
+- `file` equals the real uploaded path;  
+- if you added a preview: `"preview": "mods/my-first-mod/preview.png"`.
+
+### Step 4: Open a Pull Request
+
+1. On your fork home page, use the banner **Contribute** / **Open pull request**.  
+   Or open https://github.com/llxlzx/MechabellumMods/compare and select your fork on the right.  
+2. Title idea: `Add my-first-mod` or `Update xxx to 1.0.1`.  
+3. Describe features, Melon Mod confirmation, and game version tested (if any).  
+4. Click **Create pull request**.
+
+### Step 5: Wait for merge
+
+After the maintainer merges, players click **Browse Mods → Refresh catalog** in the manager.  
+If **Validate catalog** CI fails, fix paths / `id` / JSON from the red log and push again to your fork (the PR updates automatically).
+
+### Updating an existing mod
+
+Upload a new DLL to the same path → bump `version` / `updatedAt` / `summary` in `catalog.json` → open another PR.
+
+---
+
+## 举报 / Reports
+
+- The manager opens a pre-filled Issue (`mod_report.md`, label `report`).
+- Or use **New issue** → **Mod Report** on GitHub.
+- Maintainers should create the **`report`** label (Settings → Labels), or the `labels=report` query is ignored.
 
 ```bash
 gh label create report --repo llxlzx/MechabellumMods --color D73A4A --description "Mod reports from manager"
 ```
 
-## 相关项目
+## 相关项目 / Related
 
-- Mod 管理器：https://github.com/llxlzx/MechabellumModManager
+- Mod Manager: https://github.com/llxlzx/MechabellumModManager
