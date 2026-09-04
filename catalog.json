@@ -10,7 +10,9 @@
       "summary": "按 G 开关永久地面格线；支援正式服与测试服。",
       "file": "mods/show-grid/ShowGrid.dll",
       "preview": "mods/show-grid/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "OverlayUI",
+      "tags": ["grid", "hud"]
     },
     {
       "id": "quick-item",
@@ -21,7 +23,9 @@
       "summary": "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
       "file": "mods/quick-item/QuickItem.dll",
       "preview": "mods/quick-item/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "QoL",
+      "tags": ["hotkey", "items"]
     },
     {
       "id": "quick-camera",
@@ -32,7 +36,9 @@
       "summary": "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
       "file": "mods/quick-camera/QuickCamera.dll",
       "preview": "mods/quick-camera/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "Camera",
+      "tags": ["camera", "hotkey"]
     },
     {
       "id": "undo-plus",
@@ -43,7 +49,9 @@
       "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支援正式服与测试服。",
       "file": "mods/undo-plus/UndoPlus.dll",
       "preview": "mods/undo-plus/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "QoL",
+      "tags": ["hotkey", "undo"]
     },
     {
       "id": "auto-speed",
@@ -54,7 +62,9 @@
       "summary": "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
       "file": "mods/auto-speed/AutoSpeed.dll",
       "preview": "mods/auto-speed/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "CombatAssist",
+      "tags": ["combat", "speed"]
     },
     {
       "id": "damage-rank",
@@ -65,7 +75,9 @@
       "summary": "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
       "file": "mods/damage-rank/DamageRank.dll",
       "preview": "mods/damage-rank/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "OverlayUI",
+      "tags": ["hud", "damage"]
     },
     {
       "id": "sales-calculation",
@@ -76,7 +88,9 @@
       "summary": "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
       "file": "mods/sales-calculation/SalesCalculation.dll",
       "preview": "mods/sales-calculation/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "Economy",
+      "tags": ["economy", "calc"]
     },
     {
       "id": "replay-tool",
@@ -87,7 +101,9 @@
       "summary": "回放模式下可使用试验场工具；支援正式服与测试服。",
       "file": "mods/replay-tool/ReplayTool.dll",
       "preview": "mods/replay-tool/preview.png",
-      "type": "MelonMod"
+      "type": "MelonMod",
+      "category": "ReplayDebug",
+      "tags": ["replay", "debug"]
     }
   ]
 }

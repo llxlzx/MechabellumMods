@@ -9,6 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog.json"
 REQUIRED = ("id", "name", "file")
+ALLOWED_CATEGORIES = {
+    "OverlayUI", "QoL", "Camera", "CombatAssist",
+    "Economy", "ReplayDebug", "Misc",
+}
 
 
 def main() -> int:
@@ -52,6 +56,16 @@ def main() -> int:
             ppath = ROOT / preview.replace("\\", "/")
             if not ppath.is_file():
                 errors.append(f"id={mod.get('id')!r}: preview not found: {preview}")
+
+        cat = mod.get("category")
+        if cat is not None:
+            if not isinstance(cat, str) or cat.strip() not in ALLOWED_CATEGORIES:
+                errors.append(f"id={mod.get('id')!r}: invalid category: {cat!r}")
+
+        tags = mod.get("tags")
+        if tags is not None:
+            if not isinstance(tags, list) or any(not isinstance(t, str) for t in tags):
+                errors.append(f"id={mod.get('id')!r}: tags must be a string array")
 
     if errors:
         print("catalog validation failed:", file=sys.stderr)
