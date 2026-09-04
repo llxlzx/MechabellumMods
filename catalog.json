@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:19:15Z",
+  "updatedAt": "2026-09-04T10:15:00Z",
   "mods": [
     {
       "id": "show-grid",
@@ -12,7 +12,25 @@
       "preview": "mods/show-grid/preview.png",
       "type": "MelonMod",
       "category": "OverlayUI",
-      "tags": ["grid", "hud"]
+      "tags": ["grid", "hud"],
+      "locales": {
+        "en": {
+          "name": "Ground Grid Mod",
+          "summary": "Press G to toggle a permanent ground grid. Supports Official and Beta."
+        },
+        "de": {
+          "name": "Bodengitter-Mod",
+          "summary": "Mit G das dauerhafte Bodengitter ein- oder ausschalten. Unterstützt Offiziell und Test."
+        },
+        "ja": {
+          "name": "地面グリッド MOD",
+          "summary": "G キーで永久地面グリッドの表示を切り替え。正式版・テスト版に対応。"
+        },
+        "ru": {
+          "name": "Мод сетки поля",
+          "summary": "Клавиша G включает или выключает постоянную сетку поля. Поддерживаются официальная и тестовая ветки."
+        }
+      }
     },
     {
       "id": "quick-item",
@@ -25,7 +43,25 @@
       "preview": "mods/quick-item/preview.png",
       "type": "MelonMod",
       "category": "QoL",
-      "tags": ["hotkey", "items"]
+      "tags": ["hotkey", "items"],
+      "locales": {
+        "en": {
+          "name": "Quick Items Mod",
+          "summary": "Number keys 1/2/3 quickly use Shield Generator, Sentry Missile, and Missile Interceptor."
+        },
+        "de": {
+          "name": "Schnellgegenstände-Mod",
+          "summary": "Zifferntasten 1/2/3 nutzen schnell Schildgenerator, Wachflugkörper und Flugkörperabwehr."
+        },
+        "ja": {
+          "name": "クイックアイテム MOD",
+          "summary": "数字キー 1/2/3 でシールド発生器・哨戒ミサイル・ミサイル迎撃を素早く使用。"
+        },
+        "ru": {
+          "name": "Мод быстрых предметов",
+          "summary": "Клавиши 1/2/3 быстро используют генератор щита, сторожевую ракету и перехватчик ракет."
+        }
+      }
     },
     {
       "id": "quick-camera",
@@ -38,7 +74,25 @@
       "preview": "mods/quick-camera/preview.png",
       "type": "MelonMod",
       "category": "Camera",
-      "tags": ["camera", "hotkey"]
+      "tags": ["camera", "hotkey"],
+      "locales": {
+        "en": {
+          "name": "Quick Camera Views Mod",
+          "summary": "Numpad 1/2/3 switches views; Alt+Numpad 1/2/3 saves views (up to 3)."
+        },
+        "de": {
+          "name": "Schnelle Kameraperspektiven",
+          "summary": "Ziffernblock 1/2/3 wechselt die Ansicht; Alt+Ziffernblock 1/2/3 speichert Ansichten (höchstens 3)."
+        },
+        "ja": {
+          "name": "クイックカメラ視点 MOD",
+          "summary": "テンキー 1/2/3 で視点切替。Alt+テンキー 1/2/3 で視点保存（最大 3 組）。"
+        },
+        "ru": {
+          "name": "Мод быстрых ракурсов",
+          "summary": "NumPad 1/2/3 переключает вид; Alt+NumPad 1/2/3 сохраняет ракурсы (до 3)."
+        }
+      }
     },
     {
       "id": "undo-plus",
@@ -51,7 +105,25 @@
       "preview": "mods/undo-plus/preview.png",
       "type": "MelonMod",
       "category": "QoL",
-      "tags": ["hotkey", "undo"]
+      "tags": ["hotkey", "undo"],
+      "locales": {
+        "en": {
+          "name": "Fast Undo Mod",
+          "summary": "Hold Undo for 1 second, then undo repeatedly every 0.2 seconds. Supports Official and Beta."
+        },
+        "de": {
+          "name": "Schnelles Rückgängig",
+          "summary": "Rückgängig 1 Sekunde halten, danach alle 0,2 Sekunden fortlaufend rückgängig machen. Unterstützt Offiziell und Test."
+        },
+        "ja": {
+          "name": "高速取り消し MOD",
+          "summary": "取り消しキーを 1 秒長押し後、0.2 秒間隔で連続取り消し。正式版・テスト版に対応。"
+        },
+        "ru": {
+          "name": "Мод быстрого отката",
+          "summary": "Удерживайте отмену 1 секунду, затем откат каждые 0,2 секунды. Поддерживаются официальная и тестовая ветки."
+        }
+      }
     },
     {
       "id": "auto-speed",
@@ -64,7 +136,25 @@
       "preview": "mods/auto-speed/preview.png",
       "type": "MelonMod",
       "category": "CombatAssist",
-      "tags": ["combat", "speed"]
+      "tags": ["combat", "speed"],
+      "locales": {
+        "en": {
+          "name": "Auto Speed Battle Mod",
+          "summary": "About 15 seconds after battle start, an AUTO button appears; when checked, it auto-votes to speed up."
+        },
+        "de": {
+          "name": "Auto-Kampfbeschleunigung",
+          "summary": "Etwa 15 Sekunden nach Kampfbeginn erscheint die AUTO-Schaltfläche; bei Aktivierung wird automatisch für Tempo gestimmt."
+        },
+        "ja": {
+          "name": "自動加速戦闘 MOD",
+          "summary": "開戦約 15 秒後に AUTO ボタンが表示され、チェックすると自動で加速投票します。"
+        },
+        "ru": {
+          "name": "Мод автоускорения боя",
+          "summary": "Примерно через 15 секунд после начала боя появляется кнопка AUTO; при включении выполняется автоголосование за ускорение."
+        }
+      }
     },
     {
       "id": "damage-rank",
@@ -77,7 +167,25 @@
       "preview": "mods/damage-rank/preview.png",
       "type": "MelonMod",
       "category": "OverlayUI",
-      "tags": ["hud", "damage"]
+      "tags": ["hud", "damage"],
+      "locales": {
+        "en": {
+          "name": "Damage Ranking Mod",
+          "summary": "Shows the top six damage dealers and kill counts. ~ collapses the panel; F8 toggles the whole UI."
+        },
+        "de": {
+          "name": "Schadensrangliste",
+          "summary": "Zeigt die Top 6 nach Schaden sowie Kills. ~ klappt das Panel ein; F8 blendet die gesamte UI um."
+        },
+        "ja": {
+          "name": "ダメージ順位 MOD",
+          "summary": "場上ダメージ上位 6 とキル数を表示。~ でパネル折りたたみ、F8 で UI 全体の表示切替。"
+        },
+        "ru": {
+          "name": "Мод рейтинга урона",
+          "summary": "Показывает топ-6 по урону и число убийств. ~ сворачивает панель; F8 скрывает или показывает весь UI."
+        }
+      }
     },
     {
       "id": "sales-calculation",
@@ -90,7 +198,25 @@
       "preview": "mods/sales-calculation/preview.png",
       "type": "MelonMod",
       "category": "Economy",
-      "tags": ["economy", "calc"]
+      "tags": ["economy", "calc"],
+      "locales": {
+        "en": {
+          "name": "Reinforcement Value Calculator",
+          "summary": "Quickly calculates reinforcement unit value. In-mod UI supports Traditional Chinese, Simplified Chinese, English, Russian, German, and Japanese."
+        },
+        "de": {
+          "name": "Verstärkungswert-Rechner",
+          "summary": "Berechnet schnell den Wert von Verstärkungseinheiten. Die Mod-UI unterstützt Traditionelles/Vereinfachtes Chinesisch, Englisch, Russisch, Deutsch und Japanisch."
+        },
+        "ja": {
+          "name": "増援価値計算 MOD",
+          "summary": "増援ユニットの価値を素早く計算。MOD 内 UI は繁体字中国語・簡体字中国語・英語・ロシア語・ドイツ語・日本語に対応。"
+        },
+        "ru": {
+          "name": "Калькулятор ценности подкреплений",
+          "summary": "Быстрый расчёт ценности юнитов подкрепления. UI мода поддерживает традиционный/упрощённый китайский, английский, русский, немецкий и японский."
+        }
+      }
     },
     {
       "id": "replay-tool",
@@ -103,7 +229,25 @@
       "preview": "mods/replay-tool/preview.png",
       "type": "MelonMod",
       "category": "ReplayDebug",
-      "tags": ["replay", "debug"]
+      "tags": ["replay", "debug"],
+      "locales": {
+        "en": {
+          "name": "Replay Lab Tools Mod",
+          "summary": "Enables lab tools in replay mode. Supports Official and Beta."
+        },
+        "de": {
+          "name": "Replay-Testwerkzeuge",
+          "summary": "Ermöglicht Testwerkzeuge im Replay-Modus. Unterstützt Offiziell und Test."
+        },
+        "ja": {
+          "name": "リプレイ試験ツール MOD",
+          "summary": "リプレイモードで試験場ツールを使用可能。正式版・テスト版に対応。"
+        },
+        "ru": {
+          "name": "Мод инструментов повтора",
+          "summary": "В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
+        }
+      }
     }
   ]
 }
