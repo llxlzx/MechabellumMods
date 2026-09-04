@@ -65,6 +65,8 @@ After review, maintainers upload accepted mods into this GitHub repo; players **
 【版本 / Version】
 【一句话简介 / Summary】
 【游戏端 / Game】正式服 / 测试服 / 两者（Official / Test / Both）
+【分类 / Category】（OverlayUI / QoL / Camera / CombatAssist / Economy / ReplayDebug / Misc，可空）
+【标签 / Tags】（逗号分隔，可空）
 【联系方式 / Contact】（可选）
 【备注 / Notes】
 ```
@@ -145,6 +147,8 @@ Each MOD entry:
 | `file` | DLL path relative to repo root | `mods/show-grid/ShowGrid.dll` |
 | `preview` | Optional preview path | `mods/show-grid/preview.png` |
 | `type` | Always | `MelonMod` |
+| `category` | Optional content category | `OverlayUI` / `QoL` / `Camera` / `CombatAssist` / `Economy` / `ReplayDebug` / `Misc` |
+| `tags` | Optional string array | `["grid","hud"]` |
 
 维护者合并进本仓库后的路径与字段须符合上表与 CI（Validate catalog）。作者走邮件投稿时，**不必**自己改 `catalog.json`。
 
