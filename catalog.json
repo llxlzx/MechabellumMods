@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-04T10:15:00Z",
+  "updatedAt": "2026-09-06T13:20:00Z",
   "mods": [
     {
       "id": "show-grid",
       "name": "地面格线 MOD",
       "author": "巴巴",
-      "version": "1.1.0",
-      "updatedAt": "2026-09-02",
+      "version": "1.2.0",
+      "updatedAt": "2026-09-06",
       "summary": "按 G 开关永久地面格线；支援正式服与测试服。",
       "file": "mods/show-grid/ShowGrid.dll",
       "preview": "mods/show-grid/preview.png",
@@ -160,8 +160,8 @@
       "id": "damage-rank",
       "name": "伤害排名 MOD",
       "author": "巴巴",
-      "version": "0.8.27",
-      "updatedAt": "2026-08-31",
+      "version": "0.8.28",
+      "updatedAt": "2026-09-06",
       "summary": "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
       "file": "mods/damage-rank/DamageRank.dll",
       "preview": "mods/damage-rank/preview.png",
