@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """Validate MechabellumMods catalog.json: required fields, unique ids, file paths,
-and that every entry carries the sha256 of the file it points at.
+and that every entry carries the sha256 and byte size of the file it points at.
 
-The hash is not cosmetic: the manager refuses mirror-served downloads for entries
-without one, and uses it to detect that a player's local copy went stale. Run
-scripts/stamp_hashes.py to fill or refresh it after changing any mod binary.
+Neither is cosmetic. The manager verifies every download against the hash no
+matter which source served it, and needs the size to show progress and to reject
+an over-long response before it fills the disk. Run scripts/stamp_hashes.py to
+fill or refresh both after changing any mod binary.
+
+'originUrl' is optional and only needed once a mod is too large for the git repo
+(GitHub blocks pushes over 100 MB per file). It points at wherever the full-size
+copy actually lives, most likely a GitHub Release asset. Integrity does not
+depend on the host, because the sha256 above is mandatory regardless.
 """
 from __future__ import annotations
 
@@ -13,6 +19,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog.json"
@@ -30,6 +37,11 @@ def sha256_of(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def asset_name(rel: str) -> str:
+    """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
+    return rel.replace("\\", "/").replace("/", "__")
 
 
 def main() -> int:
@@ -71,18 +83,63 @@ def main() -> int:
             )
             declared = None
 
+        size = mod.get("size")
+        # bool is an int subclass, and "size": true would otherwise sail through.
+        if not isinstance(size, int) or isinstance(size, bool) or size <= 0:
+            errors.append(
+                f"id={mod.get('id')!r}: missing/invalid 'size' "
+                f"(run scripts/stamp_hashes.py)"
+            )
+            size = None
+
         if isinstance(rel, str) and rel.strip():
             path = ROOT / rel.replace("\\", "/")
             if not path.is_file():
                 errors.append(f"id={mod.get('id')!r}: file not found: {rel}")
-            elif declared is not None:
-                actual = sha256_of(path)
-                if actual != declared.strip().lower():
+            else:
+                if declared is not None:
+                    actual = sha256_of(path)
+                    if actual != declared.strip().lower():
+                        errors.append(
+                            f"id={mod.get('id')!r}: sha256 mismatch for {rel} "
+                            f"(catalog={declared.strip().lower()}, file={actual}; "
+                            f"run scripts/stamp_hashes.py)"
+                        )
+                if size is not None:
+                    actual_size = path.stat().st_size
+                    if actual_size != size:
+                        errors.append(
+                            f"id={mod.get('id')!r}: size mismatch for {rel} "
+                            f"(catalog={size}, file={actual_size}; "
+                            f"run scripts/stamp_hashes.py)"
+                        )
+
+        origin = mod.get("originUrl")
+        if origin is not None:
+            if not isinstance(origin, str) or not origin.strip():
+                errors.append(f"id={mod.get('id')!r}: 'originUrl' must be a non-empty string")
+            else:
+                parts = urlsplit(origin.strip())
+                if parts.scheme != "https":
                     errors.append(
-                        f"id={mod.get('id')!r}: sha256 mismatch for {rel} "
-                        f"(catalog={declared.strip().lower()}, file={actual}; "
-                        f"run scripts/stamp_hashes.py)"
+                        f"id={mod.get('id')!r}: originUrl must be https, got {parts.scheme or 'no scheme'!r}"
                     )
+                elif not parts.netloc or "@" in parts.netloc:
+                    errors.append(
+                        f"id={mod.get('id')!r}: originUrl host is missing or carries userinfo: {origin!r}"
+                    )
+                elif (parts.netloc == "github.com"
+                      and "/releases/download/" in parts.path
+                      and isinstance(rel, str) and rel.strip()):
+                    # Our own Release convention, so the asset name is checkable. A pointer at
+                    # some other host (an R2 bucket, say) is left alone on purpose.
+                    expected = asset_name(rel)
+                    if not parts.path.endswith("/" + expected):
+                        errors.append(
+                            f"id={mod.get('id')!r}: originUrl should end with {expected!r} "
+                            f"to match 'file', got {parts.path.rsplit('/', 1)[-1]!r} "
+                            f"(re-run scripts/stamp_hashes.py --origin-base ...)"
+                        )
 
         preview = mod.get("preview")
         if isinstance(preview, str) and preview.strip():
@@ -106,7 +163,7 @@ def main() -> int:
             print(f"  - {e}", file=sys.stderr)
         return 1
 
-    print(f"OK: {len(mods)} mods, ids unique, files present, sha256 verified")
+    print(f"OK: {len(mods)} mods, ids unique, files present, sha256 and size verified")
     return 0
 
 

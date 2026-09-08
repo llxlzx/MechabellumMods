@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate catalog.json (fields, ids, files, sha256)
+      - name: Validate catalog.json (fields, ids, files, sha256, size, originUrl)
         run: python scripts/validate_catalog.py
