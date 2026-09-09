@@ -1,277 +1,339 @@
 {
-  "updatedAt": "2026-09-06T13:20:00Z",
-  "mods": [
-    {
-      "id": "show-grid",
-      "name": "地面格线 MOD",
-      "author": "巴巴",
-      "version": "1.2.0",
-      "updatedAt": "2026-09-06",
-      "summary": "按 G 开关永久地面格线；支援正式服与测试服。",
-      "file": "mods/show-grid/ShowGrid.dll",
-      "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
-      "size": 8192,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-grid__ShowGrid.dll",
-      "preview": "mods/show-grid/preview.png",
-      "type": "MelonMod",
-      "category": "OverlayUI",
-      "tags": ["grid", "hud"],
-      "locales": {
-        "en": {
-          "name": "Ground Grid Mod",
-          "summary": "Press G to toggle a permanent ground grid. Supports Official and Beta."
-        },
-        "de": {
-          "name": "Bodengitter-Mod",
-          "summary": "Mit G das dauerhafte Bodengitter ein- oder ausschalten. Unterstützt Offiziell und Test."
-        },
-        "ja": {
-          "name": "地面グリッド MOD",
-          "summary": "G キーで永久地面グリッドの表示を切り替え。正式版・テスト版に対応。"
-        },
-        "ru": {
-          "name": "Мод сетки поля",
-          "summary": "Клавиша G включает или выключает постоянную сетку поля. Поддерживаются официальная и тестовая ветки."
-        }
-      }
-    },
-    {
-      "id": "quick-item",
-      "name": "快速道具 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-09-02",
-      "summary": "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
-      "file": "mods/quick-item/QuickItem.dll",
-      "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
-      "size": 7680,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-item__QuickItem.dll",
-      "preview": "mods/quick-item/preview.png",
-      "type": "MelonMod",
-      "category": "QoL",
-      "tags": ["hotkey", "items"],
-      "locales": {
-        "en": {
-          "name": "Quick Items Mod",
-          "summary": "Number keys 1/2/3 quickly use Shield Generator, Sentry Missile, and Missile Interceptor."
-        },
-        "de": {
-          "name": "Schnellgegenstände-Mod",
-          "summary": "Zifferntasten 1/2/3 nutzen schnell Schildgenerator, Wachflugkörper und Flugkörperabwehr."
-        },
-        "ja": {
-          "name": "クイックアイテム MOD",
-          "summary": "数字キー 1/2/3 でシールド発生器・哨戒ミサイル・ミサイル迎撃を素早く使用。"
-        },
-        "ru": {
-          "name": "Мод быстрых предметов",
-          "summary": "Клавиши 1/2/3 быстро используют генератор щита, сторожевую ракету и перехватчик ракет."
-        }
-      }
-    },
-    {
-      "id": "quick-camera",
-      "name": "快速相机视角 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-09-02",
-      "summary": "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
-      "file": "mods/quick-camera/QuickCamera.dll",
-      "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
-      "size": 11264,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-camera__QuickCamera.dll",
-      "preview": "mods/quick-camera/preview.png",
-      "type": "MelonMod",
-      "category": "Camera",
-      "tags": ["camera", "hotkey"],
-      "locales": {
-        "en": {
-          "name": "Quick Camera Views Mod",
-          "summary": "Numpad 1/2/3 switches views; Alt+Numpad 1/2/3 saves views (up to 3)."
-        },
-        "de": {
-          "name": "Schnelle Kameraperspektiven",
-          "summary": "Ziffernblock 1/2/3 wechselt die Ansicht; Alt+Ziffernblock 1/2/3 speichert Ansichten (höchstens 3)."
-        },
-        "ja": {
-          "name": "クイックカメラ視点 MOD",
-          "summary": "テンキー 1/2/3 で視点切替。Alt+テンキー 1/2/3 で視点保存（最大 3 組）。"
-        },
-        "ru": {
-          "name": "Мод быстрых ракурсов",
-          "summary": "NumPad 1/2/3 переключает вид; Alt+NumPad 1/2/3 сохраняет ракурсы (до 3)."
-        }
-      }
-    },
-    {
-      "id": "undo-plus",
-      "name": "快速撤回 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-09-02",
-      "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支援正式服与测试服。",
-      "file": "mods/undo-plus/UndoPlus.dll",
-      "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
-      "size": 13824,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__undo-plus__UndoPlus.dll",
-      "preview": "mods/undo-plus/preview.png",
-      "type": "MelonMod",
-      "category": "QoL",
-      "tags": ["hotkey", "undo"],
-      "locales": {
-        "en": {
-          "name": "Fast Undo Mod",
-          "summary": "Hold Undo for 1 second, then undo repeatedly every 0.2 seconds. Supports Official and Beta."
-        },
-        "de": {
-          "name": "Schnelles Rückgängig",
-          "summary": "Rückgängig 1 Sekunde halten, danach alle 0,2 Sekunden fortlaufend rückgängig machen. Unterstützt Offiziell und Test."
-        },
-        "ja": {
-          "name": "高速取り消し MOD",
-          "summary": "取り消しキーを 1 秒長押し後、0.2 秒間隔で連続取り消し。正式版・テスト版に対応。"
-        },
-        "ru": {
-          "name": "Мод быстрого отката",
-          "summary": "Удерживайте отмену 1 секунду, затем откат каждые 0,2 секунды. Поддерживаются официальная и тестовая ветки."
-        }
-      }
-    },
-    {
-      "id": "auto-speed",
-      "name": "自动加速战斗 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-08-31",
-      "summary": "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
-      "file": "mods/auto-speed/AutoSpeed.dll",
-      "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
-      "size": 14336,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__auto-speed__AutoSpeed.dll",
-      "preview": "mods/auto-speed/preview.png",
-      "type": "MelonMod",
-      "category": "CombatAssist",
-      "tags": ["combat", "speed"],
-      "locales": {
-        "en": {
-          "name": "Auto Speed Battle Mod",
-          "summary": "About 15 seconds after battle start, an AUTO button appears; when checked, it auto-votes to speed up."
-        },
-        "de": {
-          "name": "Auto-Kampfbeschleunigung",
-          "summary": "Etwa 15 Sekunden nach Kampfbeginn erscheint die AUTO-Schaltfläche; bei Aktivierung wird automatisch für Tempo gestimmt."
-        },
-        "ja": {
-          "name": "自動加速戦闘 MOD",
-          "summary": "開戦約 15 秒後に AUTO ボタンが表示され、チェックすると自動で加速投票します。"
-        },
-        "ru": {
-          "name": "Мод автоускорения боя",
-          "summary": "Примерно через 15 секунд после начала боя появляется кнопка AUTO; при включении выполняется автоголосование за ускорение."
-        }
-      }
-    },
-    {
-      "id": "damage-rank",
-      "name": "伤害排名 MOD",
-      "author": "巴巴",
-      "version": "0.8.28",
-      "updatedAt": "2026-09-06",
-      "summary": "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
-      "file": "mods/damage-rank/DamageRank.dll",
-      "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
-      "size": 141312,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__damage-rank__DamageRank.dll",
-      "preview": "mods/damage-rank/preview.png",
-      "type": "MelonMod",
-      "category": "OverlayUI",
-      "tags": ["hud", "damage"],
-      "locales": {
-        "en": {
-          "name": "Damage Ranking Mod",
-          "summary": "Shows the top six damage dealers and kill counts. ~ collapses the panel; F8 toggles the whole UI."
-        },
-        "de": {
-          "name": "Schadensrangliste",
-          "summary": "Zeigt die Top 6 nach Schaden sowie Kills. ~ klappt das Panel ein; F8 blendet die gesamte UI um."
-        },
-        "ja": {
-          "name": "ダメージ順位 MOD",
-          "summary": "場上ダメージ上位 6 とキル数を表示。~ でパネル折りたたみ、F8 で UI 全体の表示切替。"
-        },
-        "ru": {
-          "name": "Мод рейтинга урона",
-          "summary": "Показывает топ-6 по урону и число убийств. ~ сворачивает панель; F8 скрывает или показывает весь UI."
-        }
-      }
-    },
-    {
-      "id": "sales-calculation",
-      "name": "增援计算净赚 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-08-31",
-      "summary": "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
-      "file": "mods/sales-calculation/SalesCalculation.dll",
-      "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
-      "size": 19456,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__sales-calculation__SalesCalculation.dll",
-      "preview": "mods/sales-calculation/preview.png",
-      "type": "MelonMod",
-      "category": "Economy",
-      "tags": ["economy", "calc"],
-      "locales": {
-        "en": {
-          "name": "Reinforcement Value Calculator",
-          "summary": "Quickly calculates reinforcement unit value. In-mod UI supports Traditional Chinese, Simplified Chinese, English, Russian, German, and Japanese."
-        },
-        "de": {
-          "name": "Verstärkungswert-Rechner",
-          "summary": "Berechnet schnell den Wert von Verstärkungseinheiten. Die Mod-UI unterstützt Traditionelles/Vereinfachtes Chinesisch, Englisch, Russisch, Deutsch und Japanisch."
-        },
-        "ja": {
-          "name": "増援価値計算 MOD",
-          "summary": "増援ユニットの価値を素早く計算。MOD 内 UI は繁体字中国語・簡体字中国語・英語・ロシア語・ドイツ語・日本語に対応。"
-        },
-        "ru": {
-          "name": "Калькулятор ценности подкреплений",
-          "summary": "Быстрый расчёт ценности юнитов подкрепления. UI мода поддерживает традиционный/упрощённый китайский, английский, русский, немецкий и японский."
-        }
-      }
-    },
-    {
-      "id": "replay-tool",
-      "name": "回放试验工具 MOD",
-      "author": "巴巴",
-      "version": "1.0.0",
-      "updatedAt": "2026-09-04",
-      "summary": "回放模式下可使用试验场工具；支援正式服与测试服。",
-      "file": "mods/replay-tool/ReplayTool.dll",
-      "sha256": "e30c39e350781cd5b3f29cb5fec762e13cd1f3f35b8b759fabb88f3e0bba2021",
-      "size": 37376,
-      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-tool__ReplayTool.dll",
-      "preview": "mods/replay-tool/preview.png",
-      "type": "MelonMod",
-      "category": "ReplayDebug",
-      "tags": ["replay", "debug"],
-      "locales": {
-        "en": {
-          "name": "Replay Lab Tools Mod",
-          "summary": "Enables lab tools in replay mode. Supports Official and Beta."
-        },
-        "de": {
-          "name": "Replay-Testwerkzeuge",
-          "summary": "Ermöglicht Testwerkzeuge im Replay-Modus. Unterstützt Offiziell und Test."
-        },
-        "ja": {
-          "name": "リプレイ試験ツール MOD",
-          "summary": "リプレイモードで試験場ツールを使用可能。正式版・テスト版に対応。"
-        },
-        "ru": {
-          "name": "Мод инструментов повтора",
-          "summary": "В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
-        }
-      }
-    }
-  ]
+    "updatedAt":  "2026-09-09T03:15:00Z",
+    "mods":  [
+                 {
+                     "id":  "show-grid",
+                     "name":  "地面格线 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.2.0",
+                     "updatedAt":  "2026-09-06",
+                     "summary":  "按 G 开关永久地面格线；支援正式服与测试服。",
+                     "file":  "mods/show-grid/ShowGrid.dll",
+                     "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
+                     "size": 8192,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-grid__ShowGrid.dll",
+                     "preview":  "mods/show-grid/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "OverlayUI",
+                     "tags":  [
+                                  "grid",
+                                  "hud"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Ground Grid Mod",
+                                                "summary":  "Press G to toggle a permanent ground grid. Supports Official and Beta."
+                                            },
+                                     "de":  {
+                                                "name":  "Bodengitter-Mod",
+                                                "summary":  "Mit G das dauerhafte Bodengitter ein- oder ausschalten. Unterstützt Offiziell und Test."
+                                            },
+                                     "ja":  {
+                                                "name":  "地面グリッド MOD",
+                                                "summary":  "G キーで永久地面グリッドの表示を切り替え。正式版・テスト版に対応。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод сетки поля",
+                                                "summary":  "Клавиша G включает или выключает постоянную сетку поля. Поддерживаются официальная и тестовая ветки."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "quick-item",
+                     "name":  "快速道具 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-09-02",
+                     "summary":  "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
+                     "file":  "mods/quick-item/QuickItem.dll",
+                     "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
+                     "size": 7680,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-item__QuickItem.dll",
+                     "preview":  "mods/quick-item/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "QoL",
+                     "tags":  [
+                                  "hotkey",
+                                  "items"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Quick Items Mod",
+                                                "summary":  "Number keys 1/2/3 quickly use Shield Generator, Sentry Missile, and Missile Interceptor."
+                                            },
+                                     "de":  {
+                                                "name":  "Schnellgegenstände-Mod",
+                                                "summary":  "Zifferntasten 1/2/3 nutzen schnell Schildgenerator, Wachflugkörper und Flugkörperabwehr."
+                                            },
+                                     "ja":  {
+                                                "name":  "クイックアイテム MOD",
+                                                "summary":  "数字キー 1/2/3 でシールド発生器・哨戒ミサイル・ミサイル迎撃を素早く使用。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод быстрых предметов",
+                                                "summary":  "Клавиши 1/2/3 быстро используют генератор щита, сторожевую ракету и перехватчик ракет."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "quick-camera",
+                     "name":  "快速相机视角 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-09-02",
+                     "summary":  "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
+                     "file":  "mods/quick-camera/QuickCamera.dll",
+                     "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
+                     "size": 11264,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-camera__QuickCamera.dll",
+                     "preview":  "mods/quick-camera/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "Camera",
+                     "tags":  [
+                                  "camera",
+                                  "hotkey"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Quick Camera Views Mod",
+                                                "summary":  "Numpad 1/2/3 switches views; Alt+Numpad 1/2/3 saves views (up to 3)."
+                                            },
+                                     "de":  {
+                                                "name":  "Schnelle Kameraperspektiven",
+                                                "summary":  "Ziffernblock 1/2/3 wechselt die Ansicht; Alt+Ziffernblock 1/2/3 speichert Ansichten (höchstens 3)."
+                                            },
+                                     "ja":  {
+                                                "name":  "クイックカメラ視点 MOD",
+                                                "summary":  "テンキー 1/2/3 で視点切替。Alt+テンキー 1/2/3 で視点保存（最大 3 組）。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод быстрых ракурсов",
+                                                "summary":  "NumPad 1/2/3 переключает вид; Alt+NumPad 1/2/3 сохраняет ракурсы (до 3)."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "undo-plus",
+                     "name":  "快速撤回 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-09-02",
+                     "summary":  "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支援正式服与测试服。",
+                     "file":  "mods/undo-plus/UndoPlus.dll",
+                     "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
+                     "size": 13824,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__undo-plus__UndoPlus.dll",
+                     "preview":  "mods/undo-plus/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "QoL",
+                     "tags":  [
+                                  "hotkey",
+                                  "undo"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Fast Undo Mod",
+                                                "summary":  "Hold Undo for 1 second, then undo repeatedly every 0.2 seconds. Supports Official and Beta."
+                                            },
+                                     "de":  {
+                                                "name":  "Schnelles Rückgängig",
+                                                "summary":  "Rückgängig 1 Sekunde halten, danach alle 0,2 Sekunden fortlaufend rückgängig machen. Unterstützt Offiziell und Test."
+                                            },
+                                     "ja":  {
+                                                "name":  "高速取り消し MOD",
+                                                "summary":  "取り消しキーを 1 秒長押し後、0.2 秒間隔で連続取り消し。正式版・テスト版に対応。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод быстрого отката",
+                                                "summary":  "Удерживайте отмену 1 секунду, затем откат каждые 0,2 секунды. Поддерживаются официальная и тестовая ветки."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "auto-speed",
+                     "name":  "自动加速战斗 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-08-31",
+                     "summary":  "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
+                     "file":  "mods/auto-speed/AutoSpeed.dll",
+                     "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
+                     "size": 14336,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__auto-speed__AutoSpeed.dll",
+                     "preview":  "mods/auto-speed/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "CombatAssist",
+                     "tags":  [
+                                  "combat",
+                                  "speed"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Auto Speed Battle Mod",
+                                                "summary":  "About 15 seconds after battle start, an AUTO button appears; when checked, it auto-votes to speed up."
+                                            },
+                                     "de":  {
+                                                "name":  "Auto-Kampfbeschleunigung",
+                                                "summary":  "Etwa 15 Sekunden nach Kampfbeginn erscheint die AUTO-Schaltfläche; bei Aktivierung wird automatisch für Tempo gestimmt."
+                                            },
+                                     "ja":  {
+                                                "name":  "自動加速戦闘 MOD",
+                                                "summary":  "開戦約 15 秒後に AUTO ボタンが表示され、チェックすると自動で加速投票します。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод автоускорения боя",
+                                                "summary":  "Примерно через 15 секунд после начала боя появляется кнопка AUTO; при включении выполняется автоголосование за ускорение."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "damage-rank",
+                     "name":  "伤害排名 MOD",
+                     "author":  "巴巴",
+                     "version":  "0.8.28",
+                     "updatedAt":  "2026-09-06",
+                     "summary":  "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
+                     "file":  "mods/damage-rank/DamageRank.dll",
+                     "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
+                     "size": 141312,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__damage-rank__DamageRank.dll",
+                     "preview":  "mods/damage-rank/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "OverlayUI",
+                     "tags":  [
+                                  "hud",
+                                  "damage"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Damage Ranking Mod",
+                                                "summary":  "Shows the top six damage dealers and kill counts. ~ collapses the panel; F8 toggles the whole UI."
+                                            },
+                                     "de":  {
+                                                "name":  "Schadensrangliste",
+                                                "summary":  "Zeigt die Top 6 nach Schaden sowie Kills. ~ klappt das Panel ein; F8 blendet die gesamte UI um."
+                                            },
+                                     "ja":  {
+                                                "name":  "ダメージ順位 MOD",
+                                                "summary":  "場上ダメージ上位 6 とキル数を表示。~ でパネル折りたたみ、F8 で UI 全体の表示切替。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод рейтинга урона",
+                                                "summary":  "Показывает топ-6 по урону и число убийств. ~ сворачивает панель; F8 скрывает или показывает весь UI."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "sales-calculation",
+                     "name":  "增援计算净赚 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-08-31",
+                     "summary":  "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
+                     "file":  "mods/sales-calculation/SalesCalculation.dll",
+                     "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
+                     "size": 19456,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__sales-calculation__SalesCalculation.dll",
+                     "preview":  "mods/sales-calculation/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "Economy",
+                     "tags":  [
+                                  "economy",
+                                  "calc"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Reinforcement Value Calculator",
+                                                "summary":  "Quickly calculates reinforcement unit value. In-mod UI supports Traditional Chinese, Simplified Chinese, English, Russian, German, and Japanese."
+                                            },
+                                     "de":  {
+                                                "name":  "Verstärkungswert-Rechner",
+                                                "summary":  "Berechnet schnell den Wert von Verstärkungseinheiten. Die Mod-UI unterstützt Traditionelles/Vereinfachtes Chinesisch, Englisch, Russisch, Deutsch und Japanisch."
+                                            },
+                                     "ja":  {
+                                                "name":  "増援価値計算 MOD",
+                                                "summary":  "増援ユニットの価値を素早く計算。MOD 内 UI は繁体字中国語・簡体字中国語・英語・ロシア語・ドイツ語・日本語に対応。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Калькулятор ценности подкреплений",
+                                                "summary":  "Быстрый расчёт ценности юнитов подкрепления. UI мода поддерживает традиционный/упрощённый китайский, английский, русский, немецкий и японский."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "replay-tool",
+                     "name":  "回放试验工具 MOD",
+                     "author":  "巴巴",
+                     "version":  "1.0.0",
+                     "updatedAt":  "2026-09-04",
+                     "summary":  "回放模式下可使用试验场工具；支援正式服与测试服。",
+                     "file":  "mods/replay-tool/ReplayTool.dll",
+                     "sha256": "e30c39e350781cd5b3f29cb5fec762e13cd1f3f35b8b759fabb88f3e0bba2021",
+                     "size": 37376,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-tool__ReplayTool.dll",
+                     "preview":  "mods/replay-tool/preview.png",
+                     "type":  "MelonMod",
+                     "category":  "ReplayDebug",
+                     "tags":  [
+                                  "replay",
+                                  "debug"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Replay Lab Tools Mod",
+                                                "summary":  "Enables lab tools in replay mode. Supports Official and Beta."
+                                            },
+                                     "de":  {
+                                                "name":  "Replay-Testwerkzeuge",
+                                                "summary":  "Ermöglicht Testwerkzeuge im Replay-Modus. Unterstützt Offiziell und Test."
+                                            },
+                                     "ja":  {
+                                                "name":  "リプレイ試験ツール MOD",
+                                                "summary":  "リプレイモードで試験場ツールを使用可能。正式版・テスト版に対応。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Мод инструментов повтора",
+                                                "summary":  "В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
+                                            }
+                                 }
+                 },
+                 {
+                     "id":  "friend-overlay",
+                     "name":  "好友列表叠加面板 MOD",
+                     "author":  "MechabellumFriendOverlay",
+                     "version":  "0.3.3",
+                     "updatedAt":  "2026-09-09",
+                     "summary":  "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。0.3.3 修复头像空框（字母兜底 + FaceId 本地解析），屏蔽头像跟随游戏策略。",
+                     "file":  "mods/friend-overlay/FriendOverlay.dll",
+                     "sha256": "8b3e5ad5dbe9dff371d2dd94c0f74cebb974fd4a4bb545226468b48448143177",
+                     "size": 83968,
+                     "originUrl":  "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
+                     "type":  "MelonMod",
+                     "category":  "OverlayUI",
+                     "tags":  [
+                                  "friends",
+                                  "social",
+                                  "qol",
+                                  "overlay"
+                              ],
+                     "locales":  {
+                                     "en":  {
+                                                "name":  "Friend List Overlay",
+                                                "summary":  "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. 0.3.3: letter fallback + FaceId local resolve; blocked faces follow game policy."
+                                            },
+                                     "de":  {
+                                                "name":  "Freundeslisten-Overlay",
+                                                "summary":  "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen."
+                                            },
+                                     "ja":  {
+                                                "name":  "フレンドリストオーバーレイ MOD",
+                                                "summary":  "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。"
+                                            },
+                                     "ru":  {
+                                                "name":  "Оверлей списка друзей",
+                                                "summary":  "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями."
+                                            }
+                                 }
+                 }
+             ]
 }
