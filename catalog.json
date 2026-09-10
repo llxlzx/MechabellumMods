@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "MechabellumFriendOverlay",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "updatedAt": "2026-09-10",
-            "summary": "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。支持邀请进房间、「关注我的人」页签与回关、本地置顶（最多 20 人），头像与游戏内一致。0.3.5：关注列表按页拉满至 TotalFollowCount，标题栏页签与状态栏对齐整顿。",
+            "summary": "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。支持邀请选战斗类型、「关注我的人」页签与回关、本地置顶（最多 20 人），头像与游戏内一致。0.3.6：未进房邀请弹出战斗类型选择并自动开房；在线状态分片轮询，避免大列表刷爆连接。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "9f899c6df06a3f059b049f93dec3ded431d1623976facb67c24a0c25fb607dd3",
-            "size": 107520,
+            "sha256": "08352eafaad2a65467dc5d507834bf257b76edd9baae7f1af4720bd0b5730079",
+            "size": 118272,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,19 +319,19 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. Room invites, a 关注我的人 (followers) tab with follow-back, local pinning of up to 20 friends, and portraits that match the game. 0.3.5: pages the following list until TotalFollowCount is loaded; title/tab/status chrome cleaned up."
+                    "summary": "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. Battle-type invite picker, a followers tab with follow-back, local pinning of up to 20 friends, and portraits that match the game. 0.3.6: out-of-room invites open a battle-type picker and auto-create the room; online status is polled in chunks so large lists cannot flood the connection."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Raum-Einladungen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.5: Follow-Liste seitenweise bis zur Gesamtzahl; Titelzeile und Statusleiste neu ausgerichtet."
+                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.6: Einladungen ausserhalb eines Raums oeffnen die Kampfart-Auswahl und erstellen den Raum automatisch; Online-Status wird in Teilen abgefragt."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム招待、フォロワータブとフォロー返し、フレンドのピン留め（最大20人）、ゲーム内と同じアバター表示。0.3.5：フォロー一覧を総数までページ取得、タイトルバー／タブ／ステータスを整理。"
+                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め（最大20人）、ゲーム内と同じアバター表示。0.3.6：大人数リストでも接続を詰まらせないようオンライン状態を分割ポーリング。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Приглашения в комнату, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.5: подгрузка списка подписок до TotalFollowCount; выравнивание шапки, вкладок и статус-бара."
+                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.6: вне комнаты открывается выбор типа боя и комната создаётся автоматически; онлайн-статус опрашивается порциями."
                 }
             }
         }
