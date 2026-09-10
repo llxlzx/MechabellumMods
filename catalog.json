@@ -301,12 +301,12 @@
                      "id":  "friend-overlay",
                      "name":  "好友列表叠加面板 MOD",
                      "author":  "MechabellumFriendOverlay",
-                     "version":  "0.3.3",
-                     "updatedAt":  "2026-09-09",
-                     "summary":  "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。0.3.3 修复头像空框（字母兜底 + FaceId 本地解析），屏蔽头像跟随游戏策略。",
+                     "version":  "0.3.4",
+                     "updatedAt":  "2026-09-10",
+                     "summary":  "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。0.3.4 新增邀请进房间、「关注我的人」页签与回关、好友置顶（本地最多 20 人），头像与游戏内一致（官方头像 / 自定义照片 / 头像框）。",
                      "file":  "mods/friend-overlay/FriendOverlay.dll",
-                     "sha256": "8b3e5ad5dbe9dff371d2dd94c0f74cebb974fd4a4bb545226468b48448143177",
-                     "size": 83968,
+                     "sha256": "945c863214a05960591c260dbc71b5f7c076ad6f19dda15f8a7273489fc233ef",
+                     "size": 105984,
                      "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
                      "type":  "MelonMod",
                      "category":  "OverlayUI",
@@ -319,19 +319,19 @@
                      "locales":  {
                                      "en":  {
                                                 "name":  "Friend List Overlay",
-                                                "summary":  "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. 0.3.3: letter fallback + FaceId local resolve; blocked faces follow game policy."
+                                                "summary":  "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. 0.3.4: room invites, a 关注我的人 (followers) tab with follow-back, local pinning of up to 20 friends, and portraits that match the game (official avatar, custom photo, avatar frame)."
                                             },
                                      "de":  {
                                                 "name":  "Freundeslisten-Overlay",
-                                                "summary":  "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen."
+                                                "summary":  "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. 0.3.4: Raum-Einladungen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder mit Rahmen."
                                             },
                                      "ja":  {
                                                 "name":  "フレンドリストオーバーレイ MOD",
-                                                "summary":  "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。"
+                                                "summary":  "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。0.3.4：ルーム招待、フォロワータブとフォロー返し、フレンドのピン留め（最大20人）、ゲーム内と同じアバターとフレーム表示。"
                                             },
                                      "ru":  {
                                                 "name":  "Оверлей списка друзей",
-                                                "summary":  "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями."
+                                                "summary":  "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. 0.3.4: приглашения в комнату, вкладка подписчиков, закреплённые друзья и аватары с рамками как в игре."
                                             }
                                  }
                  }
