@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-09T03:15:00Z",
+    "updatedAt": "2026-09-11T02:20:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -264,11 +264,11 @@
             "id": "replay-tool",
             "name": "回放试验工具 MOD",
             "author": "巴巴",
-            "version": "1.0.0",
-            "updatedAt": "2026-09-04",
+            "version": "1.0.1",
+            "updatedAt": "2026-09-11",
             "summary": "回放模式下可使用试验场工具；支援正式服与测试服。",
             "file": "mods/replay-tool/ReplayTool.dll",
-            "sha256": "e30c39e350781cd5b3f29cb5fec762e13cd1f3f35b8b759fabb88f3e0bba2021",
+            "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
             "size": 37376,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-tool__ReplayTool.dll",
             "preview": "mods/replay-tool/preview.png",
