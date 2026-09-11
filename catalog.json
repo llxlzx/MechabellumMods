@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "MechabellumFriendOverlay",
-            "version": "0.3.8",
-            "updatedAt": "2026-09-10",
-            "summary": "好友列表独立叠加面板：科技感界面、在线/对战/离线分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生面板。支持邀请选战斗类型、「关注我的人」页签与回关、本地置顶（最多 20 人），头像与游戏内一致。0.3.8：叠加开着可点大厅按钮；官方头像按 GRAvatarManager 预制体键加载；状态颜色与胶囊一眼可辨。",
+            "version": "0.3.25",
+            "updatedAt": "2026-09-11",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.25：修复官方头像/头像框图集拼贴与紫光条；CaptureRoot 验收分脸/框；BakeBudget 耗尽不再误判永久失败；官方动图默认静态（可开 AnimatedOfficialAvatars）。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "b5f9502b8c1658008d1c36b345a22976616fa2a58c6ed8296d3b5d4fcdcd2a9d",
-            "size": 125952,
+            "sha256": "d9873801fe1709ac502e1c7178c540e5856fad8c93c788031d86248b95bc4487",
+            "size": 156160,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,7 +319,7 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with availability sections, hover actions, search/filter/sort, drag and resize. One-click switch back to the native panel. Battle-type invite picker, a followers tab with follow-back, local pinning of up to 20 friends, and portraits that match the game. 0.3.6: out-of-room invites open a battle-type picker and auto-create the room; online status is polled in chunks so large lists cannot flood the connection."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.25: fix official avatar/frame atlas collage and beam artifacts; typed CaptureRoot acceptance; BakeBudget misses no longer permanent-fail frames; animated official avatars opt-in."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
