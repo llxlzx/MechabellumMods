@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-11T02:20:00Z",
+    "updatedAt": "2026-09-14T05:05:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "MechabellumFriendOverlay",
-            "version": "0.3.29",
-            "updatedAt": "2026-09-13",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.29：修复头像错位浮出大厅；原生「打开叠加面板」小按钮可正常点击；对局状态文案更易懂（如四人混战、时空裂隙）。",
+            "version": "0.3.30",
+            "updatedAt": "2026-09-14",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.30：移除未完成的 TeamBeacons 白名单残留，恢复纯净好友叠加面板。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "f3adc10d55f7b659ae235a2b71ad7311fff047902323c630147e9c8e1d038e03",
-            "size": 158208,
+            "sha256": "80a8bae9e95290f6be4aedfbb3b606c31f1a6a1434635a559a1968e6f3e959d4",
+            "size": 156672,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,7 +319,7 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.29: fix avatars floating over the lobby; native open-overlay chip clicks reliably; clearer mode labels (e.g. 4-player scuffle, rift)."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.30: remove unfinished TeamBeacons whitelist leftovers for a clean friends overlay build."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
