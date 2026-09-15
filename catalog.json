@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-15T04:11:26Z",
+    "updatedAt": "2026-09-15T04:18:18Z",
     "mods": [
         {
             "id": "show-grid",
@@ -303,9 +303,9 @@
             "author": "MechabellumFriendOverlay",
             "version": "0.3.32",
             "updatedAt": "2026-09-15",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.32：修复官方头像 bake 临时物体泄漏到大厅中间。",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.32：修复官方头像 bake 临时物体泄漏到大厅中间（干净正式版，无调试埋点）。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "7ba416d74f26b90c833da7302bf26201aa835ed370780a5cf3b71d86b65f7057",
+            "sha256": "c3ea8630fca927b3af2519391c572e1b9ef78dec4a3fe5da16b09c3f85ce5496",
             "size": 158720,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
@@ -319,7 +319,7 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.32: fix official avatar bake staging leaking into the multiplayer lobby center."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.32: fix official avatar bake staging leaking into the lobby (clean release, no debug instrumentation)."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
