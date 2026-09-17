@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "MechabellumFriendOverlay",
-            "version": "0.3.33",
-            "updatedAt": "2026-09-16",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.33：延续大厅大头像泄漏修复；请用管理器从目录更新（含本地导入的旧 FriendOverlay）。",
+            "version": "0.3.38",
+            "updatedAt": "2026-09-17",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.38：默认 Noto Sans SC Medium；加载条界面一出现即关闭；四边/四角缩放（四角热区更大）。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "62b7cd2294cafaf55e1b3912c43414624407a9e05d5aa8370ba6f2c351686004",
-            "size": 158720,
+            "sha256": "8d9ad439fffa421f8034324686806f868d1ed907741d4b149dab6f607e860694",
+            "size": 8518144,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,7 +319,7 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.33: keeps the lobby avatar-bake leak fix; update from the catalog (covers locally imported old FriendOverlay builds)."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.38: Noto Sans SC Medium by default; closes when the match loading UI appears; larger corner resize hit zones."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
