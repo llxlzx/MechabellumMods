@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-16T00:00:00Z",
+    "updatedAt": "2026-09-21T00:00:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -7,7 +7,7 @@
             "author": "巴巴",
             "version": "1.2.0",
             "updatedAt": "2026-09-06",
-            "summary": "按 G 开关永久地面格线；支援正式服与测试服。",
+            "summary": "按 G 开关永久地面格线；支持正式服与测试服。",
             "file": "mods/show-grid/ShowGrid.dll",
             "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
             "size": 8192,
@@ -118,7 +118,7 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
-            "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支援正式服与测试服。",
+            "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支持正式服与测试服。",
             "file": "mods/undo-plus/UndoPlus.dll",
             "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
             "size": 13824,
@@ -229,7 +229,7 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-08-31",
-            "summary": "快速计算增援单位价值；支援繁中/简中/英/俄/德/日。",
+            "summary": "快速计算增援单位价值；支持繁中/简中/英/俄/德/日。",
             "file": "mods/sales-calculation/SalesCalculation.dll",
             "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
             "size": 19456,
@@ -266,7 +266,7 @@
             "author": "巴巴",
             "version": "1.0.1",
             "updatedAt": "2026-09-11",
-            "summary": "回放模式下可使用试验场工具；支援正式服与测试服。",
+            "summary": "回放模式下可使用试验场工具；支持正式服与测试服。",
             "file": "mods/replay-tool/ReplayTool.dll",
             "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
             "size": 37376,
@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "MechabellumFriendOverlay",
-            "version": "0.3.39",
-            "updatedAt": "2026-09-19",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.39：搜索框支持中文输入法组字与粘贴。",
+            "version": "0.3.40",
+            "updatedAt": "2026-09-21",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.40：游戏内 UI 跟随游戏语言（中/英/俄/日/德）。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "1e8021c43a3e0c25c9359c5b12e8c5b5c5169514e71496c5532603a7762215d2",
-            "size": 8520192,
+            "sha256": "95c064c29231587555225c024616dfe4e1dfeb172937a0823147c67037a0bf08",
+            "size": 8541696,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,19 +319,19 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.39: search box supports Chinese IME composition and paste."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.40: in-game UI follows the game language (zh/en/ru/ja/de)."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.6: Einladungen ausserhalb eines Raums oeffnen die Kampfart-Auswahl und erstellen den Raum automatisch; Online-Status wird in Teilen abgefragt."
+                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.40: Ingame-UI folgt der Spielsprache (zh/en/ru/ja/de)."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め（最大20人）、ゲーム内と同じアバター表示。0.3.6：大人数リストでも接続を詰まらせないようオンライン状態を分割ポーリング。"
+                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.40：ゲーム内UIがゲーム言語に追従（中/英/露/日/独）。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.6: вне комнаты открывается выбор типа боя и комната создаётся автоматически; онлайн-статус опрашивается порциями."
+                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.40: внутриигровой UI следует языку игры (zh/en/ru/ja/de)."
                 }
             }
         }
