@@ -300,7 +300,7 @@
         {
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
-            "author": "MechabellumFriendOverlay",
+            "author": "llxmod",
             "version": "0.3.40",
             "updatedAt": "2026-09-21",
             "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.40：游戏内 UI 跟随游戏语言（中/英/俄/日/德）。",
