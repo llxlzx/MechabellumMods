@@ -345,6 +345,7 @@
             "file": "mods/battle-suite/Mechabellum.RoundHistory.dll",
             "sha256": "c18cb2916b663e557d13f395660081839a40150ada9a1358a6441cdb2eec617c",
             "size": 5171200,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__battle-suite__Mechabellum.RoundHistory.dll",
             "preview": "mods/battle-suite/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
