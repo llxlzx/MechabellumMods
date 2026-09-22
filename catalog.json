@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "llxmod",
-            "version": "0.3.40",
-            "updatedAt": "2026-09-21",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.40：游戏内 UI 跟随游戏语言（中/英/俄/日/德）。",
+            "version": "0.3.41",
+            "updatedAt": "2026-09-22",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.41：适配游戏更新后的好友状态，离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "95c064c29231587555225c024616dfe4e1dfeb172937a0823147c67037a0bf08",
-            "size": 8541696,
+            "sha256": "c2c995efa07a2fb4373868b5406406ba7bca87155d1f5f29af9f378285b14551",
+            "size": 8558080,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,19 +319,19 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.40: in-game UI follows the game language (zh/en/ru/ja/de)."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.41: friend status matches the new game build, so offline is no longer State 16, and async 1v1/2v2 scores are shown."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.40: Ingame-UI folgt der Spielsprache (zh/en/ru/ja/de)."
+                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.41: Freundesstatus passt zum neuen Spielstand, Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.40：ゲーム内UIがゲーム言語に追従（中/英/露/日/独）。"
+                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.41：新しいゲームのフレンド状態に対応。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.40: внутриигровой UI следует языку игры (zh/en/ru/ja/de)."
+                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.41: статусы друзей совпадают с новой версией игры, офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
                 }
             }
         },
