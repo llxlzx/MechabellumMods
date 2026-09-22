@@ -301,12 +301,12 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "llxmod",
-            "version": "0.3.43",
+            "version": "0.3.44",
             "updatedAt": "2026-09-22",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.43：关闭游戏后若进程没有退出，会结束残留进程，避免 Steam 一直显示正在运行。离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
+            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.44：关闭游戏后若进程没有退出，会结束残留进程，避免 Steam 一直显示正在运行。离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
-            "sha256": "b2e77d519a91962572c95d96d509c5507d42031e41fec72d8de76ef97a71f280",
-            "size": 8563200,
+            "sha256": "f7a827d4319d01020a816a157fb7d3ef6b51b60558a7cbc2c95a8f46ff620ab8",
+            "size": 8561152,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -319,19 +319,19 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.43: if quit is accepted and the process stays behind, it is ended so Steam does not keep showing the game as running. Offline is no longer State 16, and async 1v1/2v2 scores are shown."
+                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.44: if quit is accepted and the process stays behind, it is ended so Steam does not keep showing the game as running. Offline is no longer State 16, and async 1v1/2v2 scores are shown."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.43: Bleibt der Prozess nach einem akzeptierten Beenden hängen, wird er beendet, damit Steam das Spiel nicht weiter als laufend anzeigt. Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
+                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.44: Bleibt der Prozess nach einem akzeptierten Beenden hängen, wird er beendet, damit Steam das Spiel nicht weiter als laufend anzeigt. Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.43：終了を受け付けたあとプロセスが残る場合は終了させ、Steam がプレイ中のままになるのを防ぎます。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
+                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.44：終了を受け付けたあとプロセスが残る場合は終了させ、Steam がプレイ中のままになるのを防ぎます。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.43: если выход принят, а процесс остаётся, он завершается, чтобы Steam не показывал игру как запущенную. Офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
+                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.44: если выход принят, а процесс остаётся, он завершается, чтобы Steam не показывал игру как запущенную. Офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
                 }
             }
         },
