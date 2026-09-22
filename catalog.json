@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-22T04:32:00Z",
+    "updatedAt": "2026-09-22T04:45:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -337,11 +337,11 @@
         },
         {
             "id": "battle-suite",
-            "name": "BattleSuite 对局分析",
+            "name": "BattleSuite 标准对局界面",
             "author": "老匪_GODOG",
             "version": "0.9.1",
             "updatedAt": "2026-09-22",
-            "summary": "对局界面与战况统计：双方专精、装备、技能，实时血量对比，本回合购入与可移动单位绿框，伤害与击杀，满经验白光，防御塔倒计时。F6 切换预测条，F8 切换本回合/累计伤害。内置适配档案：1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305（观战）与 2.0.0.0.2314（远征）。当前正式服 2.0.0.0.2320 不在档案内。",
+            "summary": "标准 1v1 实况界面。底部显示双方专精、装备与技能，并对比普通单位的部署价值（补给、装备与已激活科技）和生命上限：部署时重算，战斗中刷新，本场结束后保留到下一部署。两侧按当前伤害取前 6，显示伤害与击杀。F6 切换预测条，F8 切换本回合/累计伤害。底栏皮肤可放到 Mods/BattleSuite 覆盖内嵌图，模组不会改写图片。Live 界面与经济数据仅含 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305。正式服 2.0.0.0.2320 未登记。2.0.0.0.2314 只有未完成的远征档案，不含这套界面资源和经济数据。",
             "file": "mods/battle-suite/Mechabellum.RoundHistory.dll",
             "sha256": "c18cb2916b663e557d13f395660081839a40150ada9a1358a6441cdb2eec617c",
             "size": 5171200,
@@ -351,25 +351,25 @@
             "category": "OverlayUI",
             "tags": [
                 "hud",
-                "replay",
+                "1v1",
                 "analytics"
             ],
             "locales": {
                 "en": {
-                    "name": "BattleSuite Match Analytics",
-                    "summary": "Match HUD: both sides' specialists, equipment, and skills; live HP bars; units bought this turn and green outlines on movable units; damage and kills; full-EXP glow; tower countdown. F6 toggles the prediction bar, F8 toggles turn versus total damage. Built-in profiles: 1.11.1.3.2259, 2.0.0.0.2289, 2.0.0.0.2305 (watch) and 2.0.0.0.2314 (expedition). Current official 2.0.0.0.2320 is not registered."
+                    "name": "BattleSuite Standard Match HUD",
+                    "summary": "Live HUD for standard 1v1. Shows both sides' specialists, equipment, and skills, plus deployment value (supply, equipment, active tech) and max health of ordinary units: recomputed on deployment, live in combat, held until the next deployment. Each side lists the top 6 by current damage, with kills. F6 toggles the prediction bar; F8 toggles turn versus total damage. A bottom-bar skin in Mods/BattleSuite overrides the embedded art; the mod never writes those images. Live UI and economy data cover only 1.11.1.3.2259, 2.0.0.0.2289, and 2.0.0.0.2305. Official 2.0.0.0.2320 is not registered. 2.0.0.0.2314 has only an unfinished expedition profile, without this UI pack or economy data."
                 },
                 "de": {
-                    "name": "BattleSuite Kampfstatistik",
-                    "summary": "Kampf-HUD: Spezialisten, Ausrüstung und Fähigkeiten beider Seiten, Live-HP, in dieser Runde gekaufte Einheiten und grüne Umrisse beweglicher Einheiten, Schaden und Kills, Weißleuchten bei voller EP, Turm-Countdown. F6 schaltet die Vorhersageleiste, F8 den Rundenschaden gegen den Gesamtschaden. Profile: 1.11.1.3.2259, 2.0.0.0.2289, 2.0.0.0.2305 (Zuschauen) und 2.0.0.0.2314 (Expedition). Das aktuelle Official 2.0.0.0.2320 ist nicht registriert."
+                    "name": "BattleSuite Standard-Kampfoberfläche",
+                    "summary": "Live-Oberfläche für Standard-1v1. Zeigt Spezialisten, Ausrüstung und Fähigkeiten beider Seiten sowie Einsatzwert (Versorgung, Ausrüstung, aktive Technik) und maximale Trefferpunkte gewöhnlicher Einheiten: neu beim Einsatz, live im Kampf, gehalten bis zum nächsten Einsatz. Jede Seite zeigt die Top 6 nach aktuellem Schaden samt Kills. F6 schaltet die Vorhersageleiste, F8 Rundenschaden gegen Gesamtschaden. Ein Bild unter Mods/BattleSuite ersetzt die eingebaute Bodenleiste; der Mod schreibt diese Bilder nicht. Live-UI und Wirtschaftsdaten nur für 1.11.1.3.2259, 2.0.0.0.2289 und 2.0.0.0.2305. Official 2.0.0.0.2320 ist nicht registriert. 2.0.0.0.2314 hat nur ein unfertiges Expeditionsprofil, ohne dieses UI-Paket und ohne Wirtschaftsdaten."
                 },
                 "ja": {
-                    "name": "BattleSuite 対戦分析",
-                    "summary": "対戦HUD：双方のスペシャリスト・装備・スキル、リアルタイムHP比較、今ターン購入ユニットと移動可能ユニットの緑枠、ダメージとキル、経験値満タンの白光、タワーカウントダウン。F6で予測バー、F8で今ターン／累計ダメージを切替。内蔵プロファイル：1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305（観戦）と 2.0.0.0.2314（遠征）。現行正式版 2.0.0.0.2320 は未登録。"
+                    "name": "BattleSuite 標準対戦HUD",
+                    "summary": "標準1v1の実況HUD。双方のスペシャリスト・装備・スキルに加え、通常ユニットの配置価値（補給・装備・有効な科技）と最大HPを表示。配置時に再計算し、戦闘中は更新、戦闘後は次の配置まで保持。各方は現在ダメージ上位6件とキルを表示。F6で予測バー、F8で今ターン／累計ダメージを切替。Mods/BattleSuite に画像を置くと底バーを上書きでき、MODは画像を書き込みません。Live画面と経済データは 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305 のみ。正式版 2.0.0.0.2320 は未登録。2.0.0.0.2314 は未完成の遠征プロファイルのみで、このUI資源と経済データはありません。"
                 },
                 "ru": {
-                    "name": "BattleSuite аналитика матча",
-                    "summary": "Интерфейс матча: специалисты, снаряжение и навыки обеих сторон, живые полоски HP, купленные в этом ходу юниты и зелёные контуры подвижных, урон и убийства, белое свечение при полном опыте, отсчёт башни. F6 переключает полосу прогноза, F8 — урон хода и общий. Встроенные профили: 1.11.1.3.2259, 2.0.0.0.2289, 2.0.0.0.2305 (наблюдение) и 2.0.0.0.2314 (экспедиция). Текущая официальная 2.0.0.0.2320 не зарегистрирована."
+                    "name": "BattleSuite интерфейс стандартного матча",
+                    "summary": "Живой интерфейс стандартного 1v1. Показывает специалистов, снаряжение и навыки обеих сторон, а также ценность расстановки (снабжение, снаряжение, активные технологии) и максимальное здоровье обычных юнитов: пересчёт при расстановке, обновление в бою, сохранение до следующей расстановки. С каждой стороны топ-6 по текущему урону и убийства. F6 переключает полосу прогноза, F8 — урон хода и общий. Картинка в Mods/BattleSuite заменяет встроенную нижнюю панель; мод эти файлы не записывает. Live-интерфейс и данные экономики только для 1.11.1.3.2259, 2.0.0.0.2289 и 2.0.0.0.2305. Официальная 2.0.0.0.2320 не зарегистрирована. У 2.0.0.0.2314 есть лишь незавершённый профиль экспедиции, без этого пакета интерфейса и данных экономики."
                 }
             }
         }
