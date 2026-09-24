@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-23T12:50:00Z",
+    "updatedAt": "2026-09-24T13:10:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -377,12 +377,12 @@
             "id": "replay-reset",
             "name": "回放功能重置",
             "author": "llxmod",
-            "version": "0.2.2",
+            "version": "0.2.3",
             "updatedAt": "2026-09-24",
             "summary": "重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并显示模式与地图。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。",
             "file": "mods/replay-reset/ReplayReset.dll",
-            "sha256": "464d0ff1f5268220f1e1e1793abc5bd5fae3461b3cc9d10d8976477755b1f4d5",
-            "size": 78848,
+            "sha256": "4d3888457173a41c325c4bf2e5b0ad07f141fe05883ba4bcf83746df48cc6b38",
+            "size": 80384,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-reset__ReplayReset.dll",
             "type": "MelonMod",
             "category": "ReplayDebug",
