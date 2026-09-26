@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-24T14:16:00Z",
+    "updatedAt": "2026-09-26T12:20:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -406,6 +406,43 @@
                 "ru": {
                     "name": "Сброс функций повтора",
                     "summary": "Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра."
+                }
+            }
+        },
+        {
+            "id": "team-beacon",
+            "name": "【测试】2v2 信标",
+            "author": "wander",
+            "version": "1.2.0-ml",
+            "updatedAt": "2026-09-26",
+            "summary": "【测试】尚未完成正式验收。请在 2v2 实战里确认信标能否送到队友；异常时先卸载本 Mod。2v2 队友信标：双方都安装，并且处在同一场有队友的 2v2 时才生效。按 F5 打开信标模式（右上角状态条变绿），点击战场格子，输入最多 8 个字，点「确认建立」。我方显示绿点和文字，并经游戏聊天发给队友；队友端显示蓝点和同一段文字。再点我方信标可改字或删除，删除会同步到队友；点队友信标只能在本端删除。再按 F5 或点右上角按钮关闭模式。对局结束自动清空。发送前请展开游戏聊天窗口，否则会提示失败，不会悄悄丢掉。中文输入法组词时按回车不会误发。每局最多 60 个信标。热键固定为 F5。本 Mod 不修改游戏文件，不伪造网络包；用管理器卸载即还原。没装本 Mod 的队友只会在聊天里看到明文「【信标】坐标|文字」，对局不受影响。MelonLoader 用管理器安装即可，不必再运行作者自带的安装器。",
+            "file": "mods/team-beacon/TeamBeaconMod.dll",
+            "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
+            "size": 68096,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__team-beacon__TeamBeaconMod.dll",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "test",
+                "2v2",
+                "beacon"
+            ],
+            "locales": {
+                "en": {
+                    "name": "[Test] 2v2 Beacon",
+                    "summary": "[Test] Not formally accepted yet. Confirm in a real 2v2 that beacons reach your teammate, and uninstall this mod if something goes wrong. Teammate beacons for 2v2: both players must install it, and it runs only in a 2v2 where you have a teammate. Press F5 to enter beacon mode (the status bar at the top right turns green), click a grid cell, type up to 8 characters, then choose Confirm. Your side shows a green dot and the text, and sends it through the game chat; your teammate sees a blue dot and the same text. Click your own beacon to edit or delete it; a delete is synced to your teammate. Clicking a teammate beacon only removes it on your screen. Press F5 again, or the button at the top right, to leave beacon mode. All beacons clear when the match ends. Keep the in-game chat window open, or sending fails with a message instead of disappearing. Pressing Enter while composing with an IME does not send a beacon. At most 60 beacons per match. The hotkey is fixed at F5. This mod does not change game files and does not forge network packets; uninstalling it from the manager restores the previous state. A teammate without the mod only sees plain chat text such as the beacon coordinate line, and the match is otherwise unaffected. Install MelonLoader from the manager; do not run the author's standalone installer."
+                },
+                "de": {
+                    "name": "[Test] 2v2-Bake",
+                    "summary": "[Test] Noch nicht förmlich freigegeben. Prüfe in einem echten 2v2, ob die Bake den Teampartner erreicht, und deinstalliere den Mod bei Problemen. Teambaken für 2v2: beide müssen ihn installieren, und er gilt nur in einem 2v2 mit Teampartner. F5 öffnet den Bakenmodus (die Statusleiste oben rechts wird grün). Klicke ein Feld an, gib höchstens 8 Zeichen ein und wähle Bestätigen. Die eigene Seite zeigt einen grünen Punkt und den Text und sendet ihn über den Spielchat; der Partner sieht einen blauen Punkt und denselben Text. Ein Klick auf die eigene Bake ändert oder löscht sie, und das Löschen wird synchronisiert. Ein Klick auf die Bake des Partners entfernt sie nur lokal. F5 oder die Schaltfläche oben rechts beendet den Modus. Am Matchende werden alle Baken gelöscht. Das Chatfenster muss geöffnet bleiben, sonst schlägt das Senden mit einem Hinweis fehl. Enter während einer IME-Eingabe sendet keine Bake. Höchstens 60 Baken pro Match. Die Taste ist fest F5. Der Mod ändert keine Spieldateien und fälscht keine Netzwerkpakete; die Deinstallation im Manager stellt den vorherigen Zustand wieder her. Ein Partner ohne den Mod sieht nur Klartext im Chat, das Match selbst bleibt unberührt. MelonLoader über den Manager installieren, nicht über das eigene Installationsprogramm des Autors."
+                },
+                "ja": {
+                    "name": "【テスト】2v2ビーコン",
+                    "summary": "【テスト】正式採用前です。2v2の実戦でビーコンが味方に届くか確認し、異常があればこのMODを外してください。2v2の味方ビーコンです。双方が導入し、味方がいる同一の2v2でのみ有効です。F5でビーコンモード（右上の状態バーが緑）を開き、マスをクリックし、8文字以内を入力して「確認建立」を押します。自分側は緑の点と文字を表示し、ゲーム内チャット経由で味方へ送ります。味方側は青の点と同じ文字を表示します。自分のビーコンを再度クリックすると文字の変更か削除ができ、削除は味方へ同期されます。味方のビーコンは自分の画面だけで消せます。もう一度F5、または右上のボタンでモードを閉じます。対局終了で全部消えます。送信前にゲームのチャット窓を開いたままにしてください。閉じていると失敗を表示し、黙って消えません。日本語入力の変換中のEnterでは送信しません。1局あたり最大60個。ホットキーはF5固定です。ゲームファイルは変更せず、通信パケットも偽装しません。マネージャーからアンインストールすれば元に戻ります。未導入の味方にはチャットへ平文（座標と文字）が見えるだけで、対局自体には影響しません。MelonLoaderはマネージャーから入れてください。作者付属のインストーラーは不要です。"
+                },
+                "ru": {
+                    "name": "[Тест] Маяк 2v2",
+                    "summary": "[Тест] Ещё не принят официально. Проверьте в настоящем 2v2, что маяк доходит до союзника, и удалите мод, если что-то идёт не так. Маяки для союзника в 2v2: мод нужен обоим и работает только в 2v2, где союзник есть. F5 включает режим маяка (полоса справа сверху становится зелёной). Щёлкните клетку, введите не больше 8 символов и подтвердите. У вас точка зелёная и с текстом, сообщение уходит через игровой чат; у союзника точка синяя и с тем же текстом. Свой маяк можно изменить или удалить, удаление синхронизируется. Чужой маяк снимается только у вас. F5 или кнопка справа сверху выключает режим. В конце матча маяки исчезают. Окно чата должно быть открыто, иначе отправка завершится сообщением об ошибке, а не тихим пропуском. Enter во время набора через IME маяк не отправляет. Не больше 60 маяков за матч. Клавиша только F5. Мод не меняет файлы игры и не подделывает сетевые пакеты; удаление через менеджер возвращает прежнее состояние. Союзник без мода видит в чате только обычный текст с координатами, на матч это не влияет. MelonLoader ставьте из менеджера, отдельный установщик автора не нужен."
                 }
             }
         }
