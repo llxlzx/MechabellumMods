@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-27T10:20:00Z",
+    "updatedAt": "2026-09-27T11:20:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -443,6 +443,44 @@
                 "ru": {
                     "name": "[Тест] Маяк 2v2",
                     "summary": "[Тест] Ещё не принят официально. Проверьте в настоящем 2v2, что маяк доходит до союзника, и удалите мод, если что-то идёт не так. Маяки для союзника в 2v2: мод нужен обоим и работает только в 2v2, где союзник есть. F5 включает режим маяка (полоса справа сверху становится зелёной). Щёлкните клетку, введите не больше 8 символов и подтвердите. У вас точка зелёная и с текстом, сообщение уходит через игровой чат; у союзника точка синяя и с тем же текстом. Свой маяк можно изменить или удалить, удаление синхронизируется. Чужой маяк снимается только у вас. F5 или кнопка справа сверху выключает режим. В конце матча маяки исчезают. Окно чата должно быть открыто, иначе отправка завершится сообщением об ошибке, а не тихим пропуском. Enter во время набора через IME маяк не отправляет. Не больше 60 маяков за матч. Клавиша только F5. Мод не меняет файлы игры и не подделывает сетевые пакеты; удаление через менеджер возвращает прежнее состояние. Союзник без мода видит в чате только обычный текст с координатами, на матч это не влияет. MelonLoader ставьте из менеджера, отдельный установщик автора не нужен."
+                }
+            }
+        },
+        {
+            "id": "cut-guide",
+            "name": "CUT 单位指南",
+            "author": "老匪_GODOG",
+            "version": "1.0.0",
+            "updatedAt": "2026-09-27",
+            "summary": "悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
+            "file": "mods/cut-guide/Mechabellum.Guide.TextHover.dll",
+            "sha256": "0864460aec79e2d62077f04154f3712a9b4d92faf0ec8cff7412006288c43e2a",
+            "size": 360592384,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__cut-guide__Mechabellum.Guide.TextHover.dll",
+            "preview": "mods/cut-guide/preview.png",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "guide",
+                "unit",
+                "hover"
+            ],
+            "locales": {
+                "en": {
+                    "name": "CUT Guide",
+                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG."
+                },
+                "de": {
+                    "name": "CUT-Einheitenführer",
+                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG."
+                },
+                "ja": {
+                    "name": "CUTユニットガイド",
+                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。"
+                },
+                "ru": {
+                    "name": "CUT справочник юнитов",
+                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG."
                 }
             }
         }

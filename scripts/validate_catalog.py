@@ -29,6 +29,9 @@ ALLOWED_CATEGORIES = {
     "OverlayUI", "QoL", "Camera", "CombatAssist",
     "Economy", "ReplayDebug", "Misc",
 }
+# GitHub rejects a push that contains one file over 100 MB. A mod that large is
+# served from originUrl; the git checkout, including CI, does not have the bytes.
+LARGE_FILE_BYTES = 100 * 1024 * 1024
 
 
 def sha256_of(path: Path) -> str:
@@ -92,10 +95,19 @@ def main() -> int:
             )
             size = None
 
+        origin = mod.get("originUrl")
         if isinstance(rel, str) and rel.strip():
             path = ROOT / rel.replace("\\", "/")
+            hosted_off_git = (
+                isinstance(origin, str)
+                and origin.strip().startswith("https://")
+                and isinstance(size, int)
+                and not isinstance(size, bool)
+                and size > LARGE_FILE_BYTES
+            )
             if not path.is_file():
-                errors.append(f"id={mod.get('id')!r}: file not found: {rel}")
+                if not hosted_off_git:
+                    errors.append(f"id={mod.get('id')!r}: file not found: {rel}")
             else:
                 if declared is not None:
                     actual = sha256_of(path)
@@ -114,7 +126,6 @@ def main() -> int:
                             f"run scripts/stamp_hashes.py)"
                         )
 
-        origin = mod.get("originUrl")
         if origin is not None:
             if not isinstance(origin, str) or not origin.strip():
                 errors.append(f"id={mod.get('id')!r}: 'originUrl' must be a non-empty string")
