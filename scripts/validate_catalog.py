@@ -158,6 +158,19 @@ def main() -> int:
             if not ppath.is_file():
                 errors.append(f"id={mod.get('id')!r}: preview not found: {preview}")
 
+        locales = mod.get("locales")
+        if isinstance(locales, dict):
+            for lang, loc in locales.items():
+                if not isinstance(loc, dict):
+                    continue
+                loc_preview = loc.get("preview")
+                if isinstance(loc_preview, str) and loc_preview.strip():
+                    lpath = ROOT / loc_preview.replace("\\", "/")
+                    if not lpath.is_file():
+                        errors.append(
+                            f"id={mod.get('id')!r}: {lang} preview not found: {loc_preview}"
+                        )
+
         cat = mod.get("category")
         if cat is not None:
             if not isinstance(cat, str) or cat.strip() not in ALLOWED_CATEGORIES:

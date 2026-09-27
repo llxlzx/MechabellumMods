@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-27T11:20:00Z",
+    "updatedAt": "2026-09-27T11:45:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -448,7 +448,7 @@
         },
         {
             "id": "cut-guide",
-            "name": "CUT 单位指南",
+            "name": "CUT 新手指南",
             "author": "老匪_GODOG",
             "version": "1.0.0",
             "updatedAt": "2026-09-27",
@@ -468,19 +468,23 @@
             "locales": {
                 "en": {
                     "name": "CUT Guide",
-                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG."
+                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png"
                 },
                 "de": {
-                    "name": "CUT-Einheitenführer",
-                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG."
+                    "name": "CUT Guide",
+                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ja": {
-                    "name": "CUTユニットガイド",
-                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。"
+                    "name": "CUT Guide",
+                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
+                    "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ru": {
-                    "name": "CUT справочник юнитов",
-                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG."
+                    "name": "CUT Guide",
+                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png"
                 }
             }
         }
