@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-27T11:45:00Z",
+    "updatedAt": "2026-09-29T07:10:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -294,6 +294,78 @@
                 "ru": {
                     "name": "Мод инструментов повтора",
                     "summary": "В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
+                }
+            }
+        },
+        {
+            "id": "quick-mark",
+            "name": "快速标记 MOD",
+            "author": "巴巴",
+            "version": "1.0.1",
+            "updatedAt": "2026-09-29",
+            "summary": "在对局里给地面格子做标记，对局结束时清除。格子尺寸或网格轴对不上时不会乱点。",
+            "file": "mods/quick-mark/QuickMark.dll",
+            "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
+            "size": 20480,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-mark__QuickMark.dll",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "mark",
+                "grid"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Quick Mark Mod",
+                    "summary": "Marks ground cells during a match and clears them when the match ends. It will not pick a cell when the grid size or native axes do not match."
+                },
+                "de": {
+                    "name": "Schnellmarkierung",
+                    "summary": "Markiert Bodenzellen während eines Matches und entfernt sie am Matchende. Bei abweichender Gittergröße oder nativen Achsen wird keine Zelle gewählt."
+                },
+                "ja": {
+                    "name": "クイックマーク MOD",
+                    "summary": "対局中に地面マスへマークし、対局終了時に消します。マス寸法やネイティブ軸が合わないときは選択しません。"
+                },
+                "ru": {
+                    "name": "Мод быстрых меток",
+                    "summary": "Ставит метки на клетки поля во время матча и снимает их в конце. Если размер сетки или оси не совпадают, клетка не выбирается."
+                }
+            }
+        },
+        {
+            "id": "show-dps",
+            "name": "单位 DPS 显示 MOD",
+            "author": "巴巴",
+            "version": "0.1.18",
+            "updatedAt": "2026-09-29",
+            "summary": "在单位伤害文字上补上 DPS。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
+            "file": "mods/show-dps/ShowDPS.dll",
+            "sha256": "06441b3e538dad031f838cfc35b8dfe4c7988dd6f6aa3258565a3bef358456a8",
+            "size": 26624,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-dps__ShowDPS.dll",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "dps",
+                "hud"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Unit DPS Display",
+                    "summary": "Adds DPS to unit damage text. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
+                },
+                "de": {
+                    "name": "Einheiten-DPS-Anzeige",
+                    "summary": "Ergänzt den Schadenswert um DPS. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
+                },
+                "ja": {
+                    "name": "ユニットDPS表示 MOD",
+                    "summary": "ユニットのダメージ表示に DPS を足します。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
+                },
+                "ru": {
+                    "name": "Показ DPS юнитов",
+                    "summary": "Добавляет DPS к тексту урона юнита. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
                 }
             }
         },
