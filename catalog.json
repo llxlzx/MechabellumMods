@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-29T07:10:00Z",
+    "updatedAt": "2026-09-30T14:30:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -308,6 +308,7 @@
             "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
             "size": 20480,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-mark__QuickMark.dll",
+            "preview": "mods/quick-mark/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -344,6 +345,7 @@
             "sha256": "06441b3e538dad031f838cfc35b8dfe4c7988dd6f6aa3258565a3bef358456a8",
             "size": 26624,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-dps__ShowDPS.dll",
+            "preview": "mods/show-dps/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
