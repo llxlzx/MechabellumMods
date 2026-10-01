@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-30T14:30:00Z",
+    "updatedAt": "2026-10-01T11:20:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -338,12 +338,12 @@
             "id": "show-dps",
             "name": "单位 DPS 显示 MOD",
             "author": "巴巴",
-            "version": "0.1.18",
-            "updatedAt": "2026-09-29",
-            "summary": "在单位伤害文字上补上 DPS。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
+            "version": "1.0.1",
+            "updatedAt": "2026-10-01",
+            "summary": "在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
             "file": "mods/show-dps/ShowDPS.dll",
-            "sha256": "06441b3e538dad031f838cfc35b8dfe4c7988dd6f6aa3258565a3bef358456a8",
-            "size": 26624,
+            "sha256": "0af4b622c02d59ee48fb9c5eec81ba194524237e84face2c94d4126b5bdb71a3",
+            "size": 27648,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-dps__ShowDPS.dll",
             "preview": "mods/show-dps/preview.png",
             "type": "MelonMod",
@@ -355,19 +355,55 @@
             "locales": {
                 "en": {
                     "name": "Unit DPS Display",
-                    "summary": "Adds DPS to unit damage text. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
+                    "summary": "Adds DPS to unit damage text. Multi-shot counts follow unit IDs, so they do not depend on the displayed name. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
                 },
                 "de": {
                     "name": "Einheiten-DPS-Anzeige",
-                    "summary": "Ergänzt den Schadenswert um DPS. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
+                    "summary": "Ergänzt den Schadenswert um DPS. Mehrfachschüsse folgen Einheiten-IDs und hängen nicht vom angezeigten Namen ab. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
                 },
                 "ja": {
                     "name": "ユニットDPS表示 MOD",
-                    "summary": "ユニットのダメージ表示に DPS を足します。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
+                    "summary": "ユニットのダメージ表示に DPS を足します。多発射数はユニット ID で決まり、表示名には依存しません。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
                 },
                 "ru": {
                     "name": "Показ DPS юнитов",
-                    "summary": "Добавляет DPS к тексту урона юнита. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
+                    "summary": "Добавляет DPS к тексту урона юнита. Число снарядов берётся по ID юнита и не зависит от отображаемого имени. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
+                }
+            }
+        },
+        {
+            "id": "missile-direction",
+            "name": "飞弹方向 MOD",
+            "author": "巴巴",
+            "version": "1.0.0",
+            "updatedAt": "2026-10-01",
+            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。",
+            "file": "mods/missile-direction/MissileDirection.dll",
+            "sha256": "6ea324a5191ebc1c648e2b7f584263608d0e8d15daa251eface2bf1097d5e701",
+            "size": 15360,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__missile-direction__MissileDirection.dll",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "missile",
+                "hud"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Missile Direction Mod",
+                    "summary": "While deploying a sentry missile, shows a direction guide toward the target."
+                },
+                "de": {
+                    "name": "Flugkörperrichtung",
+                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel."
+                },
+                "ja": {
+                    "name": "ミサイル方向 MOD",
+                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。"
+                },
+                "ru": {
+                    "name": "Направление ракеты",
+                    "summary": "При пуске сторожевой ракеты показывает направление к цели."
                 }
             }
         },
