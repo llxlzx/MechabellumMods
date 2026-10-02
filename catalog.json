@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-02T04:55:00Z",
+    "updatedAt": "2026-10-02T05:14:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -601,7 +601,7 @@
         {
             "id": "opponent-economy",
             "name": "对手经济 MOD",
-            "author": "OpponentEconomyMod",
+            "author": "wander",
             "version": "0.7.3",
             "updatedAt": "2026-10-02",
             "summary": "对局中对比双方投入。左侧为我方（2v2 含队友），右侧为对方；每行显示金额、占比和等级分布。开局默认收起，收起时两侧都显示阵营总额，按 F9 或点击箭头展开。科技计入金额与占比，单位图标右上角用颜色角标显示已激活科技个数。",
