@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-02T05:14:00Z",
+    "updatedAt": "2026-10-02T05:50:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -203,6 +203,26 @@
             "tags": [
                 "hud",
                 "damage"
+            ],
+            "conflicts": [
+                {
+                    "id": "battle-suite",
+                    "reason": "两者都包含伤害排名，同时安装进游戏会坏。",
+                    "locales": {
+                        "en": {
+                            "reason": "Both include a damage ranking. Installing them together breaks the game."
+                        },
+                        "de": {
+                            "reason": "Beide enthalten eine Schadensrangliste. Gleichzeitige Installation macht das Spiel kaputt."
+                        },
+                        "ja": {
+                            "reason": "両方にダメージ順位があり、同時に入れるとゲームが壊れます。"
+                        },
+                        "ru": {
+                            "reason": "Оба показывают рейтинг урона. Вместе они ломают игру."
+                        }
+                    }
+                }
             ],
             "locales": {
                 "en": {
@@ -463,6 +483,26 @@
                 "hud",
                 "1v1",
                 "analytics"
+            ],
+            "conflicts": [
+                {
+                    "id": "damage-rank",
+                    "reason": "两者都包含伤害排名，同时安装进游戏会坏。",
+                    "locales": {
+                        "en": {
+                            "reason": "Both include a damage ranking. Installing them together breaks the game."
+                        },
+                        "de": {
+                            "reason": "Beide enthalten eine Schadensrangliste. Gleichzeitige Installation macht das Spiel kaputt."
+                        },
+                        "ja": {
+                            "reason": "両方にダメージ順位があり、同時に入れるとゲームが壊れます。"
+                        },
+                        "ru": {
+                            "reason": "Оба показывают рейтинг урона. Вместе они ломают игру."
+                        }
+                    }
+                }
             ],
             "locales": {
                 "en": {
