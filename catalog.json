@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-01T11:20:00Z",
+    "updatedAt": "2026-10-02T04:55:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -375,12 +375,12 @@
             "id": "missile-direction",
             "name": "飞弹方向 MOD",
             "author": "巴巴",
-            "version": "1.0.0",
-            "updatedAt": "2026-10-01",
-            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。",
+            "version": "1.0.3",
+            "updatedAt": "2026-10-02",
+            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.3 按战斗坐标和固定射程计算方向，并判断飞弹能否打到建筑。",
             "file": "mods/missile-direction/MissileDirection.dll",
-            "sha256": "6ea324a5191ebc1c648e2b7f584263608d0e8d15daa251eface2bf1097d5e701",
-            "size": 15360,
+            "sha256": "3e02fe99e8795d871d529eb7d285314ee562a2f1fcf2213e0eb96381412e84ea",
+            "size": 14848,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__missile-direction__MissileDirection.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -391,19 +391,19 @@
             "locales": {
                 "en": {
                     "name": "Missile Direction Mod",
-                    "summary": "While deploying a sentry missile, shows a direction guide toward the target."
+                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.3 aims from combat positions and a fixed trigger range, and checks whether the missile can hit structures."
                 },
                 "de": {
                     "name": "Flugkörperrichtung",
-                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel."
+                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.3 berechnet die Richtung aus Kampfpositionen und einer festen Reichweite und prüft, ob die Rakete Gebäude treffen kann."
                 },
                 "ja": {
                     "name": "ミサイル方向 MOD",
-                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。"
+                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.3 は戦闘座標と固定射程で方向を計算し、建物に当たるかも判定します。"
                 },
                 "ru": {
                     "name": "Направление ракеты",
-                    "summary": "При пуске сторожевой ракеты показывает направление к цели."
+                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.3 считает направление по боевым координатам и фиксированной дальности и проверяет, может ли ракета попасть по постройкам."
                 }
             }
         },
@@ -595,6 +595,42 @@
                     "name": "CUT Guide",
                     "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
+                }
+            }
+        },
+        {
+            "id": "opponent-economy",
+            "name": "对手经济 MOD",
+            "author": "OpponentEconomyMod",
+            "version": "0.7.3",
+            "updatedAt": "2026-10-02",
+            "summary": "对局中对比双方投入。左侧为我方（2v2 含队友），右侧为对方；每行显示金额、占比和等级分布。开局默认收起，收起时两侧都显示阵营总额，按 F9 或点击箭头展开。科技计入金额与占比，单位图标右上角用颜色角标显示已激活科技个数。",
+            "file": "mods/opponent-economy/OpponentEconomyMod.dll",
+            "sha256": "d02dbf70281ec739197bf7ad70b7fada21fa1319815bc708649aab1ea11997a7",
+            "size": 65024,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__opponent-economy__OpponentEconomyMod.dll",
+            "type": "MelonMod",
+            "category": "Economy",
+            "tags": [
+                "economy",
+                "hud"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Opponent Economy",
+                    "summary": "Compares both sides' spending during a match. The left side is yours (a 2v2 teammate is included) and the right side is the opponent. Each row shows amount, share, and level spread. It starts collapsed, and while collapsed both sides show the faction total. Press F9 or click the arrow to expand. Tech counts toward the amount and share, and a color badge on each unit icon shows how many techs are active."
+                },
+                "de": {
+                    "name": "Gegner-Wirtschaft",
+                    "summary": "Vergleicht die Ausgaben beider Seiten im Match. Links die eigene Seite (im 2v2 inklusive Teampartner), rechts der Gegner. Jede Zeile zeigt Betrag, Anteil und Stufenverteilung. Startet eingeklappt; eingeklappt zeigen beide Seiten die Fraktionssumme. Mit F9 oder dem Pfeil aufklappen. Technik zählt zu Betrag und Anteil, und eine Farbmarke am Einheiten-Icon zeigt die Zahl aktiver Techniken."
+                },
+                "ja": {
+                    "name": "相手経済 MOD",
+                    "summary": "対局中に双方の投入を比較します。左が味方（2v2 ではチームメイトを含む）、右が相手です。各行は金額、割合、レベル分布を表示します。開局時は折りたたみで、折りたたみ中は両側とも陣営合計です。F9 または矢印で展開します。科技は金額と割合に含まれ、ユニットアイコン右上の色付きバッジが発動済み科技の数を示します。"
+                },
+                "ru": {
+                    "name": "Экономика противника",
+                    "summary": "Сравнивает затраты обеих сторон в матче. Слева своя сторона (в 2v2 вместе с союзником), справа противник. В строке сумма, доля и распределение уровней. Сначала свёрнуто; в свёрнутом виде обе стороны показывают итог фракции. Развернуть: F9 или стрелка. Технологии входят в сумму и долю, а цветной значок на иконке юнита показывает число активных технологий."
                 }
             }
         }
