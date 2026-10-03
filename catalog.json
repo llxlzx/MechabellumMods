@@ -358,11 +358,11 @@
             "id": "show-dps",
             "name": "单位 DPS 显示 MOD",
             "author": "巴巴",
-            "version": "1.0.1",
-            "updatedAt": "2026-10-01",
-            "summary": "在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
+            "version": "1.0.2",
+            "updatedAt": "2026-10-03",
+            "summary": "在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。5000 及以上的编号会先折回基础编号，异步对战里的同一单位沿用同一套弹数。百夫长打出两发时不再同时按双倍攻击计算。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
             "file": "mods/show-dps/ShowDPS.dll",
-            "sha256": "0af4b622c02d59ee48fb9c5eec81ba194524237e84face2c94d4126b5bdb71a3",
+            "sha256": "6f7b152760cb9abca3eec419aecb3c518dbbdb4a3b43ddd1aadf8881b3bdb8b0",
             "size": 27648,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-dps__ShowDPS.dll",
             "preview": "mods/show-dps/preview.png",
@@ -375,19 +375,19 @@
             "locales": {
                 "en": {
                     "name": "Unit DPS Display",
-                    "summary": "Adds DPS to unit damage text. Multi-shot counts follow unit IDs, so they do not depend on the displayed name. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
+                    "summary": "Adds DPS to unit damage text. Multi-shot counts follow unit IDs, so they do not depend on the displayed name. IDs at 5000 and above are folded back to the base unit first, so the same unit in async battle uses the same shot count. Centurion's two-shot mode is no longer also counted as a double attack. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
                 },
                 "de": {
                     "name": "Einheiten-DPS-Anzeige",
-                    "summary": "Ergänzt den Schadenswert um DPS. Mehrfachschüsse folgen Einheiten-IDs und hängen nicht vom angezeigten Namen ab. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
+                    "summary": "Ergänzt den Schadenswert um DPS. Mehrfachschüsse folgen Einheiten-IDs und hängen nicht vom angezeigten Namen ab. IDs ab 5000 werden zuerst auf die Grundeinheit zurückgeführt, damit dieselbe Einheit im asynchronen Kampf dieselbe Schusszahl nutzt. Der Zwei-Schuss-Modus des Centurion wird nicht mehr zusätzlich als Doppelangriff gezählt. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
                 },
                 "ja": {
                     "name": "ユニットDPS表示 MOD",
-                    "summary": "ユニットのダメージ表示に DPS を足します。多発射数はユニット ID で決まり、表示名には依存しません。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
+                    "summary": "ユニットのダメージ表示に DPS を足します。多発射数はユニット ID で決まり、表示名には依存しません。5000 以上の ID は先に基礎ユニットへ折り戻すので、非同期戦の同じユニットも同じ弾数です。Centurion の2発モードは、同時に二倍攻撃として数えません。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
                 },
                 "ru": {
                     "name": "Показ DPS юнитов",
-                    "summary": "Добавляет DPS к тексту урона юнита. Число снарядов берётся по ID юнита и не зависит от отображаемого имени. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
+                    "summary": "Добавляет DPS к тексту урона юнита. Число снарядов берётся по ID юнита и не зависит от отображаемого имени. ID от 5000 сначала сводятся к базовому юниту, поэтому тот же юнит в асинхронном бою использует то же число снарядов. Режим двух выстрелов Центуриона больше не считается ещё и двойной атакой. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
                 }
             }
         },
@@ -600,12 +600,12 @@
             "id": "cut-guide",
             "name": "CUT 新手指南",
             "author": "老匪_GODOG",
-            "version": "1.0.0",
-            "updatedAt": "2026-09-27",
-            "summary": "悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
+            "version": "1.1.0",
+            "updatedAt": "2026-10-03",
+            "summary": "悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。按 F3 开关这些演示，选择会记住。标准 1v1 里，有对应关系的科技会改播异步对战中同一科技的演示。单位卡上的入口只在这些时候出现：异步对战的 1v1 或 2v2，单位编号在 5000 及以上，且不是观战；标准模式的 1v1，且该单位有对应演示，实况、测试和回放可以，观战除外。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
             "file": "mods/cut-guide/Mechabellum.Guide.TextHover.dll",
-            "sha256": "0864460aec79e2d62077f04154f3712a9b4d92faf0ec8cff7412006288c43e2a",
-            "size": 360592384,
+            "sha256": "203bb97e713c9a55183ec7ea4bc36d54fd3da35a2bfdd11d6d53fff17d78af92",
+            "size": 360679936,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__cut-guide__Mechabellum.Guide.TextHover.dll",
             "preview": "mods/cut-guide/preview.png",
             "type": "MelonMod",
@@ -618,22 +618,22 @@
             "locales": {
                 "en": {
                     "name": "CUT Guide",
-                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
+                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. Press F3 to show or hide those clips; the choice is remembered. In a standard 1v1, a mapped tech plays the matching async-battle clip. The button on a unit card appears only in these cases: async 1v1 or 2v2 when the unit ID is 5000 or higher and you are not spectating; or a standard 1v1 when that unit has a matching clip, including live matches, tests, and replays, but not spectating. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "de": {
                     "name": "CUT Guide",
-                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
+                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. F3 schaltet diese Clips ein oder aus; die Wahl bleibt gespeichert. In einem Standard-1v1 spielt eine zugeordnete Technik den passenden Clip aus dem asynchronen Kampf. Die Schaltfläche auf der Einheitenkarte erscheint nur dann: asynchrones 1v1 oder 2v2 bei einer Einheiten-ID ab 5000 und ohne Zuschauen; oder ein Standard-1v1, wenn die Einheit einen passenden Clip hat, einschließlich Live, Test und Wiederholung, aber nicht als Zuschauer. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ja": {
                     "name": "CUT Guide",
-                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
+                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。F3 でこれらの演示を切り替え、選択は保存されます。標準1v1では、対応がある科技は非同期戦の同じ科技の演示を再生します。ユニットカード上の入口が出るのは次のときだけです。非同期戦の1v1または2v2で、ユニットIDが5000以上、観戦ではないとき。または標準モードの1v1で、そのユニットに対応する演示があり、実況・テスト・リプレイを含み、観戦は除きます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ru": {
                     "name": "CUT Guide",
-                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
+                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 }
             }
