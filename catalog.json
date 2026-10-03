@@ -395,11 +395,11 @@
             "id": "missile-direction",
             "name": "飞弹方向 MOD",
             "author": "巴巴",
-            "version": "1.0.3",
-            "updatedAt": "2026-10-02",
-            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.3 按战斗坐标和固定射程计算方向，并判断飞弹能否打到建筑。",
+            "version": "1.0.5",
+            "updatedAt": "2026-10-03",
+            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.5 仍按战斗坐标计算方向。固定射程只用来限制建筑，超出这个射程的单位也会成为方向目标，并判断飞弹能否打到建筑。",
             "file": "mods/missile-direction/MissileDirection.dll",
-            "sha256": "3e02fe99e8795d871d529eb7d285314ee562a2f1fcf2213e0eb96381412e84ea",
+            "sha256": "1edb2108d3327d3306ba5acddf8726e8d9c87c6c500ce8a26eefe11c8f7892c8",
             "size": 14848,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__missile-direction__MissileDirection.dll",
             "type": "MelonMod",
@@ -411,19 +411,19 @@
             "locales": {
                 "en": {
                     "name": "Missile Direction Mod",
-                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.3 aims from combat positions and a fixed trigger range, and checks whether the missile can hit structures."
+                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.5 still aims from combat positions. The fixed range now limits structures only, so a unit beyond that range can still be the direction target, and the mod still checks whether the missile can hit structures."
                 },
                 "de": {
                     "name": "Flugkörperrichtung",
-                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.3 berechnet die Richtung aus Kampfpositionen und einer festen Reichweite und prüft, ob die Rakete Gebäude treffen kann."
+                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.5 berechnet die Richtung weiter aus Kampfpositionen. Die feste Reichweite begrenzt nur noch Gebäude, daher kann eine Einheit außerhalb dieser Reichweite trotzdem das Richtungsziel sein. Die Prüfung, ob die Rakete Gebäude treffen kann, bleibt."
                 },
                 "ja": {
                     "name": "ミサイル方向 MOD",
-                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.3 は戦闘座標と固定射程で方向を計算し、建物に当たるかも判定します。"
+                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.5 も戦闘座標で方向を計算します。固定射程の制限は建物だけになり、射程を超えたユニットも方向の目標になります。建物に当たるかどうかの判定はそのままです。"
                 },
                 "ru": {
                     "name": "Направление ракеты",
-                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.3 считает направление по боевым координатам и фиксированной дальности и проверяет, может ли ракета попасть по постройкам."
+                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.5 по-прежнему считает направление по боевым координатам. Фиксированная дальность теперь ограничивает только постройки, поэтому юнит за её пределами тоже может быть целью направления. Проверка, может ли ракета попасть по постройкам, сохраняется."
                 }
             }
         },
