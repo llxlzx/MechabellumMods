@@ -528,12 +528,12 @@
             "id": "replay-reset",
             "name": "回放功能重置",
             "author": "llxmod",
-            "version": "0.2.6",
-            "updatedAt": "2026-10-04",
-            "summary": "重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并可按 1v1、2v2、4人乱斗筛选。勾选后批量删除、移动或置顶，播放走单独的查看按钮。条目显示对局、版本、模式与地图。版本对不上的回放按官方文案显示过期标记。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。0.2.6：重新启用或改设置时，官方列表如果还是空的，已经归进分类的回放不会被清掉。",
+            "version": "0.2.7",
+            "updatedAt": "2026-10-06",
+            "summary": "重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并可按 1v1、2v2、4人乱斗筛选。勾选后批量删除、移动或置顶，播放走单独的查看按钮。条目显示对局、版本、模式与地图。版本对不上的回放按官方文案显示过期标记。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。0.2.7：搜索和改名可以输入中文；改名框带上当前标题，不改则不另存别名；即将开战时回放面板让开，关闭按钮仍可点。",
             "file": "mods/replay-reset/ReplayReset.dll",
-            "sha256": "f07bf5bc1f190fe1fab9708662f7c7b493bcb20ea17173ec5af853862b0cc622",
-            "size": 84992,
+            "sha256": "3678c6e0c32d4e5c7500b4be09f516eaa65ea6165fa65fd193c3cbb01fe8e9d1",
+            "size": 92672,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-reset__ReplayReset.dll",
             "type": "MelonMod",
             "category": "ReplayDebug",
@@ -544,19 +544,19 @@
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
-                    "summary": "Rebuilds the replay list with custom archives, in-game rename, search, pins, sorting, date groups, and filters for 1v1, 2v2, and 4-player FFA. Selected rows can be deleted, moved, or pinned together, and playback uses a Watch button. Each row shows the matchup, version, mode, and map. Replays the game marks out of date show the official Expired label. The UI follows the game language (Simplified Chinese, English, German, Japanese, Russian). Expiry cleanup stays on the official rules. 0.2.6 keeps categorized replays when the official list is still empty after the mod is enabled again."
+                    "summary": "Rebuilds the replay list with custom archives, in-game rename, search, pins, sorting, date groups, and filters for 1v1, 2v2, and 4-player FFA. Selected rows can be deleted, moved, or pinned together, and playback uses a Watch button. Each row shows the matchup, version, mode, and map. Replays the game marks out of date show the official Expired label. The UI follows the game language (Simplified Chinese, English, German, Japanese, Russian). Expiry cleanup stays on the official rules. 0.2.7: search and rename accept Chinese input; rename starts from the current title and does not store an alias when that title is unchanged; when a match is about to start, the replay panel steps aside and the close button stays clickable."
                 },
                 "de": {
                     "name": "Replay-Funktionen zurücksetzen",
-                    "summary": "Baut die Replay-Liste neu: eigene Archive, Umbenennen im Spiel, Suche, Anpinnen, Sortierung, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam löschen, verschieben oder anpinnen; die Wiedergabe startet über eine eigene Ansehen-Schaltfläche. Jede Zeile zeigt Paarung, Version, Modus und Karte. Als abgelaufen markierte Replays zeigen die offizielle Kennzeichnung Abgelaufen. Die Oberfläche folgt der Spielsprache (vereinfachtes Chinesisch, Englisch, Deutsch, Japanisch, Russisch). Abgelaufene Replays räumt weiterhin das Spiel selbst auf. 0.2.6 behält bereits einsortierte Replays, wenn die offizielle Liste nach dem erneuten Aktivieren noch leer ist."
+                    "summary": "Baut die Replay-Liste neu: eigene Archive, Umbenennen im Spiel, Suche, Anpinnen, Sortierung, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam löschen, verschieben oder anpinnen; die Wiedergabe startet über eine eigene Ansehen-Schaltfläche. Jede Zeile zeigt Paarung, Version, Modus und Karte. Als abgelaufen markierte Replays zeigen die offizielle Kennzeichnung Abgelaufen. Die Oberfläche folgt der Spielsprache (vereinfachtes Chinesisch, Englisch, Deutsch, Japanisch, Russisch). Abgelaufene Replays räumt weiterhin das Spiel selbst auf. 0.2.7: Suche und Umbenennen nehmen chinesische Eingabe an; das Feld startet mit dem aktuellen Titel und speichert keinen Aliasnamen, wenn der Titel unverändert bleibt; kurz vor Spielbeginn tritt die Replay-Liste zurück, der Schließen-Knopf bleibt anklickbar."
                 },
                 "ja": {
                     "name": "リプレイ機能リセット",
-                    "summary": "リプレイ一覧を作り直す。自分の分類、対戦中の改名、検索、ピン留め、並べ替え、日付グループに加え、1v1・2v2・4人乱戦で絞り込める。チェックした項目はまとめて削除・移動・ピン留めでき、再生は視聴ボタンから行う。各行には対戦、バージョン、モード、マップを表示する。バージョン不一致のリプレイには公式の「旧バージョン」表示を出す。画面はゲームの言語に従う（簡体字中国語・英語・ドイツ語・日本語・ロシア語）。期限切れの削除は公式のまま。0.2.6 は、再び有効にしたときに公式リストがまだ空でも、分類済みのリプレイを消さない。"
+                    "summary": "リプレイ一覧を作り直す。自分の分類、対戦中の改名、検索、ピン留め、並べ替え、日付グループに加え、1v1・2v2・4人乱戦で絞り込める。チェックした項目はまとめて削除・移動・ピン留めでき、再生は視聴ボタンから行う。各行には対戦、バージョン、モード、マップを表示する。バージョン不一致のリプレイには公式の「旧バージョン」表示を出す。画面はゲームの言語に従う（簡体字中国語・英語・ドイツ語・日本語・ロシア語）。期限切れの削除は公式のまま。0.2.7 は検索と改名で中国語を入力できる。改名欄には今の題名が入り、変えなければ別名は保存しない。試合開始直前はリプレイ画面が退き、閉じるボタンは押せる。"
                 },
                 "ru": {
                     "name": "Сброс функций повтора",
-                    "summary": "Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра. 0.2.6 не стирает уже разложенные повторы, если официальный список при повторном включении ещё пуст."
+                    "summary": "Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра. 0.2.7: поиск и переименование принимают китайский ввод; поле начинается с текущего названия и не сохраняет псевдоним, если название не меняли; перед началом матча список повторов уступает место, а кнопка закрытия остаётся нажимаемой."
                 }
             }
         },
