@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog.json"
 REQUIRED = ("id", "name", "file")
 SHA256_HEX = re.compile(r"^[0-9a-f]{64}$")
+MANAGER_FLOOR = re.compile(r"^(0|[1-9][0-9]{0,4})\.(0|[1-9][0-9]{0,4})\.(0|[1-9][0-9]{0,4})$")
 ALLOWED_CATEGORIES = {
     "OverlayUI", "QoL", "Camera", "CombatAssist",
     "Economy", "ReplayDebug", "Misc",
@@ -152,6 +153,18 @@ def check_parts(mod: dict, errors: list[str], root: Path | None = None) -> None:
         )
 
 
+def check_min_manager_version(mod: dict, errors: list[str]) -> None:
+    if "minManagerVersion" not in mod or mod.get("minManagerVersion") is None:
+        return
+    raw = mod.get("minManagerVersion")
+    label = f"id={mod.get('id')!r}: minManagerVersion"
+    if not isinstance(raw, str) or MANAGER_FLOOR.match(raw) is None:
+        errors.append(f"{label} must be major.minor.patch with no leading zeros")
+        return
+    if any(int(part) > 65535 for part in raw.split(".")):
+        errors.append(f"{label} segment must be at most 65535")
+
+
 def asset_name(rel: str) -> str:
     """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
     return rel.replace("\\", "/").replace("/", "__")
@@ -272,6 +285,8 @@ def main() -> int:
             val = mod.get(key)
             if not isinstance(val, str) or not val.strip():
                 errors.append(f"mods[{i}]: missing/empty '{key}'")
+
+        check_min_manager_version(mod, errors)
 
         mod_id = mod.get("id")
         if isinstance(mod_id, str) and mod_id.strip():

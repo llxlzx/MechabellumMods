@@ -105,6 +105,16 @@ class ValidatePartsTests(unittest.TestCase):
             code, output = run_main(root, [hosted_off_git_entry(root, whole=False)])
             self.assertNotIn("file not found", output)
 
+    def test_min_manager_version_is_optional_and_strict(self):
+        errors: list[str] = []
+        v.check_min_manager_version({"id": "a"}, errors)
+        v.check_min_manager_version({"id": "a", "minManagerVersion": None}, errors)
+        v.check_min_manager_version({"id": "a", "minManagerVersion": "1.3.14"}, errors)
+        self.assertEqual(errors, [])
+        v.check_min_manager_version({"id": "a", "minManagerVersion": "1.03.14"}, errors)
+        v.check_min_manager_version({"id": "a", "minManagerVersion": "v1.3.14"}, errors)
+        self.assertEqual(len(errors), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

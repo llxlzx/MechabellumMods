@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-06T00:00:00Z",
+    "updatedAt": "2026-10-05T20:44:29Z",
     "mods": [
         {
             "id": "show-grid",
@@ -42,7 +42,8 @@
                     "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
                     "size": 8192
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "quick-item",
@@ -85,7 +86,8 @@
                     "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
                     "size": 7680
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "quick-camera",
@@ -128,7 +130,8 @@
                     "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
                     "size": 11264
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "undo-plus",
@@ -171,7 +174,8 @@
                     "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
                     "size": 13824
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "auto-speed",
@@ -214,7 +218,8 @@
                     "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
                     "size": 14336
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "damage-rank",
@@ -277,7 +282,8 @@
                     "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
                     "size": 141312
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "sales-calculation",
@@ -320,7 +326,8 @@
                     "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
                     "size": 19456
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "replay-tool",
@@ -363,7 +370,8 @@
                     "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
                     "size": 37376
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "quick-mark",
@@ -406,7 +414,8 @@
                     "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
                     "size": 20480
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "show-dps",
@@ -449,7 +458,8 @@
                     "sha256": "6f7b152760cb9abca3eec419aecb3c518dbbdb4a3b43ddd1aadf8881b3bdb8b0",
                     "size": 27648
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "missile-direction",
@@ -492,7 +502,8 @@
                     "sha256": "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
                     "size": 14848
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "friend-overlay",
@@ -536,7 +547,8 @@
                     "sha256": "485dd97c7423f63fa29940e4a70a19e84f35a384952e960d80ef946518a417de",
                     "size": 8544256
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "battle-suite",
@@ -600,7 +612,8 @@
                     "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
                     "size": 5337088
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "replay-reset",
@@ -642,7 +655,8 @@
                     "sha256": "3678c6e0c32d4e5c7500b4be09f516eaa65ea6165fa65fd193c3cbb01fe8e9d1",
                     "size": 92672
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "team-beacon",
@@ -685,7 +699,8 @@
                     "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
                     "size": 68096
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "cut-guide",
@@ -753,7 +768,8 @@
                     "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 }
-            }
+            },
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "opponent-economy",
@@ -795,7 +811,8 @@
                     "sha256": "d02dbf70281ec739197bf7ad70b7fada21fa1319815bc708649aab1ea11997a7",
                     "size": 65024
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         },
         {
             "id": "unit-ledger",
@@ -837,7 +854,8 @@
                     "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
                     "size": 97792
                 }
-            ]
+            ],
+            "minManagerVersion": "1.3.14"
         }
     ]
 }
