@@ -65,6 +65,26 @@ def asset_name(rel: str) -> str:
     return rel.replace("\\", "/").replace("/", "__")
 
 
+def joined_digest(root: Path, parts: list) -> tuple[str, int]:
+    blob = bytearray()
+    for part in parts:
+        rel = part["file"].replace("\\", "/")
+        blob.extend((root / rel).read_bytes())
+    return hashlib.sha256(blob).hexdigest(), len(blob)
+
+
+def origin_line(mod: dict, origin_base: str | None, indent: str, ending: str) -> str | None:
+    parts = mod.get("parts")
+    if isinstance(parts, list) and parts:
+        return None
+    if not origin_base:
+        return None
+    rel = mod.get("file")
+    if not isinstance(rel, str):
+        return None
+    return f'{indent}"originUrl": "{origin_base}/{asset_name(rel)}",{ending}'
+
+
 def stamp_preview_lines(lines: list[str]) -> list[str]:
     """Insert previewSha256 after each preview path, including locale overrides.
 
@@ -121,16 +141,33 @@ def main() -> int:
         return 1
 
     wanted: dict[str, tuple[str, int]] = {}
+    mod_by_rel: dict[str, dict] = {}
     for mod in mods:
         rel = mod.get("file")
         if not isinstance(rel, str) or not rel.strip():
             print(f"ERROR: id={mod.get('id')!r} has no 'file'", file=sys.stderr)
             return 1
+        mod_by_rel[rel] = mod
+        parts = mod.get("parts")
+        has_parts = isinstance(parts, list) and parts
         path = ROOT / rel.replace("\\", "/")
-        if not path.is_file():
-            print(f"ERROR: id={mod.get('id')!r} file not found: {rel}", file=sys.stderr)
-            return 1
-        wanted[rel] = (sha256_of(path), path.stat().st_size)
+        if has_parts:
+            joined, joined_size = joined_digest(ROOT, parts)
+            if path.is_file():
+                whole = sha256_of(path)
+                if whole != joined:
+                    print(
+                        f"ERROR: id={mod.get('id')!r} whole file sha256 "
+                        f"({whole}) != joined parts ({joined})",
+                        file=sys.stderr,
+                    )
+                    return 1
+            wanted[rel] = (joined, joined_size)
+        else:
+            if not path.is_file():
+                print(f"ERROR: id={mod.get('id')!r} file not found: {rel}", file=sys.stderr)
+                return 1
+            wanted[rel] = (sha256_of(path), path.stat().st_size)
 
     with CATALOG.open("r", encoding="utf-8", newline="") as handle:
         lines = handle.readlines()
@@ -165,10 +202,12 @@ def main() -> int:
             existing.append(lines[index])
             index += 1
 
-        if origin_base:
-            stamped.append(
-                f'{indent}"originUrl": "{origin_base}/{asset_name(rel)}",{ending}')
-        else:
+        mod = mod_by_rel[rel]
+        has_parts = isinstance(mod.get("parts"), list) and mod.get("parts")
+        origin = origin_line(mod, origin_base, indent, ending)
+        if origin is not None:
+            stamped.append(origin)
+        elif not has_parts:
             # Not ours to manage on this run: carry any existing value through verbatim.
             stamped.extend(l for l in existing if '"originUrl"' in l)
 
@@ -188,7 +227,8 @@ def main() -> int:
                 file=sys.stderr,
             )
             return 1
-        if origin_base:
+        has_parts = isinstance(mod.get("parts"), list) and mod.get("parts")
+        if origin_base and not has_parts:
             expected = f"{origin_base}/{asset_name(rel)}"
             if mod.get("originUrl") != expected:
                 print(

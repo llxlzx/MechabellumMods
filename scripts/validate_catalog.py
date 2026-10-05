@@ -60,14 +60,47 @@ def check_preview_hash(mod: dict, label: str, preview, declared, errors: list[st
         )
 
 
-def check_parts(mod: dict, errors: list[str]) -> None:
+def check_whole_file(
+    mod: dict, errors: list[str], root: Path | None = None, *, allow_missing: bool = False
+) -> None:
+    if root is None:
+        root = ROOT
+    rel = mod.get("file")
+    if not isinstance(rel, str) or not rel.strip():
+        return
+    path = root / rel.replace("\\", "/")
+    has_parts = isinstance(mod.get("parts"), list) and len(mod.get("parts")) > 0
+    if not path.is_file():
+        if not has_parts and not allow_missing:
+            errors.append(f"id={mod.get('id')!r}: file not found: {rel}")
+        return
+    declared = mod.get("sha256")
+    size = mod.get("size")
+    if isinstance(declared, str) and sha256_of(path) != declared.strip().lower():
+        errors.append(
+            f"id={mod.get('id')!r}: sha256 mismatch for {rel} "
+            f"(catalog={declared.strip().lower()}, file={sha256_of(path)})"
+        )
+    if isinstance(size, int) and not isinstance(size, bool) and path.stat().st_size != size:
+        errors.append(
+            f"id={mod.get('id')!r}: size mismatch for {rel} "
+            f"(catalog={size}, file={path.stat().st_size})"
+        )
+
+
+def check_parts(mod: dict, errors: list[str], root: Path | None = None) -> None:
     """Slices must exist, stay under GitHub's per-file limit, and rebuild the whole file."""
+    if root is None:
+        root = ROOT
     slices = mod.get("parts")
     if slices is None:
         return
     if not isinstance(slices, list) or not slices:
         errors.append(f"id={mod.get('id')!r}: 'parts' must be a non-empty array")
         return
+
+    file_rel = mod.get("file")
+    file_norm = file_rel.replace("\\", "/") if isinstance(file_rel, str) else None
 
     whole = bytearray()
     declared_sum = 0
@@ -82,13 +115,16 @@ def check_parts(mod: dict, errors: list[str]) -> None:
         if not isinstance(rel, str) or not rel.strip():
             errors.append(f"{label}: missing file")
             continue
+        part_norm = rel.replace("\\", "/")
+        if file_norm is not None and part_norm == file_norm:
+            errors.append(f"id={mod.get('id')!r}: parts[{index}] equals file")
         if not isinstance(declared, str) or not SHA256_HEX.match(declared.strip().lower()):
             errors.append(f"{label}: missing/invalid sha256")
             declared = None
         if not isinstance(size, int) or isinstance(size, bool) or size <= 0 or size >= LARGE_FILE_BYTES:
             errors.append(f"{label}: size must be between 1 and {LARGE_FILE_BYTES - 1} bytes")
             size = None
-        path = ROOT / rel.replace("\\", "/")
+        path = root / part_norm
         if not path.is_file():
             errors.append(f"{label}: file not found: {rel}")
             continue
@@ -262,35 +298,16 @@ def main() -> int:
             size = None
 
         origin = mod.get("originUrl")
-        if isinstance(rel, str) and rel.strip():
-            path = ROOT / rel.replace("\\", "/")
-            hosted_off_git = (
-                isinstance(origin, str)
-                and origin.strip().startswith("https://")
-                and isinstance(size, int)
-                and not isinstance(size, bool)
-                and size > LARGE_FILE_BYTES
-            )
-            if not path.is_file():
-                if not hosted_off_git:
-                    errors.append(f"id={mod.get('id')!r}: file not found: {rel}")
-            else:
-                if declared is not None:
-                    actual = sha256_of(path)
-                    if actual != declared.strip().lower():
-                        errors.append(
-                            f"id={mod.get('id')!r}: sha256 mismatch for {rel} "
-                            f"(catalog={declared.strip().lower()}, file={actual}; "
-                            f"run scripts/stamp_hashes.py)"
-                        )
-                if size is not None:
-                    actual_size = path.stat().st_size
-                    if actual_size != size:
-                        errors.append(
-                            f"id={mod.get('id')!r}: size mismatch for {rel} "
-                            f"(catalog={size}, file={actual_size}; "
-                            f"run scripts/stamp_hashes.py)"
-                        )
+        has_parts = isinstance(mod.get("parts"), list) and len(mod.get("parts")) > 0
+        hosted_off_git = (
+            not has_parts
+            and isinstance(origin, str)
+            and origin.strip().startswith("https://")
+            and isinstance(size, int)
+            and not isinstance(size, bool)
+            and size > LARGE_FILE_BYTES
+        )
+        check_whole_file(mod, errors, allow_missing=hosted_off_git)
 
         if origin is not None:
             if not isinstance(origin, str) or not origin.strip():

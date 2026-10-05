@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-05T09:30:00Z",
+    "updatedAt": "2026-10-06T00:00:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -7,11 +7,10 @@
             "author": "巴巴",
             "version": "1.2.0",
             "updatedAt": "2026-09-06",
-            "summary": "按 G 开关永久地面格线；支持正式服与测试服。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 按 G 开关永久地面格线；支持正式服与测试服。",
             "file": "mods/show-grid/ShowGrid.dll",
             "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
             "size": 8192,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-grid__ShowGrid.dll",
             "preview": "mods/show-grid/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -22,21 +21,28 @@
             "locales": {
                 "en": {
                     "name": "Ground Grid Mod",
-                    "summary": "Press G to toggle a permanent ground grid. Supports Official and Beta."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Press G to toggle a permanent ground grid. Supports Official and Beta."
                 },
                 "de": {
                     "name": "Bodengitter-Mod",
-                    "summary": "Mit G das dauerhafte Bodengitter ein- oder ausschalten. Unterstützt Offiziell und Test."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Mit G das dauerhafte Bodengitter ein- oder ausschalten. Unterstützt Offiziell und Test."
                 },
                 "ja": {
                     "name": "地面グリッド MOD",
-                    "summary": "G キーで永久地面グリッドの表示を切り替え。正式版・テスト版に対応。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 G キーで永久地面グリッドの表示を切り替え。正式版・テスト版に対応。"
                 },
                 "ru": {
                     "name": "Мод сетки поля",
-                    "summary": "Клавиша G включает или выключает постоянную сетку поля. Поддерживаются официальная и тестовая ветки."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Клавиша G включает или выключает постоянную сетку поля. Поддерживаются официальная и тестовая ветки."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/show-grid/parts/0000",
+                    "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
+                    "size": 8192
+                }
+            ]
         },
         {
             "id": "quick-item",
@@ -44,11 +50,10 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
-            "summary": "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
             "file": "mods/quick-item/QuickItem.dll",
             "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
             "size": 7680,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-item__QuickItem.dll",
             "preview": "mods/quick-item/preview.png",
             "type": "MelonMod",
             "category": "QoL",
@@ -59,21 +64,28 @@
             "locales": {
                 "en": {
                     "name": "Quick Items Mod",
-                    "summary": "Number keys 1/2/3 quickly use Shield Generator, Sentry Missile, and Missile Interceptor."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Number keys 1/2/3 quickly use Shield Generator, Sentry Missile, and Missile Interceptor."
                 },
                 "de": {
                     "name": "Schnellgegenstände-Mod",
-                    "summary": "Zifferntasten 1/2/3 nutzen schnell Schildgenerator, Wachflugkörper und Flugkörperabwehr."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Zifferntasten 1/2/3 nutzen schnell Schildgenerator, Wachflugkörper und Flugkörperabwehr."
                 },
                 "ja": {
                     "name": "クイックアイテム MOD",
-                    "summary": "数字キー 1/2/3 でシールド発生器・哨戒ミサイル・ミサイル迎撃を素早く使用。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 数字キー 1/2/3 でシールド発生器・哨戒ミサイル・ミサイル迎撃を素早く使用。"
                 },
                 "ru": {
                     "name": "Мод быстрых предметов",
-                    "summary": "Клавиши 1/2/3 быстро используют генератор щита, сторожевую ракету и перехватчик ракет."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Клавиши 1/2/3 быстро используют генератор щита, сторожевую ракету и перехватчик ракет."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/quick-item/parts/0000",
+                    "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
+                    "size": 7680
+                }
+            ]
         },
         {
             "id": "quick-camera",
@@ -81,11 +93,10 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
-            "summary": "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
             "file": "mods/quick-camera/QuickCamera.dll",
             "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
             "size": 11264,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-camera__QuickCamera.dll",
             "preview": "mods/quick-camera/preview.png",
             "type": "MelonMod",
             "category": "Camera",
@@ -96,21 +107,28 @@
             "locales": {
                 "en": {
                     "name": "Quick Camera Views Mod",
-                    "summary": "Numpad 1/2/3 switches views; Alt+Numpad 1/2/3 saves views (up to 3)."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Numpad 1/2/3 switches views; Alt+Numpad 1/2/3 saves views (up to 3)."
                 },
                 "de": {
                     "name": "Schnelle Kameraperspektiven",
-                    "summary": "Ziffernblock 1/2/3 wechselt die Ansicht; Alt+Ziffernblock 1/2/3 speichert Ansichten (höchstens 3)."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Ziffernblock 1/2/3 wechselt die Ansicht; Alt+Ziffernblock 1/2/3 speichert Ansichten (höchstens 3)."
                 },
                 "ja": {
                     "name": "クイックカメラ視点 MOD",
-                    "summary": "テンキー 1/2/3 で視点切替。Alt+テンキー 1/2/3 で視点保存（最大 3 組）。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 テンキー 1/2/3 で視点切替。Alt+テンキー 1/2/3 で視点保存（最大 3 組）。"
                 },
                 "ru": {
                     "name": "Мод быстрых ракурсов",
-                    "summary": "NumPad 1/2/3 переключает вид; Alt+NumPad 1/2/3 сохраняет ракурсы (до 3)."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. NumPad 1/2/3 переключает вид; Alt+NumPad 1/2/3 сохраняет ракурсы (до 3)."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/quick-camera/parts/0000",
+                    "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
+                    "size": 11264
+                }
+            ]
         },
         {
             "id": "undo-plus",
@@ -118,11 +136,10 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
-            "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支持正式服与测试服。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支持正式服与测试服。",
             "file": "mods/undo-plus/UndoPlus.dll",
             "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
             "size": 13824,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__undo-plus__UndoPlus.dll",
             "preview": "mods/undo-plus/preview.png",
             "type": "MelonMod",
             "category": "QoL",
@@ -133,21 +150,28 @@
             "locales": {
                 "en": {
                     "name": "Fast Undo Mod",
-                    "summary": "Hold Undo for 1 second, then undo repeatedly every 0.2 seconds. Supports Official and Beta."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Hold Undo for 1 second, then undo repeatedly every 0.2 seconds. Supports Official and Beta."
                 },
                 "de": {
                     "name": "Schnelles Rückgängig",
-                    "summary": "Rückgängig 1 Sekunde halten, danach alle 0,2 Sekunden fortlaufend rückgängig machen. Unterstützt Offiziell und Test."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Rückgängig 1 Sekunde halten, danach alle 0,2 Sekunden fortlaufend rückgängig machen. Unterstützt Offiziell und Test."
                 },
                 "ja": {
                     "name": "高速取り消し MOD",
-                    "summary": "取り消しキーを 1 秒長押し後、0.2 秒間隔で連続取り消し。正式版・テスト版に対応。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 取り消しキーを 1 秒長押し後、0.2 秒間隔で連続取り消し。正式版・テスト版に対応。"
                 },
                 "ru": {
                     "name": "Мод быстрого отката",
-                    "summary": "Удерживайте отмену 1 секунду, затем откат каждые 0,2 секунды. Поддерживаются официальная и тестовая ветки."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Удерживайте отмену 1 секунду, затем откат каждые 0,2 секунды. Поддерживаются официальная и тестовая ветки."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/undo-plus/parts/0000",
+                    "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
+                    "size": 13824
+                }
+            ]
         },
         {
             "id": "auto-speed",
@@ -155,11 +179,10 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-08-31",
-            "summary": "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
             "file": "mods/auto-speed/AutoSpeed.dll",
             "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
             "size": 14336,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__auto-speed__AutoSpeed.dll",
             "preview": "mods/auto-speed/preview.png",
             "type": "MelonMod",
             "category": "CombatAssist",
@@ -170,21 +193,28 @@
             "locales": {
                 "en": {
                     "name": "Auto Speed Battle Mod",
-                    "summary": "About 15 seconds after battle start, an AUTO button appears; when checked, it auto-votes to speed up."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. About 15 seconds after battle start, an AUTO button appears; when checked, it auto-votes to speed up."
                 },
                 "de": {
                     "name": "Auto-Kampfbeschleunigung",
-                    "summary": "Etwa 15 Sekunden nach Kampfbeginn erscheint die AUTO-Schaltfläche; bei Aktivierung wird automatisch für Tempo gestimmt."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Etwa 15 Sekunden nach Kampfbeginn erscheint die AUTO-Schaltfläche; bei Aktivierung wird automatisch für Tempo gestimmt."
                 },
                 "ja": {
                     "name": "自動加速戦闘 MOD",
-                    "summary": "開戦約 15 秒後に AUTO ボタンが表示され、チェックすると自動で加速投票します。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 開戦約 15 秒後に AUTO ボタンが表示され、チェックすると自動で加速投票します。"
                 },
                 "ru": {
                     "name": "Мод автоускорения боя",
-                    "summary": "Примерно через 15 секунд после начала боя появляется кнопка AUTO; при включении выполняется автоголосование за ускорение."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Примерно через 15 секунд после начала боя появляется кнопка AUTO; при включении выполняется автоголосование за ускорение."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/auto-speed/parts/0000",
+                    "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
+                    "size": 14336
+                }
+            ]
         },
         {
             "id": "damage-rank",
@@ -192,11 +222,10 @@
             "author": "巴巴",
             "version": "0.8.28",
             "updatedAt": "2026-09-06",
-            "summary": "显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 显示场上伤害前六与击杀数；~ 折叠面板，F8 显隐整块 UI。",
             "file": "mods/damage-rank/DamageRank.dll",
             "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
             "size": 141312,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__damage-rank__DamageRank.dll",
             "preview": "mods/damage-rank/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -227,21 +256,28 @@
             "locales": {
                 "en": {
                     "name": "Damage Ranking Mod",
-                    "summary": "Shows the top six damage dealers and kill counts. ~ collapses the panel; F8 toggles the whole UI."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Shows the top six damage dealers and kill counts. ~ collapses the panel; F8 toggles the whole UI."
                 },
                 "de": {
                     "name": "Schadensrangliste",
-                    "summary": "Zeigt die Top 6 nach Schaden sowie Kills. ~ klappt das Panel ein; F8 blendet die gesamte UI um."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Zeigt die Top 6 nach Schaden sowie Kills. ~ klappt das Panel ein; F8 blendet die gesamte UI um."
                 },
                 "ja": {
                     "name": "ダメージ順位 MOD",
-                    "summary": "場上ダメージ上位 6 とキル数を表示。~ でパネル折りたたみ、F8 で UI 全体の表示切替。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 場上ダメージ上位 6 とキル数を表示。~ でパネル折りたたみ、F8 で UI 全体の表示切替。"
                 },
                 "ru": {
                     "name": "Мод рейтинга урона",
-                    "summary": "Показывает топ-6 по урону и число убийств. ~ сворачивает панель; F8 скрывает или показывает весь UI."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Показывает топ-6 по урону и число убийств. ~ сворачивает панель; F8 скрывает или показывает весь UI."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/damage-rank/parts/0000",
+                    "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
+                    "size": 141312
+                }
+            ]
         },
         {
             "id": "sales-calculation",
@@ -249,11 +285,10 @@
             "author": "巴巴",
             "version": "1.0.0",
             "updatedAt": "2026-08-31",
-            "summary": "快速计算增援单位价值；支持繁中/简中/英/俄/德/日。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 快速计算增援单位价值；支持繁中/简中/英/俄/德/日。",
             "file": "mods/sales-calculation/SalesCalculation.dll",
             "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
             "size": 19456,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__sales-calculation__SalesCalculation.dll",
             "preview": "mods/sales-calculation/preview.png",
             "type": "MelonMod",
             "category": "Economy",
@@ -264,21 +299,28 @@
             "locales": {
                 "en": {
                     "name": "Reinforcement Value Calculator",
-                    "summary": "Quickly calculates reinforcement unit value. In-mod UI supports Traditional Chinese, Simplified Chinese, English, Russian, German, and Japanese."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Quickly calculates reinforcement unit value. In-mod UI supports Traditional Chinese, Simplified Chinese, English, Russian, German, and Japanese."
                 },
                 "de": {
                     "name": "Verstärkungswert-Rechner",
-                    "summary": "Berechnet schnell den Wert von Verstärkungseinheiten. Die Mod-UI unterstützt Traditionelles/Vereinfachtes Chinesisch, Englisch, Russisch, Deutsch und Japanisch."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Berechnet schnell den Wert von Verstärkungseinheiten. Die Mod-UI unterstützt Traditionelles/Vereinfachtes Chinesisch, Englisch, Russisch, Deutsch und Japanisch."
                 },
                 "ja": {
                     "name": "増援価値計算 MOD",
-                    "summary": "増援ユニットの価値を素早く計算。MOD 内 UI は繁体字中国語・簡体字中国語・英語・ロシア語・ドイツ語・日本語に対応。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 増援ユニットの価値を素早く計算。MOD 内 UI は繁体字中国語・簡体字中国語・英語・ロシア語・ドイツ語・日本語に対応。"
                 },
                 "ru": {
                     "name": "Калькулятор ценности подкреплений",
-                    "summary": "Быстрый расчёт ценности юнитов подкрепления. UI мода поддерживает традиционный/упрощённый китайский, английский, русский, немецкий и японский."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Быстрый расчёт ценности юнитов подкрепления. UI мода поддерживает традиционный/упрощённый китайский, английский, русский, немецкий и японский."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/sales-calculation/parts/0000",
+                    "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
+                    "size": 19456
+                }
+            ]
         },
         {
             "id": "replay-tool",
@@ -286,11 +328,10 @@
             "author": "巴巴",
             "version": "1.0.1",
             "updatedAt": "2026-09-11",
-            "summary": "回放模式下可使用试验场工具；支持正式服与测试服。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 回放模式下可使用试验场工具；支持正式服与测试服。",
             "file": "mods/replay-tool/ReplayTool.dll",
             "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
             "size": 37376,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-tool__ReplayTool.dll",
             "preview": "mods/replay-tool/preview.png",
             "type": "MelonMod",
             "category": "ReplayDebug",
@@ -301,21 +342,28 @@
             "locales": {
                 "en": {
                     "name": "Replay Lab Tools Mod",
-                    "summary": "Enables lab tools in replay mode. Supports Official and Beta."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Enables lab tools in replay mode. Supports Official and Beta."
                 },
                 "de": {
                     "name": "Replay-Testwerkzeuge",
-                    "summary": "Ermöglicht Testwerkzeuge im Replay-Modus. Unterstützt Offiziell und Test."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Ermöglicht Testwerkzeuge im Replay-Modus. Unterstützt Offiziell und Test."
                 },
                 "ja": {
                     "name": "リプレイ試験ツール MOD",
-                    "summary": "リプレイモードで試験場ツールを使用可能。正式版・テスト版に対応。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 リプレイモードで試験場ツールを使用可能。正式版・テスト版に対応。"
                 },
                 "ru": {
                     "name": "Мод инструментов повтора",
-                    "summary": "В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. В режиме повтора доступны инструменты полигона. Поддерживаются официальная и тестовая ветки."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/replay-tool/parts/0000",
+                    "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
+                    "size": 37376
+                }
+            ]
         },
         {
             "id": "quick-mark",
@@ -323,11 +371,10 @@
             "author": "巴巴",
             "version": "1.0.1",
             "updatedAt": "2026-09-29",
-            "summary": "在对局里给地面格子做标记，对局结束时清除。格子尺寸或网格轴对不上时不会乱点。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 在对局里给地面格子做标记，对局结束时清除。格子尺寸或网格轴对不上时不会乱点。",
             "file": "mods/quick-mark/QuickMark.dll",
             "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
             "size": 20480,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__quick-mark__QuickMark.dll",
             "preview": "mods/quick-mark/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -338,21 +385,28 @@
             "locales": {
                 "en": {
                     "name": "Quick Mark Mod",
-                    "summary": "Marks ground cells during a match and clears them when the match ends. It will not pick a cell when the grid size or native axes do not match."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Marks ground cells during a match and clears them when the match ends. It will not pick a cell when the grid size or native axes do not match."
                 },
                 "de": {
                     "name": "Schnellmarkierung",
-                    "summary": "Markiert Bodenzellen während eines Matches und entfernt sie am Matchende. Bei abweichender Gittergröße oder nativen Achsen wird keine Zelle gewählt."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Markiert Bodenzellen während eines Matches und entfernt sie am Matchende. Bei abweichender Gittergröße oder nativen Achsen wird keine Zelle gewählt."
                 },
                 "ja": {
                     "name": "クイックマーク MOD",
-                    "summary": "対局中に地面マスへマークし、対局終了時に消します。マス寸法やネイティブ軸が合わないときは選択しません。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 対局中に地面マスへマークし、対局終了時に消します。マス寸法やネイティブ軸が合わないときは選択しません。"
                 },
                 "ru": {
                     "name": "Мод быстрых меток",
-                    "summary": "Ставит метки на клетки поля во время матча и снимает их в конце. Если размер сетки или оси не совпадают, клетка не выбирается."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Ставит метки на клетки поля во время матча и снимает их в конце. Если размер сетки или оси не совпадают, клетка не выбирается."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/quick-mark/parts/0000",
+                    "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
+                    "size": 20480
+                }
+            ]
         },
         {
             "id": "show-dps",
@@ -360,11 +414,10 @@
             "author": "巴巴",
             "version": "1.0.2",
             "updatedAt": "2026-10-03",
-            "summary": "在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。5000 及以上的编号会先折回基础编号，异步对战里的同一单位沿用同一套弹数。百夫长打出两发时不再同时按双倍攻击计算。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。5000 及以上的编号会先折回基础编号，异步对战里的同一单位沿用同一套弹数。百夫长打出两发时不再同时按双倍攻击计算。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
             "file": "mods/show-dps/ShowDPS.dll",
             "sha256": "6f7b152760cb9abca3eec419aecb3c518dbbdb4a3b43ddd1aadf8881b3bdb8b0",
             "size": 27648,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__show-dps__ShowDPS.dll",
             "preview": "mods/show-dps/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -375,21 +428,28 @@
             "locales": {
                 "en": {
                     "name": "Unit DPS Display",
-                    "summary": "Adds DPS to unit damage text. Multi-shot counts follow unit IDs, so they do not depend on the displayed name. IDs at 5000 and above are folded back to the base unit first, so the same unit in async battle uses the same shot count. Centurion's two-shot mode is no longer also counted as a double attack. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Adds DPS to unit damage text. Multi-shot counts follow unit IDs, so they do not depend on the displayed name. IDs at 5000 and above are folded back to the base unit first, so the same unit in async battle uses the same shot count. Centurion's two-shot mode is no longer also counted as a double attack. Covers Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell, and Experimental Death Knell. This build targets Official."
                 },
                 "de": {
                     "name": "Einheiten-DPS-Anzeige",
-                    "summary": "Ergänzt den Schadenswert um DPS. Mehrfachschüsse folgen Einheiten-IDs und hängen nicht vom angezeigten Namen ab. IDs ab 5000 werden zuerst auf die Grundeinheit zurückgeführt, damit dieselbe Einheit im asynchronen Kampf dieselbe Schusszahl nutzt. Der Zwei-Schuss-Modus des Centurion wird nicht mehr zusätzlich als Doppelangriff gezählt. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Ergänzt den Schadenswert um DPS. Mehrfachschüsse folgen Einheiten-IDs und hängen nicht vom angezeigten Namen ab. IDs ab 5000 werden zuerst auf die Grundeinheit zurückgeführt, damit dieselbe Einheit im asynchronen Kampf dieselbe Schusszahl nutzt. Der Zwei-Schuss-Modus des Centurion wird nicht mehr zusätzlich als Doppelangriff gezählt. Abgedeckt sind Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell und Experimental Death Knell. Dieser Build zielt auf Offiziell."
                 },
                 "ja": {
                     "name": "ユニットDPS表示 MOD",
-                    "summary": "ユニットのダメージ表示に DPS を足します。多発射数はユニット ID で決まり、表示名には依存しません。5000 以上の ID は先に基礎ユニットへ折り戻すので、非同期戦の同じユニットも同じ弾数です。Centurion の2発モードは、同時に二倍攻撃として数えません。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 ユニットのダメージ表示に DPS を足します。多発射数はユニット ID で決まり、表示名には依存しません。5000 以上の ID は先に基礎ユニットへ折り戻すので、非同期戦の同じユニットも同じ弾数です。Centurion の2発モードは、同時に二倍攻撃として数えません。対象は Rainstorm、Wraith、Overlord、Taishan、Farseer、War Factory、Centurion、Steel Ball、Melting Point、Death Knell、Experimental Death Knell。このビルドは正式版向けです。"
                 },
                 "ru": {
                     "name": "Показ DPS юнитов",
-                    "summary": "Добавляет DPS к тексту урона юнита. Число снарядов берётся по ID юнита и не зависит от отображаемого имени. ID от 5000 сначала сводятся к базовому юниту, поэтому тот же юнит в асинхронном бою использует то же число снарядов. Режим двух выстрелов Центуриона больше не считается ещё и двойной атакой. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Добавляет DPS к тексту урона юнита. Число снарядов берётся по ID юнита и не зависит от отображаемого имени. ID от 5000 сначала сводятся к базовому юниту, поэтому тот же юнит в асинхронном бою использует то же число снарядов. Режим двух выстрелов Центуриона больше не считается ещё и двойной атакой. Охватывает Rainstorm, Wraith, Overlord, Taishan, Farseer, War Factory, Centurion, Steel Ball, Melting Point, Death Knell и Experimental Death Knell. Эта сборка для официальной ветки."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/show-dps/parts/0000",
+                    "sha256": "6f7b152760cb9abca3eec419aecb3c518dbbdb4a3b43ddd1aadf8881b3bdb8b0",
+                    "size": 27648
+                }
+            ]
         },
         {
             "id": "missile-direction",
@@ -397,11 +457,10 @@
             "author": "巴巴",
             "version": "1.0.7",
             "updatedAt": "2026-10-05",
-            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.7 会区分单位归属，方向指向敌方目标。固定射程只用来限制建筑，超出这个射程的单位也会成为方向目标，并判断飞弹能否打到建筑。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.7 会区分单位归属，方向指向敌方目标。固定射程只用来限制建筑，超出这个射程的单位也会成为方向目标，并判断飞弹能否打到建筑。",
             "file": "mods/missile-direction/MissileDirection.dll",
             "sha256": "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
             "size": 14848,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__missile-direction__MissileDirection.dll",
             "preview": "mods/missile-direction/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -412,21 +471,28 @@
             "locales": {
                 "en": {
                     "name": "Missile Direction Mod",
-                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.7 tells friendly and enemy units apart, so the guide points at an enemy. The fixed range still limits structures only, so a unit beyond that range can still be the direction target, and the mod still checks whether the missile can hit structures."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. While deploying a sentry missile, shows a direction guide toward the target. 1.0.7 tells friendly and enemy units apart, so the guide points at an enemy. The fixed range still limits structures only, so a unit beyond that range can still be the direction target, and the mod still checks whether the missile can hit structures."
                 },
                 "de": {
                     "name": "Flugkörperrichtung",
-                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.7 unterscheidet eigene und feindliche Einheiten, daher zeigt die Richtung auf einen Gegner. Die feste Reichweite begrenzt weiterhin nur Gebäude, daher kann eine Einheit außerhalb dieser Reichweite trotzdem das Richtungsziel sein. Die Prüfung, ob die Rakete Gebäude treffen kann, bleibt."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.7 unterscheidet eigene und feindliche Einheiten, daher zeigt die Richtung auf einen Gegner. Die feste Reichweite begrenzt weiterhin nur Gebäude, daher kann eine Einheit außerhalb dieser Reichweite trotzdem das Richtungsziel sein. Die Prüfung, ob die Rakete Gebäude treffen kann, bleibt."
                 },
                 "ja": {
                     "name": "ミサイル方向 MOD",
-                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.7 はユニットの所属を区別し、方向は敵を指します。固定射程の制限は建物だけなので、射程を超えたユニットも方向の目標になります。建物に当たるかどうかの判定はそのままです。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.7 はユニットの所属を区別し、方向は敵を指します。固定射程の制限は建物だけなので、射程を超えたユニットも方向の目標になります。建物に当たるかどうかの判定はそのままです。"
                 },
                 "ru": {
                     "name": "Направление ракеты",
-                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.7 отличает своих юнитов от вражеских, поэтому направление указывает на противника. Фиксированная дальность по-прежнему ограничивает только постройки, поэтому юнит за её пределами тоже может быть целью направления. Проверка, может ли ракета попасть по постройкам, сохраняется."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. При пуске сторожевой ракеты показывает направление к цели. 1.0.7 отличает своих юнитов от вражеских, поэтому направление указывает на противника. Фиксированная дальность по-прежнему ограничивает только постройки, поэтому юнит за её пределами тоже может быть целью направления. Проверка, может ли ракета попасть по постройкам, сохраняется."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/missile-direction/parts/0000",
+                    "sha256": "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
+                    "size": 14848
+                }
+            ]
         },
         {
             "id": "friend-overlay",
@@ -434,11 +500,10 @@
             "author": "llxmod",
             "version": "0.3.46",
             "updatedAt": "2026-10-04",
-            "summary": "好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.46：退出时不再强行结束游戏进程。请先更新管理器到 1.3.11，并完全退出一次 Steam 后再打开，Steam 自带的游戏内覆盖层会关掉，退出游戏后停止按钮才能回到开始游戏。离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.46：退出时不再强行结束游戏进程。请先更新管理器到 1.3.11，并完全退出一次 Steam 后再打开，Steam 自带的游戏内覆盖层会关掉，退出游戏后停止按钮才能回到开始游戏。离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
             "sha256": "485dd97c7423f63fa29940e4a70a19e84f35a384952e960d80ef946518a417de",
             "size": 8544256,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__friend-overlay__FriendOverlay.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -450,21 +515,28 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.46 no longer force-ends the game process on quit. Update the manager to 1.3.11 and fully quit Steam once so the Steam in-game overlay turns off; the library Stop button can then return to Play. Offline is no longer State 16, and async 1v1/2v2 scores are shown."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.46 no longer force-ends the game process on quit. Update the manager to 1.3.11 and fully quit Steam once so the Steam in-game overlay turns off; the library Stop button can then return to Play. Offline is no longer State 16, and async 1v1/2v2 scores are shown."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.46 beendet den Prozess beim Verlassen nicht mehr zwangsweise. Zuerst den Manager auf 1.3.11 aktualisieren und Steam einmal vollständig beenden, damit das Steam-Overlay aus geht und die Stop-Schaltfläche danach wieder zu Spielen wird. Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.46 beendet den Prozess beim Verlassen nicht mehr zwangsweise. Zuerst den Manager auf 1.3.11 aktualisieren und Steam einmal vollständig beenden, damit das Steam-Overlay aus geht und die Stop-Schaltfläche danach wieder zu Spielen wird. Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.46 は終了時にプロセスを強制終了しません。管理器を 1.3.11 に更新し、Steam を一度完全に終了してから開き直すと、Steam のゲーム内オーバーレイが切れ、終了後に停止ボタンがプレイに戻ります。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.46 は終了時にプロセスを強制終了しません。管理器を 1.3.11 に更新し、Steam を一度完全に終了してから開き直すと、Steam のゲーム内オーバーレイが切れ、終了後に停止ボタンがプレイに戻ります。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.46 больше не завершает процесс принудительно при выходе. Сначала обновите менеджер до 1.3.11 и один раз полностью закройте Steam: встроенный оверлей Steam выключится, и после выхода кнопка «Стоп» снова станет «Играть». Офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.46 больше не завершает процесс принудительно при выходе. Сначала обновите менеджер до 1.3.11 и один раз полностью закройте Steam: встроенный оверлей Steam выключится, и после выхода кнопка «Стоп» снова станет «Играть». Офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/friend-overlay/parts/0000",
+                    "sha256": "485dd97c7423f63fa29940e4a70a19e84f35a384952e960d80ef946518a417de",
+                    "size": 8544256
+                }
+            ]
         },
         {
             "id": "battle-suite",
@@ -472,11 +544,10 @@
             "author": "老匪_GODOG",
             "version": "1.0.0",
             "updatedAt": "2026-09-27",
-            "summary": "标准 1v1 实况界面。底部显示双方专精、装备与技能，并对比普通单位的部署价值（补给、装备与已激活科技）和生命上限：部署时重算，战斗中刷新，本场结束后保留到下一部署。两侧按当前伤害取前 6，显示伤害与击杀。F6 切换预测条，F8 切换本回合/累计伤害。底栏皮肤可放到 Mods/BattleSuite 覆盖内嵌图，模组不会改写图片。Live 界面与经济数据仅含 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305。正式服 2.0.0.0.2320 未登记。2.0.0.0.2314 只有未完成的远征档案，不含这套界面资源和经济数据。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 标准 1v1 实况界面。底部显示双方专精、装备与技能，并对比普通单位的部署价值（补给、装备与已激活科技）和生命上限：部署时重算，战斗中刷新，本场结束后保留到下一部署。两侧按当前伤害取前 6，显示伤害与击杀。F6 切换预测条，F8 切换本回合/累计伤害。底栏皮肤可放到 Mods/BattleSuite 覆盖内嵌图，模组不会改写图片。Live 界面与经济数据仅含 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305。正式服 2.0.0.0.2320 未登记。2.0.0.0.2314 只有未完成的远征档案，不含这套界面资源和经济数据。",
             "file": "mods/battle-suite/Mechabellum.RoundHistory.dll",
             "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
             "size": 5337088,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__battle-suite__Mechabellum.RoundHistory.dll",
             "preview": "mods/battle-suite/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
@@ -508,21 +579,28 @@
             "locales": {
                 "en": {
                     "name": "BattleSuite Standard Match HUD",
-                    "summary": "Live HUD for standard 1v1. Shows both sides' specialists, equipment, and skills, plus deployment value (supply, equipment, active tech) and max health of ordinary units: recomputed on deployment, live in combat, held until the next deployment. Each side lists the top 6 by current damage, with kills. F6 toggles the prediction bar; F8 toggles turn versus total damage. A bottom-bar skin in Mods/BattleSuite overrides the embedded art; the mod never writes those images. Live UI and economy data cover only 1.11.1.3.2259, 2.0.0.0.2289, and 2.0.0.0.2305. Official 2.0.0.0.2320 is not registered. 2.0.0.0.2314 has only an unfinished expedition profile, without this UI pack or economy data."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Live HUD for standard 1v1. Shows both sides' specialists, equipment, and skills, plus deployment value (supply, equipment, active tech) and max health of ordinary units: recomputed on deployment, live in combat, held until the next deployment. Each side lists the top 6 by current damage, with kills. F6 toggles the prediction bar; F8 toggles turn versus total damage. A bottom-bar skin in Mods/BattleSuite overrides the embedded art; the mod never writes those images. Live UI and economy data cover only 1.11.1.3.2259, 2.0.0.0.2289, and 2.0.0.0.2305. Official 2.0.0.0.2320 is not registered. 2.0.0.0.2314 has only an unfinished expedition profile, without this UI pack or economy data."
                 },
                 "de": {
                     "name": "BattleSuite Standard-Kampfoberfläche",
-                    "summary": "Live-Oberfläche für Standard-1v1. Zeigt Spezialisten, Ausrüstung und Fähigkeiten beider Seiten sowie Einsatzwert (Versorgung, Ausrüstung, aktive Technik) und maximale Trefferpunkte gewöhnlicher Einheiten: neu beim Einsatz, live im Kampf, gehalten bis zum nächsten Einsatz. Jede Seite zeigt die Top 6 nach aktuellem Schaden samt Kills. F6 schaltet die Vorhersageleiste, F8 Rundenschaden gegen Gesamtschaden. Ein Bild unter Mods/BattleSuite ersetzt die eingebaute Bodenleiste; der Mod schreibt diese Bilder nicht. Live-UI und Wirtschaftsdaten nur für 1.11.1.3.2259, 2.0.0.0.2289 und 2.0.0.0.2305. Official 2.0.0.0.2320 ist nicht registriert. 2.0.0.0.2314 hat nur ein unfertiges Expeditionsprofil, ohne dieses UI-Paket und ohne Wirtschaftsdaten."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Live-Oberfläche für Standard-1v1. Zeigt Spezialisten, Ausrüstung und Fähigkeiten beider Seiten sowie Einsatzwert (Versorgung, Ausrüstung, aktive Technik) und maximale Trefferpunkte gewöhnlicher Einheiten: neu beim Einsatz, live im Kampf, gehalten bis zum nächsten Einsatz. Jede Seite zeigt die Top 6 nach aktuellem Schaden samt Kills. F6 schaltet die Vorhersageleiste, F8 Rundenschaden gegen Gesamtschaden. Ein Bild unter Mods/BattleSuite ersetzt die eingebaute Bodenleiste; der Mod schreibt diese Bilder nicht. Live-UI und Wirtschaftsdaten nur für 1.11.1.3.2259, 2.0.0.0.2289 und 2.0.0.0.2305. Official 2.0.0.0.2320 ist nicht registriert. 2.0.0.0.2314 hat nur ein unfertiges Expeditionsprofil, ohne dieses UI-Paket und ohne Wirtschaftsdaten."
                 },
                 "ja": {
                     "name": "BattleSuite 標準対戦HUD",
-                    "summary": "標準1v1の実況HUD。双方のスペシャリスト・装備・スキルに加え、通常ユニットの配置価値（補給・装備・有効な科技）と最大HPを表示。配置時に再計算し、戦闘中は更新、戦闘後は次の配置まで保持。各方は現在ダメージ上位6件とキルを表示。F6で予測バー、F8で今ターン／累計ダメージを切替。Mods/BattleSuite に画像を置くと底バーを上書きでき、MODは画像を書き込みません。Live画面と経済データは 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305 のみ。正式版 2.0.0.0.2320 は未登録。2.0.0.0.2314 は未完成の遠征プロファイルのみで、このUI資源と経済データはありません。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 標準1v1の実況HUD。双方のスペシャリスト・装備・スキルに加え、通常ユニットの配置価値（補給・装備・有効な科技）と最大HPを表示。配置時に再計算し、戦闘中は更新、戦闘後は次の配置まで保持。各方は現在ダメージ上位6件とキルを表示。F6で予測バー、F8で今ターン／累計ダメージを切替。Mods/BattleSuite に画像を置くと底バーを上書きでき、MODは画像を書き込みません。Live画面と経済データは 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305 のみ。正式版 2.0.0.0.2320 は未登録。2.0.0.0.2314 は未完成の遠征プロファイルのみで、このUI資源と経済データはありません。"
                 },
                 "ru": {
                     "name": "BattleSuite интерфейс стандартного матча",
-                    "summary": "Живой интерфейс стандартного 1v1. Показывает специалистов, снаряжение и навыки обеих сторон, а также ценность расстановки (снабжение, снаряжение, активные технологии) и максимальное здоровье обычных юнитов: пересчёт при расстановке, обновление в бою, сохранение до следующей расстановки. С каждой стороны топ-6 по текущему урону и убийства. F6 переключает полосу прогноза, F8 — урон хода и общий. Картинка в Mods/BattleSuite заменяет встроенную нижнюю панель; мод эти файлы не записывает. Live-интерфейс и данные экономики только для 1.11.1.3.2259, 2.0.0.0.2289 и 2.0.0.0.2305. Официальная 2.0.0.0.2320 не зарегистрирована. У 2.0.0.0.2314 есть лишь незавершённый профиль экспедиции, без этого пакета интерфейса и данных экономики."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Живой интерфейс стандартного 1v1. Показывает специалистов, снаряжение и навыки обеих сторон, а также ценность расстановки (снабжение, снаряжение, активные технологии) и максимальное здоровье обычных юнитов: пересчёт при расстановке, обновление в бою, сохранение до следующей расстановки. С каждой стороны топ-6 по текущему урону и убийства. F6 переключает полосу прогноза, F8 — урон хода и общий. Картинка в Mods/BattleSuite заменяет встроенную нижнюю панель; мод эти файлы не записывает. Live-интерфейс и данные экономики только для 1.11.1.3.2259, 2.0.0.0.2289 и 2.0.0.0.2305. Официальная 2.0.0.0.2320 не зарегистрирована. У 2.0.0.0.2314 есть лишь незавершённый профиль экспедиции, без этого пакета интерфейса и данных экономики."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/battle-suite/parts/0000",
+                    "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
+                    "size": 5337088
+                }
+            ]
         },
         {
             "id": "replay-reset",
@@ -530,11 +608,10 @@
             "author": "llxmod",
             "version": "0.2.7",
             "updatedAt": "2026-10-06",
-            "summary": "重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并可按 1v1、2v2、4人乱斗筛选。勾选后批量删除、移动或置顶，播放走单独的查看按钮。条目显示对局、版本、模式与地图。版本对不上的回放按官方文案显示过期标记。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。0.2.7：搜索和改名可以输入中文；改名框带上当前标题，不改则不另存别名；即将开战时回放面板让开，关闭按钮仍可点。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并可按 1v1、2v2、4人乱斗筛选。勾选后批量删除、移动或置顶，播放走单独的查看按钮。条目显示对局、版本、模式与地图。版本对不上的回放按官方文案显示过期标记。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。0.2.7：搜索和改名可以输入中文；改名框带上当前标题，不改则不另存别名；即将开战时回放面板让开，关闭按钮仍可点。",
             "file": "mods/replay-reset/ReplayReset.dll",
             "sha256": "3678c6e0c32d4e5c7500b4be09f516eaa65ea6165fa65fd193c3cbb01fe8e9d1",
             "size": 92672,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__replay-reset__ReplayReset.dll",
             "type": "MelonMod",
             "category": "ReplayDebug",
             "tags": [
@@ -544,21 +621,28 @@
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
-                    "summary": "Rebuilds the replay list with custom archives, in-game rename, search, pins, sorting, date groups, and filters for 1v1, 2v2, and 4-player FFA. Selected rows can be deleted, moved, or pinned together, and playback uses a Watch button. Each row shows the matchup, version, mode, and map. Replays the game marks out of date show the official Expired label. The UI follows the game language (Simplified Chinese, English, German, Japanese, Russian). Expiry cleanup stays on the official rules. 0.2.7: search and rename accept Chinese input; rename starts from the current title and does not store an alias when that title is unchanged; when a match is about to start, the replay panel steps aside and the close button stays clickable."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Rebuilds the replay list with custom archives, in-game rename, search, pins, sorting, date groups, and filters for 1v1, 2v2, and 4-player FFA. Selected rows can be deleted, moved, or pinned together, and playback uses a Watch button. Each row shows the matchup, version, mode, and map. Replays the game marks out of date show the official Expired label. The UI follows the game language (Simplified Chinese, English, German, Japanese, Russian). Expiry cleanup stays on the official rules. 0.2.7: search and rename accept Chinese input; rename starts from the current title and does not store an alias when that title is unchanged; when a match is about to start, the replay panel steps aside and the close button stays clickable."
                 },
                 "de": {
                     "name": "Replay-Funktionen zurücksetzen",
-                    "summary": "Baut die Replay-Liste neu: eigene Archive, Umbenennen im Spiel, Suche, Anpinnen, Sortierung, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam löschen, verschieben oder anpinnen; die Wiedergabe startet über eine eigene Ansehen-Schaltfläche. Jede Zeile zeigt Paarung, Version, Modus und Karte. Als abgelaufen markierte Replays zeigen die offizielle Kennzeichnung Abgelaufen. Die Oberfläche folgt der Spielsprache (vereinfachtes Chinesisch, Englisch, Deutsch, Japanisch, Russisch). Abgelaufene Replays räumt weiterhin das Spiel selbst auf. 0.2.7: Suche und Umbenennen nehmen chinesische Eingabe an; das Feld startet mit dem aktuellen Titel und speichert keinen Aliasnamen, wenn der Titel unverändert bleibt; kurz vor Spielbeginn tritt die Replay-Liste zurück, der Schließen-Knopf bleibt anklickbar."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Baut die Replay-Liste neu: eigene Archive, Umbenennen im Spiel, Suche, Anpinnen, Sortierung, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam löschen, verschieben oder anpinnen; die Wiedergabe startet über eine eigene Ansehen-Schaltfläche. Jede Zeile zeigt Paarung, Version, Modus und Karte. Als abgelaufen markierte Replays zeigen die offizielle Kennzeichnung Abgelaufen. Die Oberfläche folgt der Spielsprache (vereinfachtes Chinesisch, Englisch, Deutsch, Japanisch, Russisch). Abgelaufene Replays räumt weiterhin das Spiel selbst auf. 0.2.7: Suche und Umbenennen nehmen chinesische Eingabe an; das Feld startet mit dem aktuellen Titel und speichert keinen Aliasnamen, wenn der Titel unverändert bleibt; kurz vor Spielbeginn tritt die Replay-Liste zurück, der Schließen-Knopf bleibt anklickbar."
                 },
                 "ja": {
                     "name": "リプレイ機能リセット",
-                    "summary": "リプレイ一覧を作り直す。自分の分類、対戦中の改名、検索、ピン留め、並べ替え、日付グループに加え、1v1・2v2・4人乱戦で絞り込める。チェックした項目はまとめて削除・移動・ピン留めでき、再生は視聴ボタンから行う。各行には対戦、バージョン、モード、マップを表示する。バージョン不一致のリプレイには公式の「旧バージョン」表示を出す。画面はゲームの言語に従う（簡体字中国語・英語・ドイツ語・日本語・ロシア語）。期限切れの削除は公式のまま。0.2.7 は検索と改名で中国語を入力できる。改名欄には今の題名が入り、変えなければ別名は保存しない。試合開始直前はリプレイ画面が退き、閉じるボタンは押せる。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 リプレイ一覧を作り直す。自分の分類、対戦中の改名、検索、ピン留め、並べ替え、日付グループに加え、1v1・2v2・4人乱戦で絞り込める。チェックした項目はまとめて削除・移動・ピン留めでき、再生は視聴ボタンから行う。各行には対戦、バージョン、モード、マップを表示する。バージョン不一致のリプレイには公式の「旧バージョン」表示を出す。画面はゲームの言語に従う（簡体字中国語・英語・ドイツ語・日本語・ロシア語）。期限切れの削除は公式のまま。0.2.7 は検索と改名で中国語を入力できる。改名欄には今の題名が入り、変えなければ別名は保存しない。試合開始直前はリプレイ画面が退き、閉じるボタンは押せる。"
                 },
                 "ru": {
                     "name": "Сброс функций повтора",
-                    "summary": "Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра. 0.2.7: поиск и переименование принимают китайский ввод; поле начинается с текущего названия и не сохраняет псевдоним, если название не меняли; перед началом матча список повторов уступает место, а кнопка закрытия остаётся нажимаемой."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра. 0.2.7: поиск и переименование принимают китайский ввод; поле начинается с текущего названия и не сохраняет псевдоним, если название не меняли; перед началом матча список повторов уступает место, а кнопка закрытия остаётся нажимаемой."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/replay-reset/parts/0000",
+                    "sha256": "3678c6e0c32d4e5c7500b4be09f516eaa65ea6165fa65fd193c3cbb01fe8e9d1",
+                    "size": 92672
+                }
+            ]
         },
         {
             "id": "team-beacon",
@@ -566,11 +650,10 @@
             "author": "wander",
             "version": "1.2.0-ml",
             "updatedAt": "2026-09-26",
-            "summary": "【测试】尚未完成正式验收。请在 2v2 实战里确认信标能否送到队友；异常时先卸载本 Mod。2v2 队友信标：双方都安装，并且处在同一场有队友的 2v2 时才生效。按 F5 打开信标模式（右上角状态条变绿），点击战场格子，输入最多 8 个字，点「确认建立」。我方显示绿点和文字，并经游戏聊天发给队友；队友端显示蓝点和同一段文字。再点我方信标可改字或删除，删除会同步到队友；点队友信标只能在本端删除。再按 F5 或点右上角按钮关闭模式。对局结束自动清空。发送前请展开游戏聊天窗口，否则会提示失败，不会悄悄丢掉。中文输入法组词时按回车不会误发。每局最多 60 个信标。热键固定为 F5。本 Mod 不修改游戏文件，不伪造网络包；用管理器卸载即还原。没装本 Mod 的队友只会在聊天里看到明文「【信标】坐标|文字」，对局不受影响。MelonLoader 用管理器安装即可，不必再运行作者自带的安装器。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 【测试】尚未完成正式验收。请在 2v2 实战里确认信标能否送到队友；异常时先卸载本 Mod。2v2 队友信标：双方都安装，并且处在同一场有队友的 2v2 时才生效。按 F5 打开信标模式（右上角状态条变绿），点击战场格子，输入最多 8 个字，点「确认建立」。我方显示绿点和文字，并经游戏聊天发给队友；队友端显示蓝点和同一段文字。再点我方信标可改字或删除，删除会同步到队友；点队友信标只能在本端删除。再按 F5 或点右上角按钮关闭模式。对局结束自动清空。发送前请展开游戏聊天窗口，否则会提示失败，不会悄悄丢掉。中文输入法组词时按回车不会误发。每局最多 60 个信标。热键固定为 F5。本 Mod 不修改游戏文件，不伪造网络包；用管理器卸载即还原。没装本 Mod 的队友只会在聊天里看到明文「【信标】坐标|文字」，对局不受影响。MelonLoader 用管理器安装即可，不必再运行作者自带的安装器。",
             "file": "mods/team-beacon/TeamBeaconMod.dll",
             "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
             "size": 68096,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__team-beacon__TeamBeaconMod.dll",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -581,21 +664,28 @@
             "locales": {
                 "en": {
                     "name": "[Test] 2v2 Beacon",
-                    "summary": "[Test] Not formally accepted yet. Confirm in a real 2v2 that beacons reach your teammate, and uninstall this mod if something goes wrong. Teammate beacons for 2v2: both players must install it, and it runs only in a 2v2 where you have a teammate. Press F5 to enter beacon mode (the status bar at the top right turns green), click a grid cell, type up to 8 characters, then choose Confirm. Your side shows a green dot and the text, and sends it through the game chat; your teammate sees a blue dot and the same text. Click your own beacon to edit or delete it; a delete is synced to your teammate. Clicking a teammate beacon only removes it on your screen. Press F5 again, or the button at the top right, to leave beacon mode. All beacons clear when the match ends. Keep the in-game chat window open, or sending fails with a message instead of disappearing. Pressing Enter while composing with an IME does not send a beacon. At most 60 beacons per match. The hotkey is fixed at F5. This mod does not change game files and does not forge network packets; uninstalling it from the manager restores the previous state. A teammate without the mod only sees plain chat text such as the beacon coordinate line, and the match is otherwise unaffected. Install MelonLoader from the manager; do not run the author's standalone installer."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. [Test] Not formally accepted yet. Confirm in a real 2v2 that beacons reach your teammate, and uninstall this mod if something goes wrong. Teammate beacons for 2v2: both players must install it, and it runs only in a 2v2 where you have a teammate. Press F5 to enter beacon mode (the status bar at the top right turns green), click a grid cell, type up to 8 characters, then choose Confirm. Your side shows a green dot and the text, and sends it through the game chat; your teammate sees a blue dot and the same text. Click your own beacon to edit or delete it; a delete is synced to your teammate. Clicking a teammate beacon only removes it on your screen. Press F5 again, or the button at the top right, to leave beacon mode. All beacons clear when the match ends. Keep the in-game chat window open, or sending fails with a message instead of disappearing. Pressing Enter while composing with an IME does not send a beacon. At most 60 beacons per match. The hotkey is fixed at F5. This mod does not change game files and does not forge network packets; uninstalling it from the manager restores the previous state. A teammate without the mod only sees plain chat text such as the beacon coordinate line, and the match is otherwise unaffected. Install MelonLoader from the manager; do not run the author's standalone installer."
                 },
                 "de": {
                     "name": "[Test] 2v2-Bake",
-                    "summary": "[Test] Noch nicht förmlich freigegeben. Prüfe in einem echten 2v2, ob die Bake den Teampartner erreicht, und deinstalliere den Mod bei Problemen. Teambaken für 2v2: beide müssen ihn installieren, und er gilt nur in einem 2v2 mit Teampartner. F5 öffnet den Bakenmodus (die Statusleiste oben rechts wird grün). Klicke ein Feld an, gib höchstens 8 Zeichen ein und wähle Bestätigen. Die eigene Seite zeigt einen grünen Punkt und den Text und sendet ihn über den Spielchat; der Partner sieht einen blauen Punkt und denselben Text. Ein Klick auf die eigene Bake ändert oder löscht sie, und das Löschen wird synchronisiert. Ein Klick auf die Bake des Partners entfernt sie nur lokal. F5 oder die Schaltfläche oben rechts beendet den Modus. Am Matchende werden alle Baken gelöscht. Das Chatfenster muss geöffnet bleiben, sonst schlägt das Senden mit einem Hinweis fehl. Enter während einer IME-Eingabe sendet keine Bake. Höchstens 60 Baken pro Match. Die Taste ist fest F5. Der Mod ändert keine Spieldateien und fälscht keine Netzwerkpakete; die Deinstallation im Manager stellt den vorherigen Zustand wieder her. Ein Partner ohne den Mod sieht nur Klartext im Chat, das Match selbst bleibt unberührt. MelonLoader über den Manager installieren, nicht über das eigene Installationsprogramm des Autors."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. [Test] Noch nicht förmlich freigegeben. Prüfe in einem echten 2v2, ob die Bake den Teampartner erreicht, und deinstalliere den Mod bei Problemen. Teambaken für 2v2: beide müssen ihn installieren, und er gilt nur in einem 2v2 mit Teampartner. F5 öffnet den Bakenmodus (die Statusleiste oben rechts wird grün). Klicke ein Feld an, gib höchstens 8 Zeichen ein und wähle Bestätigen. Die eigene Seite zeigt einen grünen Punkt und den Text und sendet ihn über den Spielchat; der Partner sieht einen blauen Punkt und denselben Text. Ein Klick auf die eigene Bake ändert oder löscht sie, und das Löschen wird synchronisiert. Ein Klick auf die Bake des Partners entfernt sie nur lokal. F5 oder die Schaltfläche oben rechts beendet den Modus. Am Matchende werden alle Baken gelöscht. Das Chatfenster muss geöffnet bleiben, sonst schlägt das Senden mit einem Hinweis fehl. Enter während einer IME-Eingabe sendet keine Bake. Höchstens 60 Baken pro Match. Die Taste ist fest F5. Der Mod ändert keine Spieldateien und fälscht keine Netzwerkpakete; die Deinstallation im Manager stellt den vorherigen Zustand wieder her. Ein Partner ohne den Mod sieht nur Klartext im Chat, das Match selbst bleibt unberührt. MelonLoader über den Manager installieren, nicht über das eigene Installationsprogramm des Autors."
                 },
                 "ja": {
                     "name": "【テスト】2v2ビーコン",
-                    "summary": "【テスト】正式採用前です。2v2の実戦でビーコンが味方に届くか確認し、異常があればこのMODを外してください。2v2の味方ビーコンです。双方が導入し、味方がいる同一の2v2でのみ有効です。F5でビーコンモード（右上の状態バーが緑）を開き、マスをクリックし、8文字以内を入力して「確認建立」を押します。自分側は緑の点と文字を表示し、ゲーム内チャット経由で味方へ送ります。味方側は青の点と同じ文字を表示します。自分のビーコンを再度クリックすると文字の変更か削除ができ、削除は味方へ同期されます。味方のビーコンは自分の画面だけで消せます。もう一度F5、または右上のボタンでモードを閉じます。対局終了で全部消えます。送信前にゲームのチャット窓を開いたままにしてください。閉じていると失敗を表示し、黙って消えません。日本語入力の変換中のEnterでは送信しません。1局あたり最大60個。ホットキーはF5固定です。ゲームファイルは変更せず、通信パケットも偽装しません。マネージャーからアンインストールすれば元に戻ります。未導入の味方にはチャットへ平文（座標と文字）が見えるだけで、対局自体には影響しません。MelonLoaderはマネージャーから入れてください。作者付属のインストーラーは不要です。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 【テスト】正式採用前です。2v2の実戦でビーコンが味方に届くか確認し、異常があればこのMODを外してください。2v2の味方ビーコンです。双方が導入し、味方がいる同一の2v2でのみ有効です。F5でビーコンモード（右上の状態バーが緑）を開き、マスをクリックし、8文字以内を入力して「確認建立」を押します。自分側は緑の点と文字を表示し、ゲーム内チャット経由で味方へ送ります。味方側は青の点と同じ文字を表示します。自分のビーコンを再度クリックすると文字の変更か削除ができ、削除は味方へ同期されます。味方のビーコンは自分の画面だけで消せます。もう一度F5、または右上のボタンでモードを閉じます。対局終了で全部消えます。送信前にゲームのチャット窓を開いたままにしてください。閉じていると失敗を表示し、黙って消えません。日本語入力の変換中のEnterでは送信しません。1局あたり最大60個。ホットキーはF5固定です。ゲームファイルは変更せず、通信パケットも偽装しません。マネージャーからアンインストールすれば元に戻ります。未導入の味方にはチャットへ平文（座標と文字）が見えるだけで、対局自体には影響しません。MelonLoaderはマネージャーから入れてください。作者付属のインストーラーは不要です。"
                 },
                 "ru": {
                     "name": "[Тест] Маяк 2v2",
-                    "summary": "[Тест] Ещё не принят официально. Проверьте в настоящем 2v2, что маяк доходит до союзника, и удалите мод, если что-то идёт не так. Маяки для союзника в 2v2: мод нужен обоим и работает только в 2v2, где союзник есть. F5 включает режим маяка (полоса справа сверху становится зелёной). Щёлкните клетку, введите не больше 8 символов и подтвердите. У вас точка зелёная и с текстом, сообщение уходит через игровой чат; у союзника точка синяя и с тем же текстом. Свой маяк можно изменить или удалить, удаление синхронизируется. Чужой маяк снимается только у вас. F5 или кнопка справа сверху выключает режим. В конце матча маяки исчезают. Окно чата должно быть открыто, иначе отправка завершится сообщением об ошибке, а не тихим пропуском. Enter во время набора через IME маяк не отправляет. Не больше 60 маяков за матч. Клавиша только F5. Мод не меняет файлы игры и не подделывает сетевые пакеты; удаление через менеджер возвращает прежнее состояние. Союзник без мода видит в чате только обычный текст с координатами, на матч это не влияет. MelonLoader ставьте из менеджера, отдельный установщик автора не нужен."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. [Тест] Ещё не принят официально. Проверьте в настоящем 2v2, что маяк доходит до союзника, и удалите мод, если что-то идёт не так. Маяки для союзника в 2v2: мод нужен обоим и работает только в 2v2, где союзник есть. F5 включает режим маяка (полоса справа сверху становится зелёной). Щёлкните клетку, введите не больше 8 символов и подтвердите. У вас точка зелёная и с текстом, сообщение уходит через игровой чат; у союзника точка синяя и с тем же текстом. Свой маяк можно изменить или удалить, удаление синхронизируется. Чужой маяк снимается только у вас. F5 или кнопка справа сверху выключает режим. В конце матча маяки исчезают. Окно чата должно быть открыто, иначе отправка завершится сообщением об ошибке, а не тихим пропуском. Enter во время набора через IME маяк не отправляет. Не больше 60 маяков за матч. Клавиша только F5. Мод не меняет файлы игры и не подделывает сетевые пакеты; удаление через менеджер возвращает прежнее состояние. Союзник без мода видит в чате только обычный текст с координатами, на матч это не влияет. MelonLoader ставьте из менеджера, отдельный установщик автора не нужен."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/team-beacon/parts/0000",
+                    "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
+                    "size": 68096
+                }
+            ]
         },
         {
             "id": "cut-guide",
@@ -603,11 +693,10 @@
             "author": "老匪_GODOG",
             "version": "1.1.0",
             "updatedAt": "2026-10-03",
-            "summary": "悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。按 F3 开关这些演示，选择会记住。标准 1v1 里，有对应关系的科技会改播异步对战中同一科技的演示。单位卡上的入口只在这些时候出现：异步对战的 1v1 或 2v2，单位编号在 5000 及以上，且不是观战；标准模式的 1v1，且该单位有对应演示，实况、测试和回放可以，观战除外。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。按 F3 开关这些演示，选择会记住。标准 1v1 里，有对应关系的科技会改播异步对战中同一科技的演示。单位卡上的入口只在这些时候出现：异步对战的 1v1 或 2v2，单位编号在 5000 及以上，且不是观战；标准模式的 1v1，且该单位有对应演示，实况、测试和回放可以，观战除外。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
             "file": "mods/cut-guide/Mechabellum.Guide.TextHover.dll",
             "sha256": "203bb97e713c9a55183ec7ea4bc36d54fd3da35a2bfdd11d6d53fff17d78af92",
             "size": 360679936,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__cut-guide__Mechabellum.Guide.TextHover.dll",
             "parts": [
                 {
                     "file": "mods/cut-guide/parts/0000",
@@ -646,22 +735,22 @@
             "locales": {
                 "en": {
                     "name": "CUT Guide",
-                    "summary": "Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. Press F3 to show or hide those clips; the choice is remembered. In a standard 1v1, a mapped tech plays the matching async-battle clip. The button on a unit card appears only in these cases: async 1v1 or 2v2 when the unit ID is 5000 or higher and you are not spectating; or a standard 1v1 when that unit has a matching clip, including live matches, tests, and replays, but not spectating. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. Press F3 to show or hide those clips; the choice is remembered. In a standard 1v1, a mapped tech plays the matching async-battle clip. The button on a unit card appears only in these cases: async 1v1 or 2v2 when the unit ID is 5000 or higher and you are not spectating; or a standard 1v1 when that unit has a matching clip, including live matches, tests, and replays, but not spectating. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "de": {
                     "name": "CUT Guide",
-                    "summary": "Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. F3 schaltet diese Clips ein oder aus; die Wahl bleibt gespeichert. In einem Standard-1v1 spielt eine zugeordnete Technik den passenden Clip aus dem asynchronen Kampf. Die Schaltfläche auf der Einheitenkarte erscheint nur dann: asynchrones 1v1 oder 2v2 bei einer Einheiten-ID ab 5000 und ohne Zuschauen; oder ein Standard-1v1, wenn die Einheit einen passenden Clip hat, einschließlich Live, Test und Wiederholung, aber nicht als Zuschauer. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. F3 schaltet diese Clips ein oder aus; die Wahl bleibt gespeichert. In einem Standard-1v1 spielt eine zugeordnete Technik den passenden Clip aus dem asynchronen Kampf. Die Schaltfläche auf der Einheitenkarte erscheint nur dann: asynchrones 1v1 oder 2v2 bei einer Einheiten-ID ab 5000 und ohne Zuschauen; oder ein Standard-1v1, wenn die Einheit einen passenden Clip hat, einschließlich Live, Test und Wiederholung, aber nicht als Zuschauer. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ja": {
                     "name": "CUT Guide",
-                    "summary": "ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。F3 でこれらの演示を切り替え、選択は保存されます。標準1v1では、対応がある科技は非同期戦の同じ科技の演示を再生します。ユニットカード上の入口が出るのは次のときだけです。非同期戦の1v1または2v2で、ユニットIDが5000以上、観戦ではないとき。または標準モードの1v1で、そのユニットに対応する演示があり、実況・テスト・リプレイを含み、観戦は除きます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。F3 でこれらの演示を切り替え、選択は保存されます。標準1v1では、対応がある科技は非同期戦の同じ科技の演示を再生します。ユニットカード上の入口が出るのは次のときだけです。非同期戦の1v1または2v2で、ユニットIDが5000以上、観戦ではないとき。または標準モードの1v1で、そのユニットに対応する演示があり、実況・テスト・リプレイを含み、観戦は除きます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
                     "preview": "mods/cut-guide/preview.en.png"
                 },
                 "ru": {
                     "name": "CUT Guide",
-                    "summary": "При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
                     "preview": "mods/cut-guide/preview.en.png"
                 }
             }
@@ -672,11 +761,10 @@
             "author": "wander",
             "version": "0.7.3",
             "updatedAt": "2026-10-02",
-            "summary": "对局中对比双方投入。左侧为我方（2v2 含队友），右侧为对方；每行显示金额、占比和等级分布。开局默认收起，收起时两侧都显示阵营总额，按 F9 或点击箭头展开。科技计入金额与占比，单位图标右上角用颜色角标显示已激活科技个数。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 对局中对比双方投入。左侧为我方（2v2 含队友），右侧为对方；每行显示金额、占比和等级分布。开局默认收起，收起时两侧都显示阵营总额，按 F9 或点击箭头展开。科技计入金额与占比，单位图标右上角用颜色角标显示已激活科技个数。",
             "file": "mods/opponent-economy/OpponentEconomyMod.dll",
             "sha256": "d02dbf70281ec739197bf7ad70b7fada21fa1319815bc708649aab1ea11997a7",
             "size": 65024,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__opponent-economy__OpponentEconomyMod.dll",
             "type": "MelonMod",
             "category": "Economy",
             "tags": [
@@ -686,21 +774,28 @@
             "locales": {
                 "en": {
                     "name": "Opponent Economy",
-                    "summary": "Compares both sides' spending during a match. The left side is yours (a 2v2 teammate is included) and the right side is the opponent. Each row shows amount, share, and level spread. It starts collapsed, and while collapsed both sides show the faction total. Press F9 or click the arrow to expand. Tech counts toward the amount and share, and a color badge on each unit icon shows how many techs are active."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Compares both sides' spending during a match. The left side is yours (a 2v2 teammate is included) and the right side is the opponent. Each row shows amount, share, and level spread. It starts collapsed, and while collapsed both sides show the faction total. Press F9 or click the arrow to expand. Tech counts toward the amount and share, and a color badge on each unit icon shows how many techs are active."
                 },
                 "de": {
                     "name": "Gegner-Wirtschaft",
-                    "summary": "Vergleicht die Ausgaben beider Seiten im Match. Links die eigene Seite (im 2v2 inklusive Teampartner), rechts der Gegner. Jede Zeile zeigt Betrag, Anteil und Stufenverteilung. Startet eingeklappt; eingeklappt zeigen beide Seiten die Fraktionssumme. Mit F9 oder dem Pfeil aufklappen. Technik zählt zu Betrag und Anteil, und eine Farbmarke am Einheiten-Icon zeigt die Zahl aktiver Techniken."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Vergleicht die Ausgaben beider Seiten im Match. Links die eigene Seite (im 2v2 inklusive Teampartner), rechts der Gegner. Jede Zeile zeigt Betrag, Anteil und Stufenverteilung. Startet eingeklappt; eingeklappt zeigen beide Seiten die Fraktionssumme. Mit F9 oder dem Pfeil aufklappen. Technik zählt zu Betrag und Anteil, und eine Farbmarke am Einheiten-Icon zeigt die Zahl aktiver Techniken."
                 },
                 "ja": {
                     "name": "相手経済 MOD",
-                    "summary": "対局中に双方の投入を比較します。左が味方（2v2 ではチームメイトを含む）、右が相手です。各行は金額、割合、レベル分布を表示します。開局時は折りたたみで、折りたたみ中は両側とも陣営合計です。F9 または矢印で展開します。科技は金額と割合に含まれ、ユニットアイコン右上の色付きバッジが発動済み科技の数を示します。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 対局中に双方の投入を比較します。左が味方（2v2 ではチームメイトを含む）、右が相手です。各行は金額、割合、レベル分布を表示します。開局時は折りたたみで、折りたたみ中は両側とも陣営合計です。F9 または矢印で展開します。科技は金額と割合に含まれ、ユニットアイコン右上の色付きバッジが発動済み科技の数を示します。"
                 },
                 "ru": {
                     "name": "Экономика противника",
-                    "summary": "Сравнивает затраты обеих сторон в матче. Слева своя сторона (в 2v2 вместе с союзником), справа противник. В строке сумма, доля и распределение уровней. Сначала свёрнуто; в свёрнутом виде обе стороны показывают итог фракции. Развернуть: F9 или стрелка. Технологии входят в сумму и долю, а цветной значок на иконке юнита показывает число активных технологий."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Сравнивает затраты обеих сторон в матче. Слева своя сторона (в 2v2 вместе с союзником), справа противник. В строке сумма, доля и распределение уровней. Сначала свёрнуто; в свёрнутом виде обе стороны показывают итог фракции. Развернуть: F9 или стрелка. Технологии входят в сумму и долю, а цветной значок на иконке юнита показывает число активных технологий."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/opponent-economy/parts/0000",
+                    "sha256": "d02dbf70281ec739197bf7ad70b7fada21fa1319815bc708649aab1ea11997a7",
+                    "size": 65024
+                }
+            ]
         },
         {
             "id": "unit-ledger",
@@ -708,11 +803,10 @@
             "author": "wander",
             "version": "0.8.1",
             "updatedAt": "2026-10-05",
-            "summary": "把一局的投资、输出和承伤放在同一张表里，折线看跨回合变化。展开后每栏有图例和按兵种的三色条，悬停可看等级数量、科技个数和当前回合的三项数值。标准对局开始时自动展开，结束时收起。标准模式和观战可用；远征还没适配，四人混战还没测过。",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 把一局的投资、输出和承伤放在同一张表里，折线看跨回合变化。展开后每栏有图例和按兵种的三色条，悬停可看等级数量、科技个数和当前回合的三项数值。标准对局开始时自动展开，结束时收起。标准模式和观战可用；远征还没适配，四人混战还没测过。",
             "file": "mods/unit-ledger/UnitLedgerMod.dll",
             "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
             "size": 97792,
-            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__unit-ledger__UnitLedgerMod.dll",
             "type": "MelonMod",
             "category": "Economy",
             "tags": [
@@ -722,21 +816,28 @@
             "locales": {
                 "en": {
                     "name": "Unit Ledger",
-                    "summary": "Puts investment, damage dealt, and damage taken in one table, with a line for how they change across rounds. Expanded columns have a legend and a three-color bar per unit type. Hover shows level counts, tech count, and the three values for the current round. A standard match opens it at the start and closes it at the end. Standard mode and spectating work. Expedition is not adapted yet, and 4-player mixed matches are untested."
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Puts investment, damage dealt, and damage taken in one table, with a line for how they change across rounds. Expanded columns have a legend and a three-color bar per unit type. Hover shows level counts, tech count, and the three values for the current round. A standard match opens it at the start and closes it at the end. Standard mode and spectating work. Expedition is not adapted yet, and 4-player mixed matches are untested."
                 },
                 "de": {
                     "name": "Einheitenanalyse",
-                    "summary": "Zeigt Investition, verursachten Schaden und erlittenen Schaden in einer Tabelle, mit einer Linie für den Verlauf über die Runden. Ausgeklappt hat jede Spalte eine Legende und einen dreifarbigen Balken je Einheitentyp. Beim Überfahren sieht man Stufenanzahl, Technikanzahl und die drei Werte der aktuellen Runde. Ein Standardmatch öffnet die Ansicht zu Beginn und schließt sie am Ende. Standardmodus und Zuschauen funktionieren. Expedition ist noch nicht angepasst, 4-Spieler-Mixed ist ungetestet."
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Zeigt Investition, verursachten Schaden und erlittenen Schaden in einer Tabelle, mit einer Linie für den Verlauf über die Runden. Ausgeklappt hat jede Spalte eine Legende und einen dreifarbigen Balken je Einheitentyp. Beim Überfahren sieht man Stufenanzahl, Technikanzahl und die drei Werte der aktuellen Runde. Ein Standardmatch öffnet die Ansicht zu Beginn und schließt sie am Ende. Standardmodus und Zuschauen funktionieren. Expedition ist noch nicht angepasst, 4-Spieler-Mixed ist ungetestet."
                 },
                 "ja": {
                     "name": "ユニット総合分析 MOD",
-                    "summary": "投資、与ダメージ、被ダメージを一つの表にまとめ、ラウンドをまたぐ変化を折れ線で見ます。展開すると各列に凡例と兵種ごとの三色バーが出ます。ホバーでレベル数、科技数、現在ラウンドの三つの値を見られます。標準対局は開始時に自動で開き、終了時に閉じます。標準モードと観戦に対応。遠征は未対応、4人混戦は未検証です。"
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 投資、与ダメージ、被ダメージを一つの表にまとめ、ラウンドをまたぐ変化を折れ線で見ます。展開すると各列に凡例と兵種ごとの三色バーが出ます。ホバーでレベル数、科技数、現在ラウンドの三つの値を見られます。標準対局は開始時に自動で開き、終了時に閉じます。標準モードと観戦に対応。遠征は未対応、4人混戦は未検証です。"
                 },
                 "ru": {
                     "name": "Сводка по юнитам",
-                    "summary": "Показывает вложения, нанесённый и полученный урон в одной таблице, с линией изменения по раундам. В развёрнутом виде у столбца есть легенда и трёхцветная полоса по типу юнита. При наведении видны число уровней, число технологий и три значения текущего раунда. В стандартном матче таблица открывается в начале и закрывается в конце. Работает в стандартном режиме и при наблюдении. Экспедиция ещё не адаптирована, смешанный режим на 4 игроков не проверен."
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Показывает вложения, нанесённый и полученный урон в одной таблице, с линией изменения по раундам. В развёрнутом виде у столбца есть легенда и трёхцветная полоса по типу юнита. При наведении видны число уровней, число технологий и три значения текущего раунда. В стандартном матче таблица открывается в начале и закрывается в конце. Работает в стандартном режиме и при наблюдении. Экспедиция ещё не адаптирована, смешанный режим на 4 игроков не проверен."
                 }
-            }
+            },
+            "parts": [
+                {
+                    "file": "mods/unit-ledger/parts/0000",
+                    "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
+                    "size": 97792
+                }
+            ]
         }
     ]
 }
