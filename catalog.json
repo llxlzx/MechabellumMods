@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-02T05:50:00Z",
+    "updatedAt": "2026-10-05T09:30:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -395,13 +395,14 @@
             "id": "missile-direction",
             "name": "飞弹方向 MOD",
             "author": "巴巴",
-            "version": "1.0.5",
-            "updatedAt": "2026-10-03",
-            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.5 仍按战斗坐标计算方向。固定射程只用来限制建筑，超出这个射程的单位也会成为方向目标，并判断飞弹能否打到建筑。",
+            "version": "1.0.7",
+            "updatedAt": "2026-10-05",
+            "summary": "使用哨戒飞弹时，显示飞弹飞向目标的方向指引。1.0.7 会区分单位归属，方向指向敌方目标。固定射程只用来限制建筑，超出这个射程的单位也会成为方向目标，并判断飞弹能否打到建筑。",
             "file": "mods/missile-direction/MissileDirection.dll",
-            "sha256": "1edb2108d3327d3306ba5acddf8726e8d9c87c6c500ce8a26eefe11c8f7892c8",
+            "sha256": "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
             "size": 14848,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__missile-direction__MissileDirection.dll",
+            "preview": "mods/missile-direction/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -411,19 +412,19 @@
             "locales": {
                 "en": {
                     "name": "Missile Direction Mod",
-                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.5 still aims from combat positions. The fixed range now limits structures only, so a unit beyond that range can still be the direction target, and the mod still checks whether the missile can hit structures."
+                    "summary": "While deploying a sentry missile, shows a direction guide toward the target. 1.0.7 tells friendly and enemy units apart, so the guide points at an enemy. The fixed range still limits structures only, so a unit beyond that range can still be the direction target, and the mod still checks whether the missile can hit structures."
                 },
                 "de": {
                     "name": "Flugkörperrichtung",
-                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.5 berechnet die Richtung weiter aus Kampfpositionen. Die feste Reichweite begrenzt nur noch Gebäude, daher kann eine Einheit außerhalb dieser Reichweite trotzdem das Richtungsziel sein. Die Prüfung, ob die Rakete Gebäude treffen kann, bleibt."
+                    "summary": "Zeigt beim Abfeuern einer Wachrakete eine Richtung zum Ziel. 1.0.7 unterscheidet eigene und feindliche Einheiten, daher zeigt die Richtung auf einen Gegner. Die feste Reichweite begrenzt weiterhin nur Gebäude, daher kann eine Einheit außerhalb dieser Reichweite trotzdem das Richtungsziel sein. Die Prüfung, ob die Rakete Gebäude treffen kann, bleibt."
                 },
                 "ja": {
                     "name": "ミサイル方向 MOD",
-                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.5 も戦闘座標で方向を計算します。固定射程の制限は建物だけになり、射程を超えたユニットも方向の目標になります。建物に当たるかどうかの判定はそのままです。"
+                    "summary": "哨戒ミサイル使用時に、目標へ向かう方向を表示します。1.0.7 はユニットの所属を区別し、方向は敵を指します。固定射程の制限は建物だけなので、射程を超えたユニットも方向の目標になります。建物に当たるかどうかの判定はそのままです。"
                 },
                 "ru": {
                     "name": "Направление ракеты",
-                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.5 по-прежнему считает направление по боевым координатам. Фиксированная дальность теперь ограничивает только постройки, поэтому юнит за её пределами тоже может быть целью направления. Проверка, может ли ракета попасть по постройкам, сохраняется."
+                    "summary": "При пуске сторожевой ракеты показывает направление к цели. 1.0.7 отличает своих юнитов от вражеских, поэтому направление указывает на противника. Фиксированная дальность по-прежнему ограничивает только постройки, поэтому юнит за её пределами тоже может быть целью направления. Проверка, может ли ракета попасть по постройкам, сохраняется."
                 }
             }
         },
@@ -671,6 +672,42 @@
                 "ru": {
                     "name": "Экономика противника",
                     "summary": "Сравнивает затраты обеих сторон в матче. Слева своя сторона (в 2v2 вместе с союзником), справа противник. В строке сумма, доля и распределение уровней. Сначала свёрнуто; в свёрнутом виде обе стороны показывают итог фракции. Развернуть: F9 или стрелка. Технологии входят в сумму и долю, а цветной значок на иконке юнита показывает число активных технологий."
+                }
+            }
+        },
+        {
+            "id": "unit-ledger",
+            "name": "单位综合分析 MOD",
+            "author": "wander",
+            "version": "0.8.1",
+            "updatedAt": "2026-10-05",
+            "summary": "把一局的投资、输出和承伤放在同一张表里，折线看跨回合变化。展开后每栏有图例和按兵种的三色条，悬停可看等级数量、科技个数和当前回合的三项数值。标准对局开始时自动展开，结束时收起。标准模式和观战可用；远征还没适配，四人混战还没测过。",
+            "file": "mods/unit-ledger/UnitLedgerMod.dll",
+            "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
+            "size": 97792,
+            "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__unit-ledger__UnitLedgerMod.dll",
+            "type": "MelonMod",
+            "category": "Economy",
+            "tags": [
+                "economy",
+                "hud"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Unit Ledger",
+                    "summary": "Puts investment, damage dealt, and damage taken in one table, with a line for how they change across rounds. Expanded columns have a legend and a three-color bar per unit type. Hover shows level counts, tech count, and the three values for the current round. A standard match opens it at the start and closes it at the end. Standard mode and spectating work. Expedition is not adapted yet, and 4-player mixed matches are untested."
+                },
+                "de": {
+                    "name": "Einheitenanalyse",
+                    "summary": "Zeigt Investition, verursachten Schaden und erlittenen Schaden in einer Tabelle, mit einer Linie für den Verlauf über die Runden. Ausgeklappt hat jede Spalte eine Legende und einen dreifarbigen Balken je Einheitentyp. Beim Überfahren sieht man Stufenanzahl, Technikanzahl und die drei Werte der aktuellen Runde. Ein Standardmatch öffnet die Ansicht zu Beginn und schließt sie am Ende. Standardmodus und Zuschauen funktionieren. Expedition ist noch nicht angepasst, 4-Spieler-Mixed ist ungetestet."
+                },
+                "ja": {
+                    "name": "ユニット総合分析 MOD",
+                    "summary": "投資、与ダメージ、被ダメージを一つの表にまとめ、ラウンドをまたぐ変化を折れ線で見ます。展開すると各列に凡例と兵種ごとの三色バーが出ます。ホバーでレベル数、科技数、現在ラウンドの三つの値を見られます。標準対局は開始時に自動で開き、終了時に閉じます。標準モードと観戦に対応。遠征は未対応、4人混戦は未検証です。"
+                },
+                "ru": {
+                    "name": "Сводка по юнитам",
+                    "summary": "Показывает вложения, нанесённый и полученный урон в одной таблице, с линией изменения по раундам. В развёрнутом виде у столбца есть легенда и трёхцветная полоса по типу юнита. При наведении видны число уровней, число технологий и три значения текущего раунда. В стандартном матче таблица открывается в начале и закрывается в конце. Работает в стандартном режиме и при наблюдении. Экспедиция ещё не адаптирована, смешанный режим на 4 игроков не проверен."
                 }
             }
         }
