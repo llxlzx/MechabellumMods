@@ -42,6 +42,80 @@ def sha256_of(path: Path) -> str:
     return digest.hexdigest()
 
 
+def check_preview_hash(mod: dict, label: str, preview, declared, errors: list[str]) -> None:
+    """A preview path must exist. When previewSha256 is set, it must match those bytes."""
+    if not isinstance(preview, str) or not preview.strip():
+        return
+    path = ROOT / preview.replace("\\", "/")
+    if not path.is_file():
+        errors.append(f"id={mod.get('id')!r}: {label} not found: {preview}")
+        return
+    if not isinstance(declared, str) or not declared.strip():
+        return
+    actual = sha256_of(path)
+    if declared.strip().lower() != actual:
+        errors.append(
+            f"id={mod.get('id')!r}: {label} sha256 mismatch for {preview} "
+            f"(catalog={declared!r}, file={actual}; run scripts/stamp_hashes.py)"
+        )
+
+
+def check_parts(mod: dict, errors: list[str]) -> None:
+    """Slices must exist, stay under GitHub's per-file limit, and rebuild the whole file."""
+    slices = mod.get("parts")
+    if slices is None:
+        return
+    if not isinstance(slices, list) or not slices:
+        errors.append(f"id={mod.get('id')!r}: 'parts' must be a non-empty array")
+        return
+
+    whole = bytearray()
+    declared_sum = 0
+    for index, part in enumerate(slices):
+        label = f"id={mod.get('id')!r} parts[{index}]"
+        if not isinstance(part, dict):
+            errors.append(f"{label}: must be an object")
+            continue
+        rel = part.get("file")
+        declared = part.get("sha256")
+        size = part.get("size")
+        if not isinstance(rel, str) or not rel.strip():
+            errors.append(f"{label}: missing file")
+            continue
+        if not isinstance(declared, str) or not SHA256_HEX.match(declared.strip().lower()):
+            errors.append(f"{label}: missing/invalid sha256")
+            declared = None
+        if not isinstance(size, int) or isinstance(size, bool) or size <= 0 or size >= LARGE_FILE_BYTES:
+            errors.append(f"{label}: size must be between 1 and {LARGE_FILE_BYTES - 1} bytes")
+            size = None
+        path = ROOT / rel.replace("\\", "/")
+        if not path.is_file():
+            errors.append(f"{label}: file not found: {rel}")
+            continue
+        actual_size = path.stat().st_size
+        if size is not None and actual_size != size:
+            errors.append(f"{label}: size mismatch (catalog={size}, file={actual_size})")
+        actual = sha256_of(path)
+        if declared is not None and actual != declared.strip().lower():
+            errors.append(f"{label}: sha256 mismatch (catalog={declared}, file={actual})")
+        if size is not None:
+            declared_sum += size
+        whole.extend(path.read_bytes())
+
+    whole_hash = hashlib.sha256(whole).hexdigest()
+    declared_whole = mod.get("sha256")
+    if isinstance(declared_whole, str) and declared_whole.strip().lower() != whole_hash:
+        errors.append(
+            f"id={mod.get('id')!r}: parts do not reassemble to sha256 "
+            f"(catalog={declared_whole}, joined={whole_hash})"
+        )
+    whole_size = mod.get("size")
+    if isinstance(whole_size, int) and not isinstance(whole_size, bool) and declared_sum != whole_size:
+        errors.append(
+            f"id={mod.get('id')!r}: parts sizes sum to {declared_sum}, catalog size is {whole_size}"
+        )
+
+
 def asset_name(rel: str) -> str:
     """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
     return rel.replace("\\", "/").replace("/", "__")
@@ -244,11 +318,8 @@ def main() -> int:
                             f"(re-run scripts/stamp_hashes.py --origin-base ...)"
                         )
 
-        preview = mod.get("preview")
-        if isinstance(preview, str) and preview.strip():
-            ppath = ROOT / preview.replace("\\", "/")
-            if not ppath.is_file():
-                errors.append(f"id={mod.get('id')!r}: preview not found: {preview}")
+        check_parts(mod, errors)
+        check_preview_hash(mod, "preview", mod.get("preview"), mod.get("previewSha256"), errors)
 
         locales = mod.get("locales")
         if isinstance(locales, dict):
@@ -257,11 +328,13 @@ def main() -> int:
                     continue
                 loc_preview = loc.get("preview")
                 if isinstance(loc_preview, str) and loc_preview.strip():
-                    lpath = ROOT / loc_preview.replace("\\", "/")
-                    if not lpath.is_file():
-                        errors.append(
-                            f"id={mod.get('id')!r}: {lang} preview not found: {loc_preview}"
-                        )
+                    check_preview_hash(
+                        mod,
+                        f"{lang} preview",
+                        loc_preview,
+                        loc.get("previewSha256"),
+                        errors,
+                    )
 
         cat = mod.get("category")
         if cat is not None:

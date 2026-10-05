@@ -37,6 +37,12 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog.json"
 
 FILE_LINE = re.compile(r'^(?P<indent>\s*)"file"\s*:\s*"(?P<rel>[^"]+)"\s*,\s*$')
+PREVIEW_LINE = re.compile(
+    r'^(?P<indent>\s*)"preview"\s*:\s*"(?P<rel>[^"]+)"\s*,?\s*$'
+)
+PREVIEW_HASH_LINE = re.compile(
+    r'^\s*"previewSha256"\s*:\s*"[0-9a-fA-F]{64}"\s*,?\s*$'
+)
 # The stamped keys are rewritten as one block, so the matcher covers all of them.
 STAMP_LINE = re.compile(r'^\s*"(?:sha256|size|originUrl)"\s*:\s*(?:"[^"]*"|\d+)\s*,?\s*$')
 
@@ -57,6 +63,41 @@ def asset_name(rel: str) -> str:
     and validate_catalog.py both depend on this exact rule.
     """
     return rel.replace("\\", "/").replace("/", "__")
+
+
+def stamp_preview_lines(lines: list[str]) -> list[str]:
+    """Insert previewSha256 after each preview path, including locale overrides.
+
+    The hash line takes the comma when another property follows. When preview was
+    the last property, the hash line has no trailing comma so the object stays valid.
+    """
+    out: list[str] = []
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        match = PREVIEW_LINE.match(line.rstrip("\r\n"))
+        if match is None:
+            out.append(line)
+            index += 1
+            continue
+
+        rel = match.group("rel")
+        ending = line[len(line.rstrip("\r\n")) :] or "\n"
+        indent = match.group("indent")
+        index += 1
+        if index < len(lines) and PREVIEW_HASH_LINE.match(lines[index].rstrip("\r\n")):
+            index += 1
+
+        path = ROOT / rel.replace("\\", "/")
+        if not path.is_file():
+            out.append(line)
+            continue
+
+        nxt = lines[index] if index < len(lines) else ""
+        comma = "" if nxt.lstrip().startswith("}") else ","
+        out.append(f'{indent}"preview": "{rel}",{ending}')
+        out.append(f'{indent}"previewSha256": "{sha256_of(path)}"{comma}{ending}')
+    return out
 
 
 def main() -> int:
@@ -135,7 +176,7 @@ def main() -> int:
             changed += 1
         out.extend(stamped)
 
-    text = "".join(out)
+    text = "".join(stamp_preview_lines(out))
 
     verify = json.loads(text)
     for mod in verify.get("mods", []):

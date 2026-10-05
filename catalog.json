@@ -608,6 +608,33 @@
             "sha256": "203bb97e713c9a55183ec7ea4bc36d54fd3da35a2bfdd11d6d53fff17d78af92",
             "size": 360679936,
             "originUrl": "https://github.com/llxlzx/MechabellumMods/releases/download/mods-current/mods__cut-guide__Mechabellum.Guide.TextHover.dll",
+            "parts": [
+                {
+                    "file": "mods/cut-guide/parts/0000",
+                    "sha256": "ce542713e052a2013f2f9115817d1d4503971a7e692cdd30e18e83c929fcd962",
+                    "size": 83886080
+                },
+                {
+                    "file": "mods/cut-guide/parts/0001",
+                    "sha256": "a00981b3f311dafe58c708755c56b9cbe3d4167036828e44b99125498b3060a9",
+                    "size": 83886080
+                },
+                {
+                    "file": "mods/cut-guide/parts/0002",
+                    "sha256": "9d4e1c048989d480a42c476ddad6c59e817e6013662e882722d0ab28fe04070f",
+                    "size": 83886080
+                },
+                {
+                    "file": "mods/cut-guide/parts/0003",
+                    "sha256": "704e43d59b139d62c521160c85c35b796cc335afdd3575467fe142284ea1c1e6",
+                    "size": 83886080
+                },
+                {
+                    "file": "mods/cut-guide/parts/0004",
+                    "sha256": "d6f4290f3bca6385b17ef4b766fa07da4d808ac3c691553c90ffb3ef5e05a8b5",
+                    "size": 25135616
+                }
+            ],
             "preview": "mods/cut-guide/preview.png",
             "type": "MelonMod",
             "category": "OverlayUI",
