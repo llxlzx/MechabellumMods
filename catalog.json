@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-05T20:44:29Z",
+    "updatedAt": "2026-10-06T07:04:10Z",
     "mods": [
         {
             "id": "show-grid",
@@ -818,12 +818,12 @@
             "id": "unit-ledger",
             "name": "单位综合分析 MOD",
             "author": "wander",
-            "version": "0.8.1",
-            "updatedAt": "2026-10-05",
+            "version": "0.8.7",
+            "updatedAt": "2026-10-06",
             "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 把一局的投资、输出和承伤放在同一张表里，折线看跨回合变化。展开后每栏有图例和按兵种的三色条，悬停可看等级数量、科技个数和当前回合的三项数值。标准对局开始时自动展开，结束时收起。标准模式和观战可用；远征还没适配，四人混战还没测过。",
             "file": "mods/unit-ledger/UnitLedgerMod.dll",
-            "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
-            "size": 97792,
+            "sha256": "80e5d86967aa86eaee5dbd49715d1291cb8a76317449dade6a045ca6aab4de40",
+            "size": 102400,
             "type": "MelonMod",
             "category": "Economy",
             "tags": [
@@ -851,8 +851,8 @@
             "parts": [
                 {
                     "file": "mods/unit-ledger/parts/0000",
-                    "sha256": "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6",
-                    "size": 97792
+                    "sha256": "80e5d86967aa86eaee5dbd49715d1291cb8a76317449dade6a045ca6aab4de40",
+                    "size": 102400
                 }
             ],
             "minManagerVersion": "1.3.14"
