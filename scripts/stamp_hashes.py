@@ -73,9 +73,35 @@ def joined_digest(root: Path, parts: list) -> tuple[str, int]:
     return hashlib.sha256(blob).hexdigest(), len(blob)
 
 
+def has_bundle(mod: dict) -> bool:
+    bundle = mod.get("bundle")
+    return isinstance(bundle, list) and len(bundle) > 0
+
+
+def bundle_primary(root: Path, mod: dict) -> tuple[str, int] | None:
+    """Hash of the bundle member whose file name matches the entry's main DLL."""
+    if not has_bundle(mod):
+        return None
+    rel = mod.get("file")
+    if not isinstance(rel, str) or not rel.strip():
+        return None
+    name = rel.replace("\\", "/").rsplit("/", 1)[-1]
+    for item in mod["bundle"]:
+        member = item.get("file") if isinstance(item, dict) else None
+        if not isinstance(member, str):
+            continue
+        if member.replace("\\", "/").rsplit("/", 1)[-1] != name:
+            continue
+        path = root / member.replace("\\", "/")
+        return sha256_of(path), path.stat().st_size
+    return None
+
+
 def origin_line(mod: dict, origin_base: str | None, indent: str, ending: str) -> str | None:
     parts = mod.get("parts")
     if isinstance(parts, list) and parts:
+        return None
+    if has_bundle(mod):
         return None
     if not origin_base:
         return None
@@ -151,7 +177,10 @@ def main() -> int:
         parts = mod.get("parts")
         has_parts = isinstance(parts, list) and parts
         path = ROOT / rel.replace("\\", "/")
-        if has_parts:
+        primary = bundle_primary(ROOT, mod)
+        if primary is not None:
+            wanted[rel] = primary
+        elif has_parts:
             joined, joined_size = joined_digest(ROOT, parts)
             if path.is_file():
                 whole = sha256_of(path)
@@ -207,7 +236,7 @@ def main() -> int:
         origin = origin_line(mod, origin_base, indent, ending)
         if origin is not None:
             stamped.append(origin)
-        elif not has_parts:
+        elif not has_parts and not has_bundle(mod):
             # Not ours to manage on this run: carry any existing value through verbatim.
             stamped.extend(l for l in existing if '"originUrl"' in l)
 
@@ -228,7 +257,7 @@ def main() -> int:
             )
             return 1
         has_parts = isinstance(mod.get("parts"), list) and mod.get("parts")
-        if origin_base and not has_parts:
+        if origin_base and not has_parts and not has_bundle(mod):
             expected = f"{origin_base}/{asset_name(rel)}"
             if mod.get("originUrl") != expected:
                 print(

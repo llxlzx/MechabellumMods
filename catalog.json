@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-06T07:04:10Z",
+    "updatedAt": "2026-10-06T07:39:16Z",
     "mods": [
         {
             "id": "show-grid",
@@ -12,6 +12,7 @@
             "sha256": "84c0aa13b60b0e01d16ac16bebf1ce1df7ecd41d63095e609f257aa6b3c885e0",
             "size": 8192,
             "preview": "mods/show-grid/preview.png",
+            "previewSha256": "7c14a2054d0ffa933fcb2ccf9319c876f833052930738d0ae886876c508844db",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -56,6 +57,7 @@
             "sha256": "b2c687862f74c00ac0b1860b9c7bf989f0156ec01ccd5ed02180775cf3a129da",
             "size": 7680,
             "preview": "mods/quick-item/preview.png",
+            "previewSha256": "6c0790c1262d3e102b2f2c7739f8ed3d339ea14a39225650a1a2c696bd8bcc4e",
             "type": "MelonMod",
             "category": "QoL",
             "tags": [
@@ -100,6 +102,7 @@
             "sha256": "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564",
             "size": 11264,
             "preview": "mods/quick-camera/preview.png",
+            "previewSha256": "130686d751d0921fca0ef42898b705f496833a88677e30ab66a02e3800b5a109",
             "type": "MelonMod",
             "category": "Camera",
             "tags": [
@@ -144,6 +147,7 @@
             "sha256": "caf1c41beda97dc5ab35763f4c5fb1a5efeed05e0e4c6ce534e5cb4b832850d5",
             "size": 13824,
             "preview": "mods/undo-plus/preview.png",
+            "previewSha256": "b501e54aab5f1f85530216c247da4708d73f986e1b5577e659e508a3fade131b",
             "type": "MelonMod",
             "category": "QoL",
             "tags": [
@@ -188,6 +192,7 @@
             "sha256": "22afd531fdbab46b77fffa41ac52260c047ebd4cc6081e6bff7e8b43fe999d51",
             "size": 14336,
             "preview": "mods/auto-speed/preview.png",
+            "previewSha256": "ac4daf847c8231cae50324556fabbc30154b8258b88b5a2cd2433f712300eb04",
             "type": "MelonMod",
             "category": "CombatAssist",
             "tags": [
@@ -232,6 +237,7 @@
             "sha256": "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07",
             "size": 141312,
             "preview": "mods/damage-rank/preview.png",
+            "previewSha256": "b4f9c1bf64d8c0365844e59b1c6b1267be8e794239d5b89352bd1fb6ce3fb241",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -296,6 +302,7 @@
             "sha256": "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401",
             "size": 19456,
             "preview": "mods/sales-calculation/preview.png",
+            "previewSha256": "99656f3cd9eeed68a367c061990d9fdd186ed7d4678ca98ab29f5f9a51448df2",
             "type": "MelonMod",
             "category": "Economy",
             "tags": [
@@ -340,6 +347,7 @@
             "sha256": "598aa77221240fa7e746aa9b23f1663923dda4d1eeb43ca2b877902492d37f05",
             "size": 37376,
             "preview": "mods/replay-tool/preview.png",
+            "previewSha256": "effe3d0a9b631cfce92db3b443b3b50b70b69eef0198bb3c30eadcb0f7a1e026",
             "type": "MelonMod",
             "category": "ReplayDebug",
             "tags": [
@@ -384,6 +392,7 @@
             "sha256": "3ae0f11f98a9feebc5daf6d1dd9f43c675edf9c950863b7b44779cd03063bb40",
             "size": 20480,
             "preview": "mods/quick-mark/preview.png",
+            "previewSha256": "7c528d1612439d571152f3d3d2ab77f8d8e9454c86abd4f938e62b34f2678f7c",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -428,6 +437,7 @@
             "sha256": "6f7b152760cb9abca3eec419aecb3c518dbbdb4a3b43ddd1aadf8881b3bdb8b0",
             "size": 27648,
             "preview": "mods/show-dps/preview.png",
+            "previewSha256": "12145f24be432042b302231bb52d2d82f71c7a21b97bd41986d882dd26806269",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -472,6 +482,7 @@
             "sha256": "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
             "size": 14848,
             "preview": "mods/missile-direction/preview.png",
+            "previewSha256": "b80f939de7522a82741ca78f75f9807bf945b8023893e4f133cd98b3f8b1bfb8",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -561,6 +572,7 @@
             "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
             "size": 5337088,
             "preview": "mods/battle-suite/preview.png",
+            "previewSha256": "c4135ed5f5b68efdf7484ff3d9e2205169dc6e682dcbe21efb69b535e55b2673",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -707,39 +719,13 @@
             "name": "CUT 新手指南",
             "author": "老匪_GODOG",
             "version": "1.1.0",
-            "updatedAt": "2026-10-03",
-            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。按 F3 开关这些演示，选择会记住。标准 1v1 里，有对应关系的科技会改播异步对战中同一科技的演示。单位卡上的入口只在这些时候出现：异步对战的 1v1 或 2v2，单位编号在 5000 及以上，且不是观战；标准模式的 1v1，且该单位有对应演示，实况、测试和回放可以，观战除外。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。体积约 344 MB，因为这些视频打在这一个 DLL 里。作者是老匪_GODOG。",
+            "updatedAt": "2026-10-06",
+            "summary": "从管理器安装或更新需要 1.3.15 或更高版本。 悬停单位文字或单位卡牌时展开科技说明，并在内嵌窗口里播放对应科技的演示。按 F3 开关这些演示，选择会记住。标准 1v1 里，有对应关系的科技会改播异步对战中同一科技的演示。单位卡上的入口只在这些时候出现：异步对战的 1v1 或 2v2，单位编号在 5000 及以上，且不是观战；标准模式的 1v1，且该单位有对应演示，实况、测试和回放可以，观战除外。安装包里有 177 段视频，按单位和科技命名，例如发射器过载、装甲强化。文字和视频在旁边的素材包里，每一份都小于 50 MB。作者是老匪_GODOG。",
             "file": "mods/cut-guide/Mechabellum.Guide.TextHover.dll",
-            "sha256": "203bb97e713c9a55183ec7ea4bc36d54fd3da35a2bfdd11d6d53fff17d78af92",
-            "size": 360679936,
-            "parts": [
-                {
-                    "file": "mods/cut-guide/parts/0000",
-                    "sha256": "ce542713e052a2013f2f9115817d1d4503971a7e692cdd30e18e83c929fcd962",
-                    "size": 83886080
-                },
-                {
-                    "file": "mods/cut-guide/parts/0001",
-                    "sha256": "a00981b3f311dafe58c708755c56b9cbe3d4167036828e44b99125498b3060a9",
-                    "size": 83886080
-                },
-                {
-                    "file": "mods/cut-guide/parts/0002",
-                    "sha256": "9d4e1c048989d480a42c476ddad6c59e817e6013662e882722d0ab28fe04070f",
-                    "size": 83886080
-                },
-                {
-                    "file": "mods/cut-guide/parts/0003",
-                    "sha256": "704e43d59b139d62c521160c85c35b796cc335afdd3575467fe142284ea1c1e6",
-                    "size": 83886080
-                },
-                {
-                    "file": "mods/cut-guide/parts/0004",
-                    "sha256": "d6f4290f3bca6385b17ef4b766fa07da4d808ac3c691553c90ffb3ef5e05a8b5",
-                    "size": 25135616
-                }
-            ],
+            "sha256": "ea208cdd94f7982cc6a668ede3e2b872c7d9eb6a19fb47f2590bc878fcab23f3",
+            "size": 873984,
             "preview": "mods/cut-guide/preview.png",
+            "previewSha256": "27373b8a0498b84d39313d888581cdb4d8560c06a1f4a2c8182562449330454a",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -750,26 +736,92 @@
             "locales": {
                 "en": {
                     "name": "CUT Guide",
-                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. Press F3 to show or hide those clips; the choice is remembered. In a standard 1v1, a mapped tech plays the matching async-battle clip. The button on a unit card appears only in these cases: async 1v1 or 2v2 when the unit ID is 5000 or higher and you are not spectating; or a standard 1v1 when that unit has a matching clip, including live matches, tests, and replays, but not spectating. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. It is about 344 MB because those clips are inside this one DLL. By 老匪_GODOG.",
-                    "preview": "mods/cut-guide/preview.en.png"
+                    "summary": "Installing or updating through the manager requires 1.3.15 or newer. Hovering a unit's text or card opens a tech guide and plays that tech's clip in an embedded window. Press F3 to show or hide those clips; the choice is remembered. In a standard 1v1, a mapped tech plays the matching async-battle clip. The button on a unit card appears only in these cases: async 1v1 or 2v2 when the unit ID is 5000 or higher and you are not spectating; or a standard 1v1 when that unit has a matching clip, including live matches, tests, and replays, but not spectating. The package includes 177 clips, named by unit and tech, such as launcher overload and armor reinforcement. Text and clips live in companion packs beside the main DLL, and each pack is under 50 MB. By 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png",
+                    "previewSha256": "2df74606ad56e4d5a0b2c9dcd06f1e1f108b89176be6c5caa96b69eacbf14fd4"
                 },
                 "de": {
                     "name": "CUT Guide",
-                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. F3 schaltet diese Clips ein oder aus; die Wahl bleibt gespeichert. In einem Standard-1v1 spielt eine zugeordnete Technik den passenden Clip aus dem asynchronen Kampf. Die Schaltfläche auf der Einheitenkarte erscheint nur dann: asynchrones 1v1 oder 2v2 bei einer Einheiten-ID ab 5000 und ohne Zuschauen; oder ein Standard-1v1, wenn die Einheit einen passenden Clip hat, einschließlich Live, Test und Wiederholung, aber nicht als Zuschauer. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Etwa 344 MB, weil die Clips in dieser einen DLL stecken. Von 老匪_GODOG.",
-                    "preview": "mods/cut-guide/preview.en.png"
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.15 oder neuer. Beim Überfahren des Einheitentextes oder der Karte öffnet sich eine Technikbeschreibung und spielt den Clip in einem eingebetteten Fenster. F3 schaltet diese Clips ein oder aus; die Wahl bleibt gespeichert. In einem Standard-1v1 spielt eine zugeordnete Technik den passenden Clip aus dem asynchronen Kampf. Die Schaltfläche auf der Einheitenkarte erscheint nur dann: asynchrones 1v1 oder 2v2 bei einer Einheiten-ID ab 5000 und ohne Zuschauen; oder ein Standard-1v1, wenn die Einheit einen passenden Clip hat, einschließlich Live, Test und Wiederholung, aber nicht als Zuschauer. Das Paket enthält 177 Clips, benannt nach Einheit und Technik, zum Beispiel Werferüberladung und Panzerverstärkung. Texte und Clips liegen in Begleitpaketen neben der Haupt-DLL, und jedes Paket bleibt unter 50 MB. Von 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png",
+                    "previewSha256": "2df74606ad56e4d5a0b2c9dcd06f1e1f108b89176be6c5caa96b69eacbf14fd4"
                 },
                 "ja": {
                     "name": "CUT Guide",
-                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。F3 でこれらの演示を切り替え、選択は保存されます。標準1v1では、対応がある科技は非同期戦の同じ科技の演示を再生します。ユニットカード上の入口が出るのは次のときだけです。非同期戦の1v1または2v2で、ユニットIDが5000以上、観戦ではないとき。または標準モードの1v1で、そのユニットに対応する演示があり、実況・テスト・リプレイを含み、観戦は除きます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。約344MBなのは、動画がこのDLLに入っているためです。作者は老匪_GODOG。",
-                    "preview": "mods/cut-guide/preview.en.png"
+                    "summary": "マネージャーからのインストールと更新には 1.3.15 以降が必要です。 ユニットの文字やカードにカーソルを合わせると科技の説明が開き、埋め込み窓でその演示が再生されます。F3 でこれらの演示を切り替え、選択は保存されます。標準1v1では、対応がある科技は非同期戦の同じ科技の演示を再生します。ユニットカード上の入口が出るのは次のときだけです。非同期戦の1v1または2v2で、ユニットIDが5000以上、観戦ではないとき。または標準モードの1v1で、そのユニットに対応する演示があり、実況・テスト・リプレイを含み、観戦は除きます。インストールにはユニットと科技名の動画が177本あり、例はランチャー過負荷や装甲強化です。文字と動画は本体DLLの隣の素材パックにあり、各パックは50MB未満です。作者は老匪_GODOG。",
+                    "preview": "mods/cut-guide/preview.en.png",
+                    "previewSha256": "2df74606ad56e4d5a0b2c9dcd06f1e1f108b89176be6c5caa96b69eacbf14fd4"
                 },
                 "ru": {
                     "name": "CUT Guide",
-                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Около 344 МБ, потому что ролики лежат внутри этой DLL. Автор 老匪_GODOG.",
-                    "preview": "mods/cut-guide/preview.en.png"
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.15 или новее. При наведении на текст или карточку юнита открывается описание технологии и встроенное окно с роликом. F3 показывает или скрывает эти ролики, выбор запоминается. В стандартном 1v1 технология с соответствием проигрывает ролик той же технологии из асинхронного боя. Кнопка на карточке юнита появляется только в этих случаях: асинхронный 1v1 или 2v2 при ID от 5000 и без наблюдения; или стандартный 1v1, если у юнита есть соответствующий ролик, включая живой матч, тест и повтор, но не наблюдение. В пакете 177 роликов, по имени юнита и технологии, например перегрузка пусковой и усиление брони. Текст и ролики лежат в соседних пакетах, и каждый пакет меньше 50 МБ. Автор 老匪_GODOG.",
+                    "preview": "mods/cut-guide/preview.en.png",
+                    "previewSha256": "2df74606ad56e4d5a0b2c9dcd06f1e1f108b89176be6c5caa96b69eacbf14fd4"
                 }
             },
-            "minManagerVersion": "1.3.14"
+            "minManagerVersion": "1.3.15",
+            "bundle": [
+                {
+                    "path": "Mechabellum.Guide.TextHover.dll",
+                    "file": "mods/cut-guide/payload/Mechabellum.Guide.TextHover.dll",
+                    "sha256": "ea208cdd94f7982cc6a668ede3e2b872c7d9eb6a19fb47f2590bc878fcab23f3",
+                    "size": 873984
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Text.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Text.dll",
+                    "sha256": "61e626a8f719de3e2bd332206e631218b7baa01071347ee48b39964ea01c4b96",
+                    "size": 76800
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.001.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.001.dll",
+                    "sha256": "2b321d1d6ae86eaa4fcb4ee2ffad515bfcf71bafd714275bbc8aa8ad55c277d2",
+                    "size": 44897280
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.002.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.002.dll",
+                    "sha256": "528df4e3eaafb93bfde570c629440b3c25cc19ab059458192550918fd1b26918",
+                    "size": 44807168
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.003.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.003.dll",
+                    "sha256": "b60c5dc839dd48445c6b970dab95e5896546a96a7eef61d3191d2c258253ab1c",
+                    "size": 45608960
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.004.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.004.dll",
+                    "sha256": "e29b82238b969363190ef10a12215f41b42ffa9a47ffecdc92fa4091c5fcc695",
+                    "size": 44907520
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.005.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.005.dll",
+                    "sha256": "df4bb83130b8432bacae22dd4f0735d74d6a53de78761ed474b0909701d26c75",
+                    "size": 44925952
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.006.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.006.dll",
+                    "sha256": "a674f437a191fa6581ec92503a6fac9e536b0e66f7883c0b0593f9d07d073f2f",
+                    "size": 44904960
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.007.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.007.dll",
+                    "sha256": "f01055a76602e90388a3311b3691e9c22c357b0529937ef82e0849be39180ffa",
+                    "size": 44902912
+                },
+                {
+                    "path": "CUTGuide.Assets/CUTGuide.Videos.008.dll",
+                    "file": "mods/cut-guide/payload/CUTGuide.Assets/CUTGuide.Videos.008.dll",
+                    "sha256": "17ca1c6386504d52b34cbe9613e4297481af3a769dcc2509cd0f58f9ff36687c",
+                    "size": 44790784
+                }
+            ]
         },
         {
             "id": "opponent-economy",

@@ -153,6 +153,87 @@ def check_parts(mod: dict, errors: list[str], root: Path | None = None) -> None:
         )
 
 
+def check_bundle(mod: dict, errors: list[str], root: Path | None = None) -> None:
+    """Separate assemblies must exist, stay under the git limit, and not be parts of one DLL."""
+    if root is None:
+        root = ROOT
+    bundle = mod.get("bundle")
+    if bundle is None:
+        return
+    if not isinstance(bundle, list) or not bundle:
+        errors.append(f"id={mod.get('id')!r}: 'bundle' must be a non-empty array")
+        return
+    if isinstance(mod.get("parts"), list) and len(mod.get("parts")) > 0:
+        errors.append(f"id={mod.get('id')!r}: bundle and parts cannot both be set")
+        return
+
+    file_rel = mod.get("file")
+    file_name = file_rel.replace("\\", "/").rsplit("/", 1)[-1] if isinstance(file_rel, str) else None
+    primary = None
+    seen: set[str] = set()
+    for index, item in enumerate(bundle):
+        label = f"id={mod.get('id')!r} bundle[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label}: must be an object")
+            continue
+        deploy = item.get("path")
+        rel = item.get("file")
+        declared = item.get("sha256")
+        size = item.get("size")
+        if not isinstance(deploy, str) or not _safe_relative(deploy):
+            errors.append(f"{label}: unsafe path")
+            continue
+        deploy_norm = deploy.replace("\\", "/")
+        if deploy_norm in seen:
+            errors.append(f"{label}: duplicate path {deploy_norm}")
+        seen.add(deploy_norm)
+        if not isinstance(rel, str) or not rel.strip():
+            errors.append(f"{label}: missing file")
+            continue
+        if not isinstance(declared, str) or not SHA256_HEX.match(declared.strip().lower()):
+            errors.append(f"{label}: missing/invalid sha256")
+            declared = None
+        if not isinstance(size, int) or isinstance(size, bool) or size <= 0 or size >= LARGE_FILE_BYTES:
+            errors.append(f"{label}: size must be between 1 and {LARGE_FILE_BYTES - 1} bytes")
+            size = None
+        path = root / rel.replace("\\", "/")
+        if not path.is_file():
+            errors.append(f"{label}: file not found: {rel}")
+            continue
+        actual_size = path.stat().st_size
+        if size is not None and actual_size != size:
+            errors.append(f"{label}: size mismatch (catalog={size}, file={actual_size})")
+        actual = sha256_of(path)
+        if declared is not None and actual != declared.strip().lower():
+            errors.append(f"{label}: sha256 mismatch (catalog={declared}, file={actual})")
+        if file_name is not None and path.name == file_name:
+            primary = (actual, actual_size)
+
+    if primary is None:
+        errors.append(f"id={mod.get('id')!r}: bundle has no member named like file")
+        return
+    declared_whole = mod.get("sha256")
+    if isinstance(declared_whole, str) and declared_whole.strip().lower() != primary[0]:
+        errors.append(
+            f"id={mod.get('id')!r}: sha256 does not match the main bundle file "
+            f"(catalog={declared_whole}, file={primary[0]})"
+        )
+    whole_size = mod.get("size")
+    if isinstance(whole_size, int) and not isinstance(whole_size, bool) and whole_size != primary[1]:
+        errors.append(
+            f"id={mod.get('id')!r}: size does not match the main bundle file "
+            f"(catalog={whole_size}, file={primary[1]})"
+        )
+
+
+def _safe_relative(value: str) -> bool:
+    normalized = value.replace("\\", "/").strip()
+    if not normalized or normalized.startswith("/") or ":" in normalized:
+        return False
+    segments = [segment for segment in normalized.split("/") if segment]
+    return bool(segments) and all(segment not in (".", "..") for segment in segments)
+
+
 def check_min_manager_version(mod: dict, errors: list[str]) -> None:
     if "minManagerVersion" not in mod or mod.get("minManagerVersion") is None:
         return
@@ -322,7 +403,8 @@ def main() -> int:
             and not isinstance(size, bool)
             and size > LARGE_FILE_BYTES
         )
-        check_whole_file(mod, errors, allow_missing=hosted_off_git)
+        has_bundle = isinstance(mod.get("bundle"), list) and len(mod.get("bundle")) > 0
+        check_whole_file(mod, errors, allow_missing=hosted_off_git or has_bundle)
 
         if origin is not None:
             if not isinstance(origin, str) or not origin.strip():
@@ -351,6 +433,7 @@ def main() -> int:
                         )
 
         check_parts(mod, errors)
+        check_bundle(mod, errors)
         check_preview_hash(mod, "preview", mod.get("preview"), mod.get("previewSha256"), errors)
 
         locales = mod.get("locales")
