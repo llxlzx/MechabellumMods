@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-06T07:39:16Z",
+    "updatedAt": "2026-10-06T14:20:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -674,12 +674,12 @@
             "id": "team-beacon",
             "name": "【测试】2v2 信标",
             "author": "wander",
-            "version": "1.2.0-ml",
-            "updatedAt": "2026-09-26",
+            "version": "1.3.0-ml",
+            "updatedAt": "2026-10-06",
             "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 【测试】尚未完成正式验收。请在 2v2 实战里确认信标能否送到队友；异常时先卸载本 Mod。2v2 队友信标：双方都安装，并且处在同一场有队友的 2v2 时才生效。按 F5 打开信标模式（右上角状态条变绿），点击战场格子，输入最多 8 个字，点「确认建立」。我方显示绿点和文字，并经游戏聊天发给队友；队友端显示蓝点和同一段文字。再点我方信标可改字或删除，删除会同步到队友；点队友信标只能在本端删除。再按 F5 或点右上角按钮关闭模式。对局结束自动清空。发送前请展开游戏聊天窗口，否则会提示失败，不会悄悄丢掉。中文输入法组词时按回车不会误发。每局最多 60 个信标。热键固定为 F5。本 Mod 不修改游戏文件，不伪造网络包；用管理器卸载即还原。没装本 Mod 的队友只会在聊天里看到明文「【信标】坐标|文字」，对局不受影响。MelonLoader 用管理器安装即可，不必再运行作者自带的安装器。",
             "file": "mods/team-beacon/TeamBeaconMod.dll",
-            "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
-            "size": 68096,
+            "sha256": "9176d94036c691ceeab0e011484849132b1b5ba4cd8920520ce0e18111ed7f67",
+            "size": 96768,
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -708,8 +708,8 @@
             "parts": [
                 {
                     "file": "mods/team-beacon/parts/0000",
-                    "sha256": "006446c425b94943455665a8e3b39b6937253ca106c88cd621e04d28c271b885",
-                    "size": 68096
+                    "sha256": "9176d94036c691ceeab0e011484849132b1b5ba4cd8920520ce0e18111ed7f67",
+                    "size": 96768
                 }
             ],
             "minManagerVersion": "1.3.14"
@@ -870,12 +870,12 @@
             "id": "unit-ledger",
             "name": "单位综合分析 MOD",
             "author": "wander",
-            "version": "0.8.7",
+            "version": "0.9.0",
             "updatedAt": "2026-10-06",
             "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 把一局的投资、输出和承伤放在同一张表里，折线看跨回合变化。展开后每栏有图例和按兵种的三色条，悬停可看等级数量、科技个数和当前回合的三项数值。标准对局开始时自动展开，结束时收起。标准模式和观战可用；远征还没适配，四人混战还没测过。",
             "file": "mods/unit-ledger/UnitLedgerMod.dll",
-            "sha256": "80e5d86967aa86eaee5dbd49715d1291cb8a76317449dade6a045ca6aab4de40",
-            "size": 102400,
+            "sha256": "42cf3a1e7bdb100bf8588bfe4e62dd26ebcd3b218e609be9ddd62b103f1b973e",
+            "size": 103424,
             "type": "MelonMod",
             "category": "Economy",
             "tags": [
@@ -903,8 +903,8 @@
             "parts": [
                 {
                     "file": "mods/unit-ledger/parts/0000",
-                    "sha256": "80e5d86967aa86eaee5dbd49715d1291cb8a76317449dade6a045ca6aab4de40",
-                    "size": 102400
+                    "sha256": "42cf3a1e7bdb100bf8588bfe4e62dd26ebcd3b218e609be9ddd62b103f1b973e",
+                    "size": 103424
                 }
             ],
             "minManagerVersion": "1.3.14"
