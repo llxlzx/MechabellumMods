@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-06T14:20:00Z",
+    "updatedAt": "2026-10-08T09:15:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -905,6 +905,49 @@
                     "file": "mods/unit-ledger/parts/0000",
                     "sha256": "42cf3a1e7bdb100bf8588bfe4e62dd26ebcd3b218e609be9ddd62b103f1b973e",
                     "size": 103424
+                }
+            ],
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "predict-position",
+            "name": "位置预测 MOD",
+            "author": "唐氏发糕",
+            "version": "1.0.0",
+            "updatedAt": "2026-10-08",
+            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 在战场上标出单位预计到达的位置。可调预测秒数和刷新间隔，可按轻型、中型、巨型过滤。默认只在部署阶段显示，进入战斗后隐藏。标记面板可拖动，位置记在 UserData。",
+            "file": "mods/predict-position/MbPredictPosition.dll",
+            "sha256": "37c888ea08b6c920733527840f1476c7effecfecd411fa4b0b79b5a4adbb75a9",
+            "size": 42496,
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "predict",
+                "hud"
+            ],
+            "locales": {
+                "en": {
+                    "name": "MB Predict Position",
+                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Marks where units are predicted to be. Prediction length and refresh interval are adjustable, and markers can be limited to light, medium, or giant units. By default they show only during deployment and hide once the fight starts. The panel can be dragged, and its position is saved under UserData."
+                },
+                "de": {
+                    "name": "Positionsvorhersage",
+                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Markiert, wo Einheiten voraussichtlich ankommen. Vorhersagedauer und Aktualisierungsintervall sind einstellbar, und Markierungen lassen sich auf leichte, mittlere oder riesige Einheiten begrenzen. Standardmäßig nur in der Aufstellungsphase, danach ausgeblendet. Das Feld lässt sich ziehen, die Position wird unter UserData gespeichert."
+                },
+                "ja": {
+                    "name": "位置予測 MOD",
+                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 ユニットが到達しそうな位置を戦場に表示します。予測秒数と更新間隔を調整でき、軽型・中型・巨型で絞り込めます。既定では配置段階だけ表示し、戦闘に入ると隠れます。表示パネルはドラッグでき、位置は UserData に保存されます。"
+                },
+                "ru": {
+                    "name": "Прогноз позиции",
+                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Отмечает, где юниты окажутся. Длительность прогноза и интервал обновления настраиваются, метки можно ограничить лёгкими, средними или гигантскими юнитами. По умолчанию только на этапе расстановки, в бою скрываются. Панель можно перетащить, положение сохраняется в UserData."
+                }
+            },
+            "parts": [
+                {
+                    "file": "mods/predict-position/parts/0000",
+                    "sha256": "37c888ea08b6c920733527840f1476c7effecfecd411fa4b0b79b5a4adbb75a9",
+                    "size": 42496
                 }
             ],
             "minManagerVersion": "1.3.14"
