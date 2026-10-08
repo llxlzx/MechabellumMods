@@ -18,6 +18,7 @@ Data Error 的公开后果是：这一局判负，并且不能重连。它不是
 - 社区目录 `catalog.json` 的 `updatedAt`：`2026-10-08T09:15:00Z`。
 - 目录里现有条目的 `minManagerVersion` 是 `1.3.14`。简介里若写着「需要 1.3.13」，那是旧句子。管理器只认 `minManagerVersion` 字段，不认简介。
 - 安装器附带的 MelonLoader 是 `0.7.3`。作者按这个加载器来写 MelonMod。
+- 多个文件一起装、其中有大素材的，先读这份，再读 `docs/ai-large-mod-standard.md`。那种 Mod 用 `bundle`，不用 `parts`。
 
 ## 谁能下载
 
@@ -127,7 +128,7 @@ Data Error 的公开后果是：这一局判负，并且不能重连。它不是
 
 ## 核对
 
-2026-10-08 对照过三处，偏差已改在上文，没有另写一份标准。
+2026-10-08 对照过下载和校验。偏差已改在上文。大 Mod 的补充在 `docs/ai-large-mod-standard.md`，不在这里重复。
 
 - 扫描器 `LogicFrameRiskScanner.GradeHook`：观察点或部署时间上、返回类型为 `bool` 的前缀是高；部署时间上的后缀是高；其余挂在这两张表上的是中。上文按返回类型写，不按「函数体是否真的跳过」。
 - 校验脚本：拒绝空 `id`、`name`、`file` 以及非法哈希、体积、分类、冲突、分片和 `minManagerVersion`。字段可以不写。`author`、`summary`、`category` 可以缺。上文把「脚本会拒」和「AI 仍要问」分开。
