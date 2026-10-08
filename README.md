@@ -45,6 +45,8 @@ After review, maintainers upload accepted mods into this GitHub repo; players **
 5. （可选）熟悉 GitHub 的作者仍可自行 Fork + PR；默认路径是邮件。  
    Advanced users may still PR; email is the default path.
 
+AI 协助写 Mod 时先读 [docs/ai-mod-standard.md](docs/ai-mod-standard.md)。字段表仍以本页和 `scripts/validate_catalog.py` 为准。
+
 ### 主题前缀（必须精确）/ Subject prefixes (exact)
 
 | 类型 / Type | 主题格式 / Subject pattern |
