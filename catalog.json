@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-13T00:00:00Z",
+    "updatedAt": "2026-10-13T08:00:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -521,11 +521,13 @@
             "name": "好友列表叠加面板 MOD",
             "author": "llxmod",
             "version": "0.3.46",
-            "updatedAt": "2026-10-04",
-            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 好友列表独立叠加面板：科技感界面、分区、悬停快捷操作、搜索筛选排序，可拖动缩放并一键切回原生。支持邀请选战斗类型、「关注我的人」与回关、本地置顶、头像与游戏一致。0.3.46：退出时不再强行结束游戏进程。请先更新管理器到 1.3.11，并完全退出一次 Steam 后再打开，Steam 自带的游戏内覆盖层会关掉，退出游戏后停止按钮才能回到开始游戏。离线不再显示为状态16，并显示异步1V1、异步2V2和异步分数。",
+            "updatedAt": "2026-10-13",
+            "summary": "独立好友叠加面板：关注 / 关注我的人、搜索筛选排序、本地置顶、行内快捷操作与邀请选战斗类型；可拖动缩放，F8 切回原生。头像与游戏一致，并显示异步 1v1 / 2v2 分数。支持正式服。",
             "file": "mods/friend-overlay/FriendOverlay.dll",
             "sha256": "485dd97c7423f63fa29940e4a70a19e84f35a384952e960d80ef946518a417de",
             "size": 8544256,
+            "preview": "mods/friend-overlay/preview.png",
+            "previewSha256": "d52a6e8d9109f707ccd7f5be77e25d6d22ec71752cef9bd2a1939d7148b36a2e",
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
@@ -537,19 +539,19 @@
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
-                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Sci-fi friends overlay with sections, hover actions, search/filter/sort, drag/resize. Battle-type invite picker, followers tab, pinning, game-matched portraits. 0.3.46 no longer force-ends the game process on quit. Update the manager to 1.3.11 and fully quit Steam once so the Steam in-game overlay turns off; the library Stop button can then return to Play. Offline is no longer State 16, and async 1v1/2v2 scores are shown."
+                    "summary": "Standalone friends overlay with Following / Followers tabs, search, filters, sort, local pins, row shortcuts, and a battle-type invite picker. Drag or resize the panel; press F8 for the native UI. Portraits match the game, and async 1v1 / 2v2 scores are shown. Supports Official."
                 },
                 "de": {
                     "name": "Freundeslisten-Overlay",
-                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Eigenes Freundes-Overlay mit Suche, Filter, Sortierung und Schnellaktionen. Kampfart-Auswahl beim Einladen, Follower-Tab, angepinnte Freunde und spielgetreue Profilbilder. 0.3.46 beendet den Prozess beim Verlassen nicht mehr zwangsweise. Zuerst den Manager auf 1.3.11 aktualisieren und Steam einmal vollständig beenden, damit das Steam-Overlay aus geht und die Stop-Schaltfläche danach wieder zu Spielen wird. Offline ist nicht mehr Status 16, Async-1v1/2v2-Punkte werden angezeigt."
+                    "summary": "Eigenes Freundes-Overlay mit Tabs Folgen / Follower, Suche, Filter, Sortierung, lokalen Pins, Zeilenaktionen und Kampfart-Auswahl beim Einladen. Panel ziehen oder skalieren; F8 für die native Oberfläche. Avatare wie im Spiel, Async-1v1/2v2-Punkte sichtbar. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "フレンドリストオーバーレイ MOD",
-                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 検索・絞り込み・並び替えと行内ショートカット付きの独立フレンドパネル。ルーム外招待で戦闘タイプを選択して自動作成、フォロワータブとフォロー返し、フレンドのピン留め、ゲーム内と同じアバター表示。0.3.46 は終了時にプロセスを強制終了しません。管理器を 1.3.11 に更新し、Steam を一度完全に終了してから開き直すと、Steam のゲーム内オーバーレイが切れ、終了後に停止ボタンがプレイに戻ります。オフラインが「状態16」と出なくなり、非同期1v1/2v2とそのスコアを表示。"
+                    "summary": "独立フレンドパネル。フォロー / フォロワー、検索・絞り込み・並び替え、ローカルピン、行内ショートカット、招待時の戦闘タイプ選択。ドラッグやリサイズが可能で、F8 で公式UIへ切替。アバターはゲームと同じで、非同期1v1/2v2のスコアも表示。正式版に対応。"
                 },
                 "ru": {
                     "name": "Оверлей списка друзей",
-                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Отдельная панель друзей с поиском, фильтром, сортировкой и быстрыми действиями. Выбор типа боя при приглашении, вкладка подписчиков, закреплённые друзья и аватары как в игре. 0.3.46 больше не завершает процесс принудительно при выходе. Сначала обновите менеджер до 1.3.11 и один раз полностью закройте Steam: встроенный оверлей Steam выключится, и после выхода кнопка «Стоп» снова станет «Играть». Офлайн больше не «Статус 16», показаны очки асинхронных 1v1 и 2v2."
+                    "summary": "Отдельная панель друзей: вкладки «Подписки» / «Подписчики», поиск, фильтры, сортировка, локальные закрепления, быстрые действия и выбор типа боя при приглашении. Панель можно перетаскивать и менять размер; F8 — родной интерфейс. Аватары как в игре, показаны очки асинхронных 1v1 и 2v2. Поддерживается официальная ветка."
                 }
             },
             "parts": [
@@ -632,11 +634,13 @@
             "name": "回放功能重置",
             "author": "llxmod",
             "version": "0.2.7",
-            "updatedAt": "2026-10-06",
-            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 重做回放列表：自定义归档、局内改名、搜索、置顶、排序和日期分组，并可按 1v1、2v2、4人乱斗筛选。勾选后批量删除、移动或置顶，播放走单独的查看按钮。条目显示对局、版本、模式与地图。版本对不上的回放按官方文案显示过期标记。界面跟随游戏语言（简体中文、英文、德文、日文、俄文）。过期清理仍走官方规则。0.2.7：搜索和改名可以输入中文；改名框带上当前标题，不改则不另存别名；即将开战时回放面板让开，关闭按钮仍可点。",
+            "updatedAt": "2026-10-13",
+            "summary": "重做回放列表：搜索、自定义分类、置顶、改名、日期分组，可按 1v1 / 2v2 / 4 人乱斗筛选；支持勾选批量处理，单独「查看」播放。条目显示对局、版本、模式与地图；过期清理仍走官方规则。支持正式服。",
             "file": "mods/replay-reset/ReplayReset.dll",
             "sha256": "3678c6e0c32d4e5c7500b4be09f516eaa65ea6165fa65fd193c3cbb01fe8e9d1",
             "size": 92672,
+            "preview": "mods/replay-reset/preview.png",
+            "previewSha256": "3f3e3dbbb8b554b81336aebd0c685214d4c46945b926f37c154ca0c14474c210",
             "type": "MelonMod",
             "category": "ReplayDebug",
             "tags": [
@@ -646,19 +650,19 @@
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
-                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Rebuilds the replay list with custom archives, in-game rename, search, pins, sorting, date groups, and filters for 1v1, 2v2, and 4-player FFA. Selected rows can be deleted, moved, or pinned together, and playback uses a Watch button. Each row shows the matchup, version, mode, and map. Replays the game marks out of date show the official Expired label. The UI follows the game language (Simplified Chinese, English, German, Japanese, Russian). Expiry cleanup stays on the official rules. 0.2.7: search and rename accept Chinese input; rename starts from the current title and does not store an alias when that title is unchanged; when a match is about to start, the replay panel steps aside and the close button stays clickable."
+                    "summary": "Rebuilds the replay list with search, custom categories, pins, rename, date groups, and filters for 1v1, 2v2, and 4-player FFA. Select rows for batch actions; Watch plays a replay. Each row shows matchup, version, mode, and map. Expired cleanup stays on the official rules. Supports Official."
                 },
                 "de": {
                     "name": "Replay-Funktionen zurücksetzen",
-                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Baut die Replay-Liste neu: eigene Archive, Umbenennen im Spiel, Suche, Anpinnen, Sortierung, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam löschen, verschieben oder anpinnen; die Wiedergabe startet über eine eigene Ansehen-Schaltfläche. Jede Zeile zeigt Paarung, Version, Modus und Karte. Als abgelaufen markierte Replays zeigen die offizielle Kennzeichnung Abgelaufen. Die Oberfläche folgt der Spielsprache (vereinfachtes Chinesisch, Englisch, Deutsch, Japanisch, Russisch). Abgelaufene Replays räumt weiterhin das Spiel selbst auf. 0.2.7: Suche und Umbenennen nehmen chinesische Eingabe an; das Feld startet mit dem aktuellen Titel und speichert keinen Aliasnamen, wenn der Titel unverändert bleibt; kurz vor Spielbeginn tritt die Replay-Liste zurück, der Schließen-Knopf bleibt anklickbar."
+                    "summary": "Baut die Replay-Liste neu: Suche, eigene Kategorien, Anpinnen, Umbenennen, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam bearbeiten; Ansehen startet die Wiedergabe. Jede Zeile zeigt Paarung, Version, Modus und Karte. Abgelaufene Replays räumt weiterhin das Spiel selbst auf. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "リプレイ機能リセット",
-                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 リプレイ一覧を作り直す。自分の分類、対戦中の改名、検索、ピン留め、並べ替え、日付グループに加え、1v1・2v2・4人乱戦で絞り込める。チェックした項目はまとめて削除・移動・ピン留めでき、再生は視聴ボタンから行う。各行には対戦、バージョン、モード、マップを表示する。バージョン不一致のリプレイには公式の「旧バージョン」表示を出す。画面はゲームの言語に従う（簡体字中国語・英語・ドイツ語・日本語・ロシア語）。期限切れの削除は公式のまま。0.2.7 は検索と改名で中国語を入力できる。改名欄には今の題名が入り、変えなければ別名は保存しない。試合開始直前はリプレイ画面が退き、閉じるボタンは押せる。"
+                    "summary": "リプレイ一覧を作り直す。検索、独自分類、ピン留め、改名、日付グループ、1v1・2v2・4人乱戦の絞り込み。チェックで一括操作、視聴で再生。各行に対戦・バージョン・モード・マップを表示。期限切れの削除は公式のまま。正式版に対応。"
                 },
                 "ru": {
                     "name": "Сброс функций повтора",
-                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Заново собирает список повторов: свои архивы, переименование в игре, поиск, закрепление, сортировка, группы по дате и фильтры 1v1, 2v2 и FFA на 4 игроков. Отмеченные записи можно вместе удалить, перенести или закрепить; просмотр запускается отдельной кнопкой. В строке видны составы, версия, режим и карта. Повторы, которые игра считает недействительными, показывают официальную метку. Интерфейс следует языку игры (упрощённый китайский, английский, немецкий, японский, русский). Очистку просроченных повторов по-прежнему делает сама игра. 0.2.7: поиск и переименование принимают китайский ввод; поле начинается с текущего названия и не сохраняет псевдоним, если название не меняли; перед началом матча список повторов уступает место, а кнопка закрытия остаётся нажимаемой."
+                    "summary": "Заново собирает список повторов: поиск, свои категории, закрепление, переименование, группы по дате и фильтры 1v1, 2v2 и FFA на 4. Отмеченные записи можно обрабатывать пакетом; просмотр запускает повтор. В строке — составы, версия, режим и карта. Очистку просроченных по-прежнему делает игра. Поддерживается официальная ветка."
                 }
             },
             "parts": [
