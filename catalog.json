@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-08T09:15:00Z",
+    "updatedAt": "2026-10-13T00:00:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -913,41 +913,42 @@
             "id": "predict-position",
             "name": "位置预测 MOD",
             "author": "唐氏发糕",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "updatedAt": "2026-10-08",
-            "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 在战场上标出单位预计到达的位置。可调预测秒数和刷新间隔，可按轻型、中型、巨型过滤。默认只在部署阶段显示，进入战斗后隐藏。标记面板可拖动，位置记在 UserData。",
+            "summary": "在部署阶段标出单位预计到达的位置。面板可拖动，拖动滑块调整预测时长 3~20 秒，勾选轻型 / 中型 / 巨型过滤体型。我方标记为蓝色、敌方为红色，标记大小随单位尺寸变化；一卡多单位只取三个代表；密集处自动隐藏名称。无热键。进入战斗后自动隐藏。支持正式服。",
             "file": "mods/predict-position/MbPredictPosition.dll",
-            "sha256": "37c888ea08b6c920733527840f1476c7effecfecd411fa4b0b79b5a4adbb75a9",
-            "size": 42496,
+            "sha256": "c88e6926f20f2c15402be432ce2e1cc830440a0343fcb36c194800f2f468e630",
+            "size": 59392,
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": [
                 "predict",
-                "hud"
+                "hud",
+                "deploy"
             ],
             "locales": {
                 "en": {
-                    "name": "MB Predict Position",
-                    "summary": "Installing or updating through the manager requires 1.3.13 or newer. Marks where units are predicted to be. Prediction length and refresh interval are adjustable, and markers can be limited to light, medium, or giant units. By default they show only during deployment and hide once the fight starts. The panel can be dragged, and its position is saved under UserData."
+                    "name": "Position Prediction",
+                    "summary": "Marks where units are expected to arrive during the deploy phase. Drag the panel and its slider to set the prediction window between 3 and 20 seconds, and tick Light, Medium or Giant to filter by size class. Your markers are blue, the enemy's are red, and marker size follows unit size. A squad with several units shows three representatives, and overlapping name labels are hidden. No hotkey. Markers hide when the fight starts. Supports Official."
                 },
                 "de": {
                     "name": "Positionsvorhersage",
-                    "summary": "Installation oder Aktualisierung über den Manager erfordert 1.3.13 oder neuer. Markiert, wo Einheiten voraussichtlich ankommen. Vorhersagedauer und Aktualisierungsintervall sind einstellbar, und Markierungen lassen sich auf leichte, mittlere oder riesige Einheiten begrenzen. Standardmäßig nur in der Aufstellungsphase, danach ausgeblendet. Das Feld lässt sich ziehen, die Position wird unter UserData gespeichert."
+                    "summary": "Markiert in der Aufstellungsphase, wo Einheiten voraussichtlich ankommen. Feld ziehen, per Schieberegler den Vorhersagezeitraum auf 3 bis 20 Sekunden setzen, mit Leicht, Mittel oder Gigantisch nach Größe filtern. Eigene Markierungen blau, die des Gegners rot, Größe folgt der Einheit. Ein Trupp zeigt drei Vertreter, überlappende Namensbeschriftungen werden ausgeblendet. Keine Tastenkürzel. Mit Kampfbeginn ausgeblendet. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "位置予測 MOD",
-                    "summary": "マネージャーからのインストールと更新には 1.3.13 以降が必要です。 ユニットが到達しそうな位置を戦場に表示します。予測秒数と更新間隔を調整でき、軽型・中型・巨型で絞り込めます。既定では配置段階だけ表示し、戦闘に入ると隠れます。表示パネルはドラッグでき、位置は UserData に保存されます。"
+                    "summary": "配置段階でユニットが到着しそうな位置を表示。パネルをドラッグし、スライダーで予測時間を 3〜20 秒に調整、軽型・中型・巨型でサイズを絞り込めます。味方は青、敵は赤で、マーカーの大きさはユニットに合わせて変化。複数体の部隊は代表 3 体のみ表示し、重なる名前は隠します。ホットキーなし。戦闘開始で非表示。正式版に対応。"
                 },
                 "ru": {
                     "name": "Прогноз позиции",
-                    "summary": "Установка и обновление через менеджер требуют версию 1.3.13 или новее. Отмечает, где юниты окажутся. Длительность прогноза и интервал обновления настраиваются, метки можно ограничить лёгкими, средними или гигантскими юнитами. По умолчанию только на этапе расстановки, в бою скрываются. Панель можно перетащить, положение сохраняется в UserData."
+                    "summary": "На этапе расстановки отмечает, куда юниты, скорее всего, прибудут. Панель перетаскивается, ползунок задаёт время прогноза от 3 до 20 секунд, флажки «лёгкие», «средние» и «гигантские» фильтруют по размеру. Свои метки синие, врага красные, размер метки зависит от юнита. Отряд показан тремя представителями, перекрывающиеся подписи скрываются. Горячих клавиш нет. С началом боя метки скрываются. Поддерживается официальная ветка."
                 }
             },
             "parts": [
                 {
                     "file": "mods/predict-position/parts/0000",
-                    "sha256": "37c888ea08b6c920733527840f1476c7effecfecd411fa4b0b79b5a4adbb75a9",
-                    "size": 42496
+                    "sha256": "c88e6926f20f2c15402be432ce2e1cc830440a0343fcb36c194800f2f468e630",
+                    "size": 59392
                 }
             ],
             "minManagerVersion": "1.3.14"
