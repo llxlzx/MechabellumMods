@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-13T08:00:00Z",
+    "updatedAt": "2026-10-13T10:10:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -953,6 +953,50 @@
                     "file": "mods/predict-position/parts/0000",
                     "sha256": "c88e6926f20f2c15402be432ce2e1cc830440a0343fcb36c194800f2f468e630",
                     "size": 59392
+                }
+            ],
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "leaderboard-fix",
+            "name": "排行榜卡顿修复",
+            "author": "llxmod",
+            "version": "0.1.6",
+            "updatedAt": "2026-10-13",
+            "summary": "修复每次启动游戏后首次打开排行榜卡住近 10 秒的问题：玩家名用到的新字形改用更快的方式生成，显示基本不变。另屏蔽缺字警告、普通日志不再采集堆栈，并写一份轻量运行日志到 UserData/LeaderboardFix。无热键。支持正式服。",
+            "file": "mods/leaderboard-fix/LeaderboardFix.dll",
+            "sha256": "d909b9d287e09c3e6bfab87219ae1bd640efd1ddc998feb0611570564ffcf3a9",
+            "size": 71168,
+            "type": "MelonMod",
+            "category": "QoL",
+            "tags": [
+                "leaderboard",
+                "performance",
+                "fix"
+            ],
+            "locales": {
+                "en": {
+                    "name": "Leaderboard Freeze Fix",
+                    "summary": "Fixes the near 10-second freeze the first time the leaderboard opens after launching the game: new glyphs for player names are generated with a faster method, and text looks essentially the same. Also silences missing-glyph warnings, skips stack traces on ordinary logs, and writes a lightweight runtime log to UserData/LeaderboardFix. No hotkey. Supports Official."
+                },
+                "de": {
+                    "name": "Ranglisten-Freeze-Fix",
+                    "summary": "Behebt das fast 10 Sekunden lange Einfrieren beim ersten Öffnen der Rangliste nach dem Spielstart: Neue Schriftzeichen für Spielernamen werden schneller erzeugt, der Text sieht praktisch gleich aus. Unterdrückt außerdem Warnungen zu fehlenden Zeichen, spart Stacktraces bei normalen Logs und schreibt ein schlankes Laufzeitprotokoll nach UserData/LeaderboardFix. Keine Tastenkürzel. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "ランキングフリーズ修正",
+                    "summary": "ゲーム起動後に初めてランキングを開くと 10 秒近く固まる問題を修正。プレイヤー名の新しい文字をより速い方法で生成し、見た目はほぼ変わりません。欠けた文字の警告を抑え、通常ログのスタックトレースを省き、軽量な動作ログを UserData/LeaderboardFix に書き出します。ホットキーなし。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Исправление зависания таблицы лидеров",
+                    "summary": "Устраняет почти 10-секундное зависание при первом открытии таблицы лидеров после запуска игры: новые символы для имён игроков создаются более быстрым способом, текст выглядит практически так же. Также отключает предупреждения об отсутствующих символах, не собирает трассировку стека для обычных логов и пишет лёгкий журнал работы в UserData/LeaderboardFix. Горячих клавиш нет. Поддерживается официальная ветка."
+                }
+            },
+            "parts": [
+                {
+                    "file": "mods/leaderboard-fix/parts/0000",
+                    "sha256": "d909b9d287e09c3e6bfab87219ae1bd640efd1ddc998feb0611570564ffcf3a9",
+                    "size": 71168
                 }
             ],
             "minManagerVersion": "1.3.14"
