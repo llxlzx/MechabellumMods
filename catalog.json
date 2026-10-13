@@ -576,12 +576,12 @@
             "id": "battle-suite",
             "name": "钢铁战局助手",
             "author": "老匪_GODOG",
-            "version": "1.0.0",
-            "updatedAt": "2026-09-27",
+            "version": "1.2.0",
+            "updatedAt": "2026-10-13",
             "summary": "从管理器安装或更新需要 1.3.13 或更高版本。 标准 1v1 实况界面。底部显示双方专精、装备与技能，并对比普通单位的部署价值（补给、装备与已激活科技）和生命上限：部署时重算，战斗中刷新，本场结束后保留到下一部署。两侧按当前伤害取前 6，显示伤害与击杀。F6 切换预测条，F8 切换本回合/累计伤害。底栏皮肤可放到 Mods/BattleSuite 覆盖内嵌图，模组不会改写图片。Live 界面与经济数据仅含 1.11.1.3.2259、2.0.0.0.2289、2.0.0.0.2305。正式服 2.0.0.0.2320 未登记。2.0.0.0.2314 只有未完成的远征档案，不含这套界面资源和经济数据。",
             "file": "mods/battle-suite/Mechabellum.RoundHistory.dll",
-            "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
-            "size": 5337088,
+            "sha256": "8d9ac21bf6bc8af077881a465e14bef0284f0079d436ab436213cc75c9879e1e",
+            "size": 10378240,
             "preview": "mods/battle-suite/preview.png",
             "previewSha256": "c4135ed5f5b68efdf7484ff3d9e2205169dc6e682dcbe21efb69b535e55b2673",
             "type": "MelonMod",
@@ -633,8 +633,8 @@
             "parts": [
                 {
                     "file": "mods/battle-suite/parts/0000",
-                    "sha256": "c48ee8a49c14db453afc8b4d3012850c63b65aefdf3889c272c8e8019b71e340",
-                    "size": 5337088
+                    "sha256": "8d9ac21bf6bc8af077881a465e14bef0284f0079d436ab436213cc75c9879e1e",
+                    "size": 10378240
                 }
             ],
             "minManagerVersion": "1.3.14"
