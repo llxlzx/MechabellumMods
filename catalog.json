@@ -19,6 +19,7 @@
                 "grid",
                 "hud"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Ground Grid Mod",
@@ -109,6 +110,7 @@
                 "camera",
                 "hotkey"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Quick Camera Views Mod",
@@ -199,6 +201,7 @@
                 "combat",
                 "speed"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Auto Speed Battle Mod",
@@ -354,6 +357,7 @@
                 "replay",
                 "debug"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Replay Lab Tools Mod",
@@ -399,6 +403,7 @@
                 "mark",
                 "grid"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Quick Mark Mod",
@@ -536,6 +541,7 @@
                 "qol",
                 "overlay"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
@@ -647,6 +653,7 @@
                 "replay",
                 "ui"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
@@ -737,6 +744,7 @@
                 "unit",
                 "hover"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "CUT Guide",
@@ -843,6 +851,7 @@
                 "economy",
                 "hud"
             ],
+            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Opponent Economy",
@@ -930,6 +939,7 @@
                 "hud",
                 "deploy"
             ],
+            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Position Prediction",
@@ -974,6 +984,7 @@
                 "performance",
                 "fix"
             ],
+            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Leaderboard Freeze Fix",

@@ -30,6 +30,8 @@ ALLOWED_CATEGORIES = {
     "OverlayUI", "QoL", "Camera", "CombatAssist",
     "Economy", "ReplayDebug", "Misc",
 }
+# Maintainer-set. Tournament = no effect on match fairness; Casual = everyday play only.
+ALLOWED_USAGES = {"Tournament", "Casual"}
 # GitHub rejects a push that contains one file over 100 MB. A mod that large is
 # served from originUrl; the git checkout, including CI, does not have the bytes.
 LARGE_FILE_BYTES = 100 * 1024 * 1024
@@ -246,6 +248,14 @@ def check_min_manager_version(mod: dict, errors: list[str]) -> None:
         errors.append(f"{label} segment must be at most 65535")
 
 
+def check_usage(mod: dict, errors: list[str]) -> None:
+    usage = mod.get("usage")
+    if usage is None:
+        return
+    if not isinstance(usage, str) or usage.strip() not in ALLOWED_USAGES:
+        errors.append(f"id={mod.get('id')!r}: invalid usage: {usage!r}")
+
+
 def asset_name(rel: str) -> str:
     """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
     return rel.replace("\\", "/").replace("/", "__")
@@ -460,6 +470,8 @@ def main() -> int:
         if tags is not None:
             if not isinstance(tags, list) or any(not isinstance(t, str) for t in tags):
                 errors.append(f"id={mod.get('id')!r}: tags must be a string array")
+
+        check_usage(mod, errors)
 
         errors.extend(conflict_errors(mod, {m.get("id") for m in mods if isinstance(m, dict)}))
 

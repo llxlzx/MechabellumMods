@@ -115,6 +115,18 @@ class ValidatePartsTests(unittest.TestCase):
         v.check_min_manager_version({"id": "a", "minManagerVersion": "v1.3.14"}, errors)
         self.assertEqual(len(errors), 2)
 
+    def test_usage_is_optional_and_limited(self):
+        errors: list[str] = []
+        v.check_usage({"id": "a"}, errors)
+        v.check_usage({"id": "a", "usage": "Tournament"}, errors)
+        v.check_usage({"id": "a", "usage": "Casual"}, errors)
+        self.assertEqual(errors, [])
+        v.check_usage({"id": "a", "usage": "Unrated"}, errors)
+        v.check_usage({"id": "a", "usage": "tournament"}, errors)
+        v.check_usage({"id": "a", "usage": 1}, errors)
+        self.assertEqual(len(errors), 3)
+        self.assertTrue(all("invalid usage" in e for e in errors))
+
 
 if __name__ == "__main__":
     unittest.main()
