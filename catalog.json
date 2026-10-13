@@ -1018,7 +1018,7 @@
         {
             "id": "axis-lock",
             "name": "移动轴锁定 MOD",
-            "author": "NACL & Codex",
+            "author": "巴巴",
             "version": "1.0.1",
             "updatedAt": "2026-10-13",
             "summary": "在战斗场景里拖动单位时按住 Shift，单位只会沿水平或竖直一条轴移动，方便把阵型排齐；松开 Shift 即恢复自由移动。无其他热键。",
