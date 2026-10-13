@@ -1066,12 +1066,12 @@
             "id": "skin-selector",
             "name": "皮肤选择器",
             "author": "Minz",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "updatedAt": "2026-10-14",
-            "summary": "总览并切换所有单位的皮肤，可按主题优先级快速批量更换，也可逐个手动调整。标准对战和星际远征可以一起配置，也可以分开配置。按 F11，或主菜单「皮肤」按钮打开。只能在大厅修改。支持正式服。",
+            "summary": "总览并切换所有单位的皮肤，可按主题优先级快速批量更换，也可逐个手动调整。标准对战和星际远征可以一起配置，也可以分开配置。按 F11，或主菜单上的皮肤按钮打开。界面跟随 Windows 显示语言：中文、英文、俄文、日文、德文，其他语言显示英文。只能在大厅修改。支持正式服。",
             "file": "mods/skin-selector/SkinSelector.dll",
-            "sha256": "0f277ba897e74eb13fdb6e560bf0fef19e2665b99f75ae0c638d358edd3c62ba",
-            "size": 75776,
+            "sha256": "8a9e782321e1dafd7d2a248c63d9ed3e69257e60d492765be1d382f2fd810e89",
+            "size": 91648,
             "preview": "mods/skin-selector/preview.png",
             "previewSha256": "5cb092a9d706fc692def3b86daaede8ade88171f6bbbd628f9d901616a86ee46",
             "type": "MelonMod",
@@ -1084,26 +1084,26 @@
             "locales": {
                 "en": {
                     "name": "Skin Selector",
-                    "summary": "Shows every unit skin and switches them, either one at a time or in a batch that follows a theme priority. Standard battles and Expedition can be configured together or separately. Press F11, or use the main-menu button labeled 皮肤. Changes are only available in the lobby. Supports Official."
+                    "summary": "Shows every unit skin and switches them, either one at a time or in a batch that follows a theme priority. Standard battles and Expedition can be configured together or separately. Press F11, or use the Skins button on the main menu. The window follows the Windows display language (Chinese, English, Russian, Japanese, German; any other language is shown in English). Changes are only available in the lobby. Supports Official."
                 },
                 "de": {
                     "name": "Skin-Auswahl",
-                    "summary": "Zeigt und wechselt die Skins aller Einheiten, einzeln oder gesammelt nach Themenpriorität. Standardkämpfe und Expedition können zusammen oder getrennt konfiguriert werden. Mit F11 oder über die Hauptmenü-Schaltfläche „皮肤“ öffnen. Änderungen nur in der Lobby. Unterstützt Offiziell."
+                    "summary": "Zeigt und wechselt die Skins aller Einheiten, einzeln oder gesammelt nach Themenpriorität. Standardkämpfe und Expedition können zusammen oder getrennt konfiguriert werden. Mit F11 oder über die Schaltfläche Skins im Hauptmenü öffnen. Das Fenster folgt der Windows-Anzeigesprache (Chinesisch, Englisch, Russisch, Japanisch, Deutsch; jede andere Sprache erscheint auf Englisch). Änderungen nur in der Lobby. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "スキンセレクター",
-                    "summary": "全部隊のスキンを一覧し、テーマの優先順でまとめて切り替えるか、一つずつ手動で変えられます。標準対戦と遠征は一緒にも別々にも設定できます。F11、またはメインメニューの「皮肤」ボタンで開きます。変更できるのはロビーだけです。正式版に対応。"
+                    "summary": "全部隊のスキンを一覧し、テーマの優先順でまとめて切り替えるか、一つずつ手動で変えられます。標準対戦と遠征は一緒にも別々にも設定できます。F11、またはメインメニューのスキンボタンで開きます。表示は Windows の表示言語に従います（中国語、英語、ロシア語、日本語、ドイツ語。それ以外は英語）。変更できるのはロビーだけです。正式版に対応。"
                 },
                 "ru": {
                     "name": "Выбор обликов",
-                    "summary": "Показывает и переключает облики всех юнитов: по одному или пакетом по приоритету тем. Стандартные бои и экспедицию можно настроить вместе или раздельно. Открывается клавишей F11 или кнопкой «皮肤» в главном меню. Менять можно только в лобби. Поддерживается официальная ветка."
+                    "summary": "Показывает и переключает облики всех юнитов: по одному или пакетом по приоритету тем. Стандартные бои и экспедицию можно настроить вместе или раздельно. Открывается клавишей F11 или кнопкой «Скины» в главном меню. Окно следует языку интерфейса Windows (китайский, английский, русский, японский, немецкий; остальные языки показываются по-английски). Менять можно только в лобби. Поддерживается официальная ветка."
                 }
             },
             "parts": [
                 {
                     "file": "mods/skin-selector/parts/0000",
-                    "sha256": "0f277ba897e74eb13fdb6e560bf0fef19e2665b99f75ae0c638d358edd3c62ba",
-                    "size": 75776
+                    "sha256": "8a9e782321e1dafd7d2a248c63d9ed3e69257e60d492765be1d382f2fd810e89",
+                    "size": 91648
                 }
             ],
             "minManagerVersion": "1.3.14"
