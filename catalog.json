@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-13T04:55:15Z",
+    "updatedAt": "2026-10-13T16:32:28Z",
     "mods": [
         {
             "id": "show-grid",
@@ -1058,6 +1058,52 @@
                     "file": "mods/axis-lock/parts/0000",
                     "sha256": "caacab7994b8d1e0a29cc901bee69ee6cc6edd73e7545b7cc63fb21ddd2a4df0",
                     "size": 12800
+                }
+            ],
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "skin-selector",
+            "name": "皮肤选择器",
+            "author": "Minz",
+            "version": "2.0.0",
+            "updatedAt": "2026-10-14",
+            "summary": "总览并切换所有单位的皮肤，可按主题优先级快速批量更换，也可逐个手动调整。标准对战和星际远征可以一起配置，也可以分开配置。按 F7，或主菜单「皮肤」按钮打开。只能在大厅修改。支持正式服。",
+            "file": "mods/skin-selector/SkinSelector.dll",
+            "sha256": "2c824497636c4471a9058e63b3db14984e359bd8d1487c77e552cd48f3bc67cd",
+            "size": 75776,
+            "preview": "mods/skin-selector/preview.png",
+            "previewSha256": "5cb092a9d706fc692def3b86daaede8ade88171f6bbbd628f9d901616a86ee46",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": [
+                "皮肤",
+                "界面显示"
+            ],
+            "usage": "Tournament",
+            "locales": {
+                "en": {
+                    "name": "Skin Selector",
+                    "summary": "Shows every unit skin and switches them, either one at a time or in a batch that follows a theme priority. Standard battles and Expedition can be configured together or separately. Press F7, or use the main-menu button labeled 皮肤. Changes are only available in the lobby. Supports Official."
+                },
+                "de": {
+                    "name": "Skin-Auswahl",
+                    "summary": "Zeigt und wechselt die Skins aller Einheiten, einzeln oder gesammelt nach Themenpriorität. Standardkämpfe und Expedition können zusammen oder getrennt konfiguriert werden. Mit F7 oder über die Hauptmenü-Schaltfläche „皮肤“ öffnen. Änderungen nur in der Lobby. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "スキンセレクター",
+                    "summary": "全部隊のスキンを一覧し、テーマの優先順でまとめて切り替えるか、一つずつ手動で変えられます。標準対戦と遠征は一緒にも別々にも設定できます。F7、またはメインメニューの「皮肤」ボタンで開きます。変更できるのはロビーだけです。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Выбор обликов",
+                    "summary": "Показывает и переключает облики всех юнитов: по одному или пакетом по приоритету тем. Стандартные бои и экспедицию можно настроить вместе или раздельно. Открывается клавишей F7 или кнопкой «皮肤» в главном меню. Менять можно только в лобби. Поддерживается официальная ветка."
+                }
+            },
+            "parts": [
+                {
+                    "file": "mods/skin-selector/parts/0000",
+                    "sha256": "2c824497636c4471a9058e63b3db14984e359bd8d1487c77e552cd48f3bc67cd",
+                    "size": 75776
                 }
             ],
             "minManagerVersion": "1.3.14"
