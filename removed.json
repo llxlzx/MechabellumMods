@@ -1,0 +1,146 @@
+[
+  {
+    "id": "damage-rank",
+    "name": "伤害排名 MOD",
+    "sha256": [
+      "01b50addbca60f5e1abacacbf0e5916166a01fcffd8403859651cf3f60411a07"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  },
+  {
+    "id": "sales-calculation",
+    "name": "增援计算净赚 MOD",
+    "sha256": [
+      "bc075283ad2675b14d3dda0e18cc62b61b9b4a1d50c7a445b3d52d02b34f2401"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  },
+  {
+    "id": "missile-direction",
+    "name": "飞弹方向 MOD",
+    "sha256": [
+      "b1e6a9e8df1ab6909623469662780ceb28412369985e3a69de6b9ce974274a64",
+      "1edb2108d3327d3306ba5acddf8726e8d9c87c6c500ce8a26eefe11c8f7892c8",
+      "3e02fe99e8795d871d529eb7d285314ee562a2f1fcf2213e0eb96381412e84ea",
+      "6ea324a5191ebc1c648e2b7f584263608d0e8d15daa251eface2bf1097d5e701"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  },
+  {
+    "id": "opponent-economy",
+    "name": "对手经济 MOD",
+    "sha256": [
+      "d02dbf70281ec739197bf7ad70b7fada21fa1319815bc708649aab1ea11997a7"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  },
+  {
+    "id": "unit-ledger",
+    "name": "单位综合分析 MOD",
+    "sha256": [
+      "42cf3a1e7bdb100bf8588bfe4e62dd26ebcd3b218e609be9ddd62b103f1b973e",
+      "80e5d86967aa86eaee5dbd49715d1291cb8a76317449dade6a045ca6aab4de40",
+      "c5639ae12eb9094bfb4e3a95f78d64a1616c6db564e921847962665cffca65f6"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  },
+  {
+    "id": "predict-position",
+    "name": "位置预测 MOD",
+    "sha256": [
+      "c88e6926f20f2c15402be432ce2e1cc830440a0343fcb36c194800f2f468e630",
+      "37c888ea08b6c920733527840f1476c7effecfecd411fa4b0b79b5a4adbb75a9"
+    ],
+    "reason": "影响对局公平，已下架。",
+    "since": "2026-10-14",
+    "locales": {
+      "en": {
+        "reason": "Affects match fairness; removed."
+      },
+      "de": {
+        "reason": "Beeinträchtigt die Fairness der Partie; entfernt."
+      },
+      "ja": {
+        "reason": "対局の公平性に影響するため、取り下げました。"
+      },
+      "ru": {
+        "reason": "Влияет на честность матча; снят с каталога."
+      }
+    }
+  }
+]
