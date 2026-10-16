@@ -374,6 +374,7 @@
             "id": "friend-overlay",
             "name": "好友列表叠加面板 MOD",
             "author": "llxmod",
+            "feedback": "llxmod@foxmail.com",
             "version": "0.3.46",
             "updatedAt": "2026-10-13",
             "summary": "独立好友叠加面板：关注 / 关注我的人、搜索筛选排序、本地置顶、行内快捷操作与邀请选战斗类型；可拖动缩放，F8 切回原生。头像与游戏一致，并显示异步 1v1 / 2v2 分数。支持正式服。",
@@ -469,6 +470,7 @@
             "id": "replay-reset",
             "name": "回放功能重置",
             "author": "llxmod",
+            "feedback": "llxmod@foxmail.com",
             "version": "0.3.3",
             "updatedAt": "2026-10-13",
             "summary": "重做回放列表：搜索、自定义分类、置顶、改名、日期分组，可按 1v1 / 2v2 / 4 人乱斗筛选；支持勾选批量处理，单独「查看」播放。条目显示对局、版本、模式与地图；过期清理仍走官方规则。支持正式服。",
@@ -670,6 +672,7 @@
             "id": "leaderboard-fix",
             "name": "排行榜卡顿修复",
             "author": "llxmod",
+            "feedback": "llxmod@foxmail.com",
             "version": "0.1.6",
             "updatedAt": "2026-10-13",
             "summary": "修复每次启动游戏后首次打开排行榜卡住近 10 秒的问题：玩家名用到的新字形改用更快的方式生成，显示基本不变。另屏蔽缺字警告、普通日志不再采集堆栈，并写一份轻量运行日志到 UserData/LeaderboardFix。无热键。支持正式服。",
@@ -802,6 +805,149 @@
                     "size": 91648
                 }
             ],
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "credit-helper",
+            "name": "信用点助手",
+            "author": "llxmod",
+            "feedback": "llxmod@foxmail.com",
+            "version": "1.0.0",
+            "updatedAt": "2026-10-17",
+            "summary": "回到主界面后，如果距上次领取已满 48 小时，并且还有没领的信用点，会自动领一次。信用点商店打开时，可以按你事先列好的商品和折扣自动购买皮肤、表情等。支持正式服。",
+            "file": "mods/credit-helper/AutoClaimCredits.dll",
+            "sha256": "9b7940ede5816fb20e46bc7568d376d4f2e9a00ae5114692a724eade6f45bcca",
+            "size": 184832,
+            "type": "MelonMod",
+            "category": "Economy",
+            "tags": ["商店", "信用点"],
+            "usage": "Tournament",
+            "locales": {
+                "en": {
+                    "name": "Credit Helper",
+                    "summary": "After you return to the main menu, if 48 hours have passed since the last claim and unclaimed credits remain, it claims them once. While the credit shop is open, it can buy skins, emotes, and similar items from a list and discount you set. Supports Official."
+                },
+                "de": {
+                    "name": "Kredit-Helfer",
+                    "summary": "Nach der Rückkehr ins Hauptmenü wird einmal abgeholt, wenn seit dem letzten Abholen 48 Stunden vergangen sind und noch Guthaben wartet. Im Kredit-Shop kann eine eigene Liste mit Rabattgrenze automatisch kaufen. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "クレジット助手",
+                    "summary": "メインメニューに戻ったとき、前回の受取から 48 時間たち、未受取のクレジットがあれば一度受け取ります。クレジットショップを開いているあいだ、自分で並べた商品と割引条件で自動購入できます。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Помощник кредитов",
+                    "summary": "После возвращения в главное меню один раз забирает кредиты, если с прошлого получения прошло 48 часов и есть неполученный остаток. В магазине кредитов может покупать предметы из вашего списка по заданной скидке. Поддерживается официальная ветка."
+                }
+            },
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "hide-control-tips",
+            "name": "隐藏操作提示",
+            "author": "Oddz",
+            "version": "1.0.0",
+            "updatedAt": "2026-10-17",
+            "summary": "隐藏战斗界面左下角的镜头和操作提示。装上后自动生效，不用按键。支持正式服和测试服。",
+            "file": "mods/hide-control-tips/HideControlTips.dll",
+            "sha256": "77a9e7bfda06880f01466c079b985cee88e2f3f93e092dbaf642222a83ca7d66",
+            "size": 6144,
+            "preview": "mods/hide-control-tips/preview.png",
+            "previewSha256": "e576de490bc3ca9d34180301076ef1a4f7d80f8f209db7bceebffd7dafbb8665",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": ["ui", "hud", "overlay"],
+            "usage": "Tournament",
+            "locales": {
+                "en": {
+                    "name": "Hide Control Tips",
+                    "summary": "Hides the camera and control hints at the bottom left of the battle screen. It takes effect automatically, with no hotkey. Supports Official and Test."
+                },
+                "de": {
+                    "name": "Steuerungshinweise ausblenden",
+                    "summary": "Blendet die Kamera- und Steuerungshinweise unten links im Kampf aus. Wirkt automatisch, ohne Taste. Unterstützt Offiziell und Test."
+                },
+                "ja": {
+                    "name": "操作ヒントを隠す",
+                    "summary": "戦闘画面左下のカメラと操作ヒントを隠します。入れると自動で効き、キーは不要です。正式版とテスト版に対応。"
+                },
+                "ru": {
+                    "name": "Скрыть подсказки управления",
+                    "summary": "Скрывает подсказки камеры и управления внизу слева в бою. Работает само, без клавиши. Поддерживаются официальная и тестовая ветки."
+                }
+            },
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "upgrade-helper",
+            "name": "升级助手",
+            "author": "Minz",
+            "version": "2.0.0",
+            "updatedAt": "2026-10-17",
+            "summary": "部署时列出可以升级的单位、等级和本次费用。左键升级一个，右键锁定这种单位，标题上可以一次升级。自己结束部署后会停。支持正式服。",
+            "file": "mods/upgrade-helper/UpgradeHelper.dll",
+            "sha256": "a94d9ae2f487f1657628b72d43df912139ef9beaf57edd667a6414de5bb534ee",
+            "size": 45056,
+            "preview": "mods/upgrade-helper/preview.png",
+            "previewSha256": "c57f9902586d5f6f4ffe14b1a9db6bec191eefceb5226659b0fbb42c5640991c",
+            "type": "MelonMod",
+            "category": "QoL",
+            "tags": ["部署", "升级"],
+            "usage": "Casual",
+            "locales": {
+                "en": {
+                    "name": "Upgrade Helper",
+                    "summary": "During deployment, lists units you can upgrade, with level and cost. Left click upgrades one, right click locks that type, and the title can upgrade the list. It stops after you finish deploying. Supports Official."
+                },
+                "de": {
+                    "name": "Aufwertungshelfer",
+                    "summary": "Zeigt beim Aufstellen Einheiten, die aufgewertet werden können, mit Stufe und Kosten. Linksklick wertet eine auf, Rechtsklick sperrt den Typ, der Titel wertet die Liste auf. Stoppt, wenn du selbst fertig aufgestellt hast. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "アップグレード助手",
+                    "summary": "配置中に、上げられるユニットと等級、今回の費用を出します。左クリックで一つ、右クリックで種類をロック、見出しでまとめて上げられます。自分の配置が終わると止まります。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Помощник улучшений",
+                    "summary": "Во время расстановки показывает юнитов, которых можно улучшить, с уровнем и ценой. Левая кнопка улучшает одного, правая запирает тип, заголовок улучшает список. Останавливается, когда вы закончили расстановку. Поддерживается официальная ветка."
+                }
+            },
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "grid-ruler",
+            "name": "网格标尺",
+            "author": "Minz",
+            "version": "2.0.0",
+            "updatedAt": "2026-10-17",
+            "summary": "部署时按 C 在两种看图方式之间切换：彩色格子用来看位置，距离环用来看间隔。距离环在整个部署阶段都可能出现。支持正式服。",
+            "file": "mods/grid-ruler/GridRuler.dll",
+            "sha256": "1f106fc9aa92996be476f10c37ccf192df1eb6f2d3acfbc876224518a7a45256",
+            "size": 65024,
+            "preview": "mods/grid-ruler/preview.png",
+            "previewSha256": "2601e64770da81065659a6701d9e4eb43fe4adc7ee8732ee0221aee60ae27865",
+            "type": "MelonMod",
+            "category": "OverlayUI",
+            "tags": ["部署", "网格"],
+            "usage": "Tournament",
+            "locales": {
+                "en": {
+                    "name": "Grid Ruler",
+                    "summary": "During deployment, press C to switch between a colored grid for position and distance rings for spacing. The rings can appear throughout deployment. Supports Official."
+                },
+                "de": {
+                    "name": "Gitterrand",
+                    "summary": "Beim Aufstellen wechselt C zwischen einem farbigen Gitter für die Position und Abstandsringen. Die Ringe können die ganze Aufstellphase über sichtbar sein. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "グリッド定規",
+                    "summary": "配置中に C で、位置を見る色付き格子と間隔を見る距離環を切り替えます。距離環は配置のあいだ出ることがあります。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Сетка-линейка",
+                    "summary": "Во время расстановки C переключает цветную сетку для позиции и кольца дистанции. Кольца могут быть видны всю фазу расстановки. Поддерживается официальная ветка."
+                }
+            },
             "minManagerVersion": "1.3.14"
         }
     ]
