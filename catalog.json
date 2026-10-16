@@ -1,6 +1,6 @@
 {
   "removedSigned": { "payload": "eyJpc3N1ZWRBdCI6IjIwMjYtMTAtMTRUMTE6MTk6MTBaIiwicmVtb3ZlZCI6WwogIHsKICAgICJpZCI6ICJkYW1hZ2UtcmFuayIsCiAgICAibmFtZSI6ICLkvKTlrrPmjpLlkI0gTU9EIiwKICAgICJzaGEyNTYiOiBbCiAgICAgICIwMWI1MGFkZGJjYTYwZjVlMWFiYWNhY2JmMGU1OTE2MTY2YTAxZmNmZmQ4NDAzODU5NjUxY2YzZjYwNDExYTA3IgogICAgXSwKICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwKICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwKICAgICJsb2NhbGVzIjogewogICAgICAiZW4iOiB7CiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiIKICAgICAgfSwKICAgICAgImRlIjogewogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iCiAgICAgIH0sCiAgICAgICJqYSI6IHsKICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiIKICAgICAgfSwKICAgICAgInJ1IjogewogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIgogICAgICB9CiAgICB9CiAgfSwKICB7CiAgICAiaWQiOiAic2FsZXMtY2FsY3VsYXRpb24iLAogICAgIm5hbWUiOiAi5aKe5o+06K6h566X5YeA6LWaIE1PRCIsCiAgICAic2hhMjU2IjogWwogICAgICAiYmMwNzUyODNhZDI2NzViMTRkM2RkYTBlMThjYzYyYjYxYjliNGExZDUwYzdhNDQ1YjNkNTJkMDJiMzRmMjQwMSIKICAgIF0sCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsCiAgICAibG9jYWxlcyI6IHsKICAgICAgImVuIjogewogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iCiAgICAgIH0sCiAgICAgICJkZSI6IHsKICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIgogICAgICB9LAogICAgICAiamEiOiB7CiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiCiAgICAgIH0sCiAgICAgICJydSI6IHsKICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiIKICAgICAgfQogICAgfQogIH0sCiAgewogICAgImlkIjogIm1pc3NpbGUtZGlyZWN0aW9uIiwKICAgICJuYW1lIjogIumjnuW8ueaWueWQkSBNT0QiLAogICAgInNoYTI1NiI6IFsKICAgICAgImIxZTZhOWU4ZGYxYWI2OTA5NjIzNDY5NjYyNzgwY2ViMjg0MTIzNjk5ODVlM2E2OWRlNmI5Y2U5NzQyNzRhNjQiLAogICAgICAiMWVkYjIxMDhkMzMyN2QzMzA2YmE1YWNkZGY4NzI2ZThkOWM4N2M2YzUwMGNlOGEyNmVlZmUxMWM4Zjc4OTJjOCIsCiAgICAgICIzZTAyZmU5OWU4Nzk1ZDg3MWQ1MjllYjdkMjg1MzE0ZWU1NjJhMmYxZmNmMjIxM2UwZWI5NjM4MTQxMmU4NGVhIiwKICAgICAgIjZlYTMyNGE1MTkxZWJjMWM2NDhlMmI3ZjU4NDI2MzYwOGQwZThkMTVkYWEyNTFlZmFjZTJiZjEwOTdkNWU3MDEiCiAgICBdLAogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLAogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLAogICAgImxvY2FsZXMiOiB7CiAgICAgICJlbiI6IHsKICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIgogICAgICB9LAogICAgICAiZGUiOiB7CiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiIKICAgICAgfSwKICAgICAgImphIjogewogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIgogICAgICB9LAogICAgICAicnUiOiB7CiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iCiAgICAgIH0KICAgIH0KICB9LAogIHsKICAgICJpZCI6ICJvcHBvbmVudC1lY29ub215IiwKICAgICJuYW1lIjogIuWvueaJi+e7j+a1jiBNT0QiLAogICAgInNoYTI1NiI6IFsKICAgICAgImQwMmRiZjcwMjgxZWM3MzkxOTdiZjdhZDcwYjdmYWRhMjFmYTEzMTk4MTViYzcwODY0OWFhYjFlYTExOTk3YTciCiAgICBdLAogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLAogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLAogICAgImxvY2FsZXMiOiB7CiAgICAgICJlbiI6IHsKICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIgogICAgICB9LAogICAgICAiZGUiOiB7CiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiIKICAgICAgfSwKICAgICAgImphIjogewogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIgogICAgICB9LAogICAgICAicnUiOiB7CiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iCiAgICAgIH0KICAgIH0KICB9LAogIHsKICAgICJpZCI6ICJ1bml0LWxlZGdlciIsCiAgICAibmFtZSI6ICLljZXkvY3nu7zlkIjliIbmnpAgTU9EIiwKICAgICJzaGEyNTYiOiBbCiAgICAgICI0MmNmM2ExZTdiZGIxMDBiZjg1ODhiZmU0ZTYyZGQyNmViY2QzYjIxOGU2MDliZTlkZGQ2MmIxMDNmMWI5NzNlIiwKICAgICAgIjgwZTVkODY5NjdhYTg2ZWFlZTVkYmQ0OTcxNWQxMjkxY2I4YTc2MzE3NDQ5ZGFkZTZhMDQ1Y2E2YWFiNGRlNDAiLAogICAgICAiYzU2MzlhZTEyZWI5MDk0YmZiNGUzYTk1Zjc4ZDY0YTE2MTZjNmRiNTY0ZTkyMTg0Nzk2MjY2NWNmZmNhNjVmNiIKICAgIF0sCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsCiAgICAibG9jYWxlcyI6IHsKICAgICAgImVuIjogewogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iCiAgICAgIH0sCiAgICAgICJkZSI6IHsKICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIgogICAgICB9LAogICAgICAiamEiOiB7CiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiCiAgICAgIH0sCiAgICAgICJydSI6IHsKICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiIKICAgICAgfQogICAgfQogIH0sCiAgewogICAgImlkIjogInByZWRpY3QtcG9zaXRpb24iLAogICAgIm5hbWUiOiAi5L2N572u6aKE5rWLIE1PRCIsCiAgICAic2hhMjU2IjogWwogICAgICAiYzg4ZTY5MjZmMjBmMmMxNTQwMmJlNDMyY2UyZTFjYzgzMDQ0MGEwMzQzZmNiMzZjMTk0ODAwZjJmNDY4ZTYzMCIsCiAgICAgICIzN2M4ODhlYTA4YjZjOTIwNzMzNTI3ODQwZjE0NzZjN2VmZmVjZmVjZDQxMWZhNGIwYjc5YjVhNGFkYmI3NWE5IgogICAgXSwKICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwKICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwKICAgICJsb2NhbGVzIjogewogICAgICAiZW4iOiB7CiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiIKICAgICAgfSwKICAgICAgImRlIjogewogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iCiAgICAgIH0sCiAgICAgICJqYSI6IHsKICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiIKICAgICAgfSwKICAgICAgInJ1IjogewogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIgogICAgICB9CiAgICB9CiAgfQpdfQ==", "signature": "tCAdkJ3ypus4I38+CKT7O8le4BfrG6eQXUOi6K2vD86mncPDB+N8uxZQL2IXnnUjnfW3948dih3NwQOooUPjqA==" },
-            "updatedAt": "2026-10-16T20:55:00Z",
+            "updatedAt": "2026-10-16T21:00:00Z",
     "mods": [
         {
             "id": "show-grid",
@@ -20,7 +20,6 @@
                 "grid",
                 "hud"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Ground Grid Mod",
@@ -66,7 +65,6 @@
                 "hotkey",
                 "items"
             ],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Quick Items Mod",
@@ -112,7 +110,6 @@
                 "camera",
                 "hotkey"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Quick Camera Views Mod",
@@ -158,7 +155,6 @@
                 "hotkey",
                 "undo"
             ],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Fast Undo Mod",
@@ -204,7 +200,6 @@
                 "combat",
                 "speed"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Auto Speed Battle Mod",
@@ -250,7 +245,6 @@
                 "replay",
                 "debug"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Replay Lab Tools Mod",
@@ -296,7 +290,6 @@
                 "mark",
                 "grid"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Quick Mark Mod",
@@ -342,7 +335,6 @@
                 "dps",
                 "hud"
             ],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Unit DPS Display",
@@ -391,7 +383,6 @@
                 "qol",
                 "overlay"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Friend List Overlay",
@@ -438,7 +429,6 @@
                 "1v1",
                 "analytics"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "BattleSuite Standard Match HUD",
@@ -485,7 +475,6 @@
                 "replay",
                 "ui"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
@@ -530,7 +519,6 @@
                 "2v2",
                 "beacon"
             ],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "[Test] 2v2 Beacon",
@@ -577,7 +565,6 @@
                 "unit",
                 "hover"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "CUT Guide",
@@ -686,7 +673,6 @@
                 "performance",
                 "fix"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Leaderboard Freeze Fix",
@@ -733,7 +719,6 @@
                 "movement",
                 "shift"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Axis Lock",
@@ -779,7 +764,6 @@
                 "皮肤",
                 "界面显示"
             ],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Skin Selector",
@@ -821,7 +805,6 @@
             "type": "MelonMod",
             "category": "Economy",
             "tags": ["商店", "信用点"],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Credit Helper",
@@ -857,7 +840,6 @@
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": ["ui", "hud", "overlay"],
-            "usage": "Tournament",
             "locales": {
                 "en": {
                     "name": "Hide Control Tips",
@@ -893,7 +875,6 @@
             "type": "MelonMod",
             "category": "QoL",
             "tags": ["部署", "升级"],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Upgrade Helper",
@@ -929,7 +910,6 @@
             "type": "MelonMod",
             "category": "OverlayUI",
             "tags": ["部署", "网格"],
-            "usage": "Casual",
             "locales": {
                 "en": {
                     "name": "Grid Ruler",
