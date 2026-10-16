@@ -103,7 +103,7 @@ AI 协助写 Mod 时先读 [docs/ai-mod-standard.md](docs/ai-mod-standard.md)。
 【标题 / Title】
 【详细说明 / Details】
 【管理器版本 / App】（可选）
-【反馈渠道 / Feedback】（必填。作者自己提供，玩家要能据此联系上作者。会打开的只有不带用户信息的 https。这是把使用问题送回作者的渠道，中文和英文玩家都要能用。）
+【联系方式 / Contact】（可选）
 ```
 
 管理器内「投稿 Mod」「举报」会按界面语言打开 QQ 邮箱网页（中文）或 Gmail 写信页（其他语言），并复制主题/正文模板；若网页未打开，请手动发信到 **llxmod@foxmail.com** 并粘贴模板。
