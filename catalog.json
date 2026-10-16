@@ -829,15 +829,15 @@
                 },
                 "de": {
                     "name": "Kredit-Helfer",
-                    "summary": "Nach der Rückkehr ins Hauptmenü wird einmal abgeholt, wenn seit dem letzten Abholen 48 Stunden vergangen sind und noch Guthaben wartet. Im Kredit-Shop kann eine eigene Liste mit Rabattgrenze automatisch kaufen. Unterstützt Offiziell."
+                    "summary": "Nach der Rückkehr ins Hauptmenü holt er einmal ab, wenn seit dem letzten Abholen 48 Stunden vergangen sind und noch nicht abgeholte Kredite übrig sind. Solange der Kredit-Shop offen ist, kann er Skins, Emotes und Ähnliches nach deiner Liste und deinem Rabatt kaufen. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "クレジット助手",
-                    "summary": "メインメニューに戻ったとき、前回の受取から 48 時間たち、未受取のクレジットがあれば一度受け取ります。クレジットショップを開いているあいだ、自分で並べた商品と割引条件で自動購入できます。正式版に対応。"
+                    "summary": "メインメニューに戻ったとき、前回の受け取りから 48 時間が経ち、まだ受け取っていないクレジットがあれば一度だけ受け取ります。クレジットショップを開いているあいだは、あらかじめ並べた商品と割引条件でスキンやスタンプなどを自動購入できます。正式版に対応。"
                 },
                 "ru": {
                     "name": "Помощник кредитов",
-                    "summary": "После возвращения в главное меню один раз забирает кредиты, если с прошлого получения прошло 48 часов и есть неполученный остаток. В магазине кредитов может покупать предметы из вашего списка по заданной скидке. Поддерживается официальная ветка."
+                    "summary": "После возвращения в главное меню один раз забирает кредиты, если с прошлого получения прошло 48 часов и остались неполученные. Пока магазин кредитов открыт, может покупать облики, эмоции и похожие предметы по вашему списку и заданной скидке. Поддерживается официальная ветка."
                 }
             },
             "minManagerVersion": "1.3.14"
@@ -865,15 +865,15 @@
                 },
                 "de": {
                     "name": "Steuerungshinweise ausblenden",
-                    "summary": "Blendet die Kamera- und Steuerungshinweise unten links im Kampf aus. Wirkt automatisch, ohne Taste. Unterstützt Offiziell und Test."
+                    "summary": "Blendet die Kamera- und Steuerungshinweise unten links auf dem Kampfbildschirm aus. Wirkt nach der Installation automatisch, ohne Taste. Unterstützt Offiziell und Test."
                 },
                 "ja": {
                     "name": "操作ヒントを隠す",
-                    "summary": "戦闘画面左下のカメラと操作ヒントを隠します。入れると自動で効き、キーは不要です。正式版とテスト版に対応。"
+                    "summary": "戦闘画面左下のカメラと操作ヒントを隠します。導入後は自動で効き、キーは不要です。正式版とテスト版に対応。"
                 },
                 "ru": {
                     "name": "Скрыть подсказки управления",
-                    "summary": "Скрывает подсказки камеры и управления внизу слева в бою. Работает само, без клавиши. Поддерживаются официальная и тестовая ветки."
+                    "summary": "Скрывает подсказки камеры и управления внизу слева на боевом экране. После установки работает само, без клавиши. Поддерживаются официальная и тестовая ветки."
                 }
             },
             "minManagerVersion": "1.3.14"
@@ -901,15 +901,15 @@
                 },
                 "de": {
                     "name": "Aufwertungshelfer",
-                    "summary": "Zeigt beim Aufstellen Einheiten, die aufgewertet werden können, mit Stufe und Kosten. Linksklick wertet eine auf, Rechtsklick sperrt den Typ, der Titel wertet die Liste auf. Stoppt, wenn du selbst fertig aufgestellt hast. Unterstützt Offiziell."
+                    "summary": "Zeigt beim Aufstellen Einheiten, die aufgewertet werden können, mit Stufe und Kosten dieser Aufwertung. Linksklick wertet eine auf, Rechtsklick sperrt diesen Typ, über den Titel lässt sich die Liste auf einmal aufwerten. Stoppt, nachdem du selbst mit dem Aufstellen fertig bist. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "アップグレード助手",
-                    "summary": "配置中に、上げられるユニットと等級、今回の費用を出します。左クリックで一つ、右クリックで種類をロック、見出しでまとめて上げられます。自分の配置が終わると止まります。正式版に対応。"
+                    "summary": "配置中に、上げられるユニットと等級、今回の費用を表示します。左クリックで一つ上げ、右クリックでその種類をロックし、見出しからまとめて上げられます。自分の配置が終わると止まります。正式版に対応。"
                 },
                 "ru": {
                     "name": "Помощник улучшений",
-                    "summary": "Во время расстановки показывает юнитов, которых можно улучшить, с уровнем и ценой. Левая кнопка улучшает одного, правая запирает тип, заголовок улучшает список. Останавливается, когда вы закончили расстановку. Поддерживается официальная ветка."
+                    "summary": "Во время расстановки показывает юнитов, которых можно улучшить, с уровнем и стоимостью этого улучшения. Левая кнопка улучшает одного, правая запирает этот тип, заголовок улучшает весь список. Останавливается, когда вы сами закончили расстановку. Поддерживается официальная ветка."
                 }
             },
             "minManagerVersion": "1.3.14"
@@ -937,15 +937,15 @@
                 },
                 "de": {
                     "name": "Gitterrand",
-                    "summary": "Beim Aufstellen wechselt C zwischen einem farbigen Gitter für die Position und Abstandsringen. Die Ringe können die ganze Aufstellphase über sichtbar sein. Unterstützt Offiziell."
+                    "summary": "Beim Aufstellen wechselt C zwischen zwei Ansichten: ein farbiges Gitter zeigt die Position, Abstandsringe zeigen die Abstände. Die Ringe können während der ganzen Aufstellphase erscheinen. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "グリッド定規",
-                    "summary": "配置中に C で、位置を見る色付き格子と間隔を見る距離環を切り替えます。距離環は配置のあいだ出ることがあります。正式版に対応。"
+                    "summary": "配置中に C で二つの見方を切り替えます。色付きの格子は位置用、距離の環は間隔用です。距離の環は配置のあいだずっと出ることがあります。正式版に対応。"
                 },
                 "ru": {
                     "name": "Сетка-линейка",
-                    "summary": "Во время расстановки C переключает цветную сетку для позиции и кольца дистанции. Кольца могут быть видны всю фазу расстановки. Поддерживается официальная ветка."
+                    "summary": "Во время расстановки C переключает два вида: цветная сетка показывает положение, кольца дистанции — интервалы. Кольца могут быть видны всю фазу расстановки. Поддерживается официальная ветка."
                 }
             },
             "minManagerVersion": "1.3.14"
