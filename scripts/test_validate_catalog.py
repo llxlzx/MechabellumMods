@@ -128,5 +128,53 @@ class ValidatePartsTests(unittest.TestCase):
         self.assertTrue(all("invalid usage" in e for e in errors))
 
 
+class ValidateFeedbackTests(unittest.TestCase):
+    def _demo(self, root: Path, feedback=None, *, include_feedback=False) -> dict:
+        entry = mod(root)
+        entry["name"] = "Demo"
+        if include_feedback:
+            entry["feedback"] = feedback
+        return entry
+
+    def test_missing_feedback_is_allowed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            code, _output = run_main(root, [self._demo(root)])
+            self.assertEqual(code, 0)
+
+    def test_plain_email_is_allowed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            code, _output = run_main(
+                root, [self._demo(root, "author@example.com", include_feedback=True)]
+            )
+            self.assertEqual(code, 0)
+
+    def test_blank_feedback_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            code, output = run_main(root, [self._demo(root, "  ", include_feedback=True)])
+            self.assertNotEqual(code, 0)
+            self.assertIn("feedback", output)
+
+    def test_http_feedback_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            code, output = run_main(
+                root, [self._demo(root, "http://example.com", include_feedback=True)]
+            )
+            self.assertNotEqual(code, 0)
+            self.assertIn("feedback", output)
+
+    def test_file_feedback_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            code, output = run_main(
+                root, [self._demo(root, "file:///C:/x", include_feedback=True)]
+            )
+            self.assertNotEqual(code, 0)
+            self.assertIn("feedback", output)
+
+
 if __name__ == "__main__":
     unittest.main()

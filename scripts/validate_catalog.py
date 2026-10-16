@@ -256,6 +256,38 @@ def check_usage(mod: dict, errors: list[str]) -> None:
         errors.append(f"id={mod.get('id')!r}: invalid usage: {usage!r}")
 
 
+def check_feedback(mod: dict, errors: list[str]) -> None:
+    if "feedback" not in mod:
+        return
+    raw = mod.get("feedback")
+    if not isinstance(raw, str) or not raw.strip():
+        errors.append(f"id={mod.get('id')!r}: feedback must be a non-empty string")
+        return
+    parts = urlsplit(raw.strip())
+    scheme = parts.scheme
+    if scheme and scheme not in ("https", "mailto"):
+        errors.append(
+            f"id={mod.get('id')!r}: feedback URL must be https or mailto, got {scheme!r}"
+        )
+        return
+    if scheme == "https" and (not parts.netloc or "@" in parts.netloc):
+        errors.append(
+            f"id={mod.get('id')!r}: feedback host is missing or carries userinfo: {raw!r}"
+        )
+        return
+    if scheme == "mailto":
+        addr = parts.path.split("?", 1)[0]
+        _, sep, domain = addr.partition("@")
+        if (
+            sep != "@"
+            or "@" in domain
+            or "." not in domain
+            or any(ch.isspace() for ch in addr)
+            or "," in addr
+        ):
+            errors.append(f"id={mod.get('id')!r}: feedback mailto address is invalid: {raw!r}")
+
+
 def asset_name(rel: str) -> str:
     """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
     return rel.replace("\\", "/").replace("/", "__")
@@ -472,6 +504,7 @@ def main() -> int:
                 errors.append(f"id={mod.get('id')!r}: tags must be a string array")
 
         check_usage(mod, errors)
+        check_feedback(mod, errors)
 
         errors.extend(conflict_errors(mod, {m.get("id") for m in mods if isinstance(m, dict)}))
 
