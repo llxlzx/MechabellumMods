@@ -938,6 +938,39 @@
                 }
             },
             "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "avatar-fix",
+            "name": "头像修复",
+            "author": "老匪_GODOG",
+            "version": "0.1.0",
+            "updatedAt": "2026-10-17",
+            "summary": "Steam 头像从 avatars.steamstatic.com 下载失败时，改走 avatars.akamai.steamstatic.com 再试一次。装上后自动生效，不用按键。支持正式服。",
+            "file": "mods/avatar-fix/Mechabellum.AvatarFix.dll",
+            "sha256": "d7ba3b1c2fe3f5b86ad06303bfe3c2a4d642f82354d3debfe7f411fb8079eabc",
+            "size": 8192,
+            "type": "MelonMod",
+            "category": "QoL",
+            "tags": ["头像"],
+            "locales": {
+                "en": {
+                    "name": "Avatar Fix",
+                    "summary": "If a Steam avatar fails to download from avatars.steamstatic.com, it tries avatars.akamai.steamstatic.com once. It takes effect on its own, with no hotkey. Supports Official."
+                },
+                "de": {
+                    "name": "Avatar-Fix",
+                    "summary": "Schlägt das Laden eines Steam-Avatars von avatars.steamstatic.com fehl, wird einmal avatars.akamai.steamstatic.com versucht. Wirkt von selbst, ohne Taste. Unterstützt Offiziell."
+                },
+                "ja": {
+                    "name": "アバター修復",
+                    "summary": "Steam のアバターが avatars.steamstatic.com から落とせなかったとき、avatars.akamai.steamstatic.com でもう一度試します。入れると自動で効き、キーは不要です。正式版に対応。"
+                },
+                "ru": {
+                    "name": "Исправление аватаров",
+                    "summary": "Если аватар Steam не скачался с avatars.steamstatic.com, мод один раз пробует avatars.akamai.steamstatic.com. Включается сам, без клавиши. Поддерживается официальная ветка."
+                }
+            },
+            "minManagerVersion": "1.3.14"
         }
     ]
 }
