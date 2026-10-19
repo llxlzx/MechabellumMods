@@ -1,12 +1,16 @@
 {
   "removedSigned": { "payload": "eyJpc3N1ZWRBdCI6IjIwMjYtMTAtMTRUMTE6MTk6MTBaIiwicmVtb3ZlZCI6WwogIHsKICAgICJpZCI6ICJkYW1hZ2UtcmFuayIsCiAgICAibmFtZSI6ICLkvKTlrrPmjpLlkI0gTU9EIiwKICAgICJzaGEyNTYiOiBbCiAgICAgICIwMWI1MGFkZGJjYTYwZjVlMWFiYWNhY2JmMGU1OTE2MTY2YTAxZmNmZmQ4NDAzODU5NjUxY2YzZjYwNDExYTA3IgogICAgXSwKICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwKICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwKICAgICJsb2NhbGVzIjogewogICAgICAiZW4iOiB7CiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiIKICAgICAgfSwKICAgICAgImRlIjogewogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iCiAgICAgIH0sCiAgICAgICJqYSI6IHsKICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiIKICAgICAgfSwKICAgICAgInJ1IjogewogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIgogICAgICB9CiAgICB9CiAgfSwKICB7CiAgICAiaWQiOiAic2FsZXMtY2FsY3VsYXRpb24iLAogICAgIm5hbWUiOiAi5aKe5o+06K6h566X5YeA6LWaIE1PRCIsCiAgICAic2hhMjU2IjogWwogICAgICAiYmMwNzUyODNhZDI2NzViMTRkM2RkYTBlMThjYzYyYjYxYjliNGExZDUwYzdhNDQ1YjNkNTJkMDJiMzRmMjQwMSIKICAgIF0sCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsCiAgICAibG9jYWxlcyI6IHsKICAgICAgImVuIjogewogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iCiAgICAgIH0sCiAgICAgICJkZSI6IHsKICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIgogICAgICB9LAogICAgICAiamEiOiB7CiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiCiAgICAgIH0sCiAgICAgICJydSI6IHsKICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiIKICAgICAgfQogICAgfQogIH0sCiAgewogICAgImlkIjogIm1pc3NpbGUtZGlyZWN0aW9uIiwKICAgICJuYW1lIjogIumjnuW8ueaWueWQkSBNT0QiLAogICAgInNoYTI1NiI6IFsKICAgICAgImIxZTZhOWU4ZGYxYWI2OTA5NjIzNDY5NjYyNzgwY2ViMjg0MTIzNjk5ODVlM2E2OWRlNmI5Y2U5NzQyNzRhNjQiLAogICAgICAiMWVkYjIxMDhkMzMyN2QzMzA2YmE1YWNkZGY4NzI2ZThkOWM4N2M2YzUwMGNlOGEyNmVlZmUxMWM4Zjc4OTJjOCIsCiAgICAgICIzZTAyZmU5OWU4Nzk1ZDg3MWQ1MjllYjdkMjg1MzE0ZWU1NjJhMmYxZmNmMjIxM2UwZWI5NjM4MTQxMmU4NGVhIiwKICAgICAgIjZlYTMyNGE1MTkxZWJjMWM2NDhlMmI3ZjU4NDI2MzYwOGQwZThkMTVkYWEyNTFlZmFjZTJiZjEwOTdkNWU3MDEiCiAgICBdLAogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLAogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLAogICAgImxvY2FsZXMiOiB7CiAgICAgICJlbiI6IHsKICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIgogICAgICB9LAogICAgICAiZGUiOiB7CiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiIKICAgICAgfSwKICAgICAgImphIjogewogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIgogICAgICB9LAogICAgICAicnUiOiB7CiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iCiAgICAgIH0KICAgIH0KICB9LAogIHsKICAgICJpZCI6ICJvcHBvbmVudC1lY29ub215IiwKICAgICJuYW1lIjogIuWvueaJi+e7j+a1jiBNT0QiLAogICAgInNoYTI1NiI6IFsKICAgICAgImQwMmRiZjcwMjgxZWM3MzkxOTdiZjdhZDcwYjdmYWRhMjFmYTEzMTk4MTViYzcwODY0OWFhYjFlYTExOTk3YTciCiAgICBdLAogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLAogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLAogICAgImxvY2FsZXMiOiB7CiAgICAgICJlbiI6IHsKICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIgogICAgICB9LAogICAgICAiZGUiOiB7CiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiIKICAgICAgfSwKICAgICAgImphIjogewogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIgogICAgICB9LAogICAgICAicnUiOiB7CiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iCiAgICAgIH0KICAgIH0KICB9LAogIHsKICAgICJpZCI6ICJ1bml0LWxlZGdlciIsCiAgICAibmFtZSI6ICLljZXkvY3nu7zlkIjliIbmnpAgTU9EIiwKICAgICJzaGEyNTYiOiBbCiAgICAgICI0MmNmM2ExZTdiZGIxMDBiZjg1ODhiZmU0ZTYyZGQyNmViY2QzYjIxOGU2MDliZTlkZGQ2MmIxMDNmMWI5NzNlIiwKICAgICAgIjgwZTVkODY5NjdhYTg2ZWFlZTVkYmQ0OTcxNWQxMjkxY2I4YTc2MzE3NDQ5ZGFkZTZhMDQ1Y2E2YWFiNGRlNDAiLAogICAgICAiYzU2MzlhZTEyZWI5MDk0YmZiNGUzYTk1Zjc4ZDY0YTE2MTZjNmRiNTY0ZTkyMTg0Nzk2MjY2NWNmZmNhNjVmNiIKICAgIF0sCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsCiAgICAibG9jYWxlcyI6IHsKICAgICAgImVuIjogewogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iCiAgICAgIH0sCiAgICAgICJkZSI6IHsKICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIgogICAgICB9LAogICAgICAiamEiOiB7CiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiCiAgICAgIH0sCiAgICAgICJydSI6IHsKICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiIKICAgICAgfQogICAgfQogIH0sCiAgewogICAgImlkIjogInByZWRpY3QtcG9zaXRpb24iLAogICAgIm5hbWUiOiAi5L2N572u6aKE5rWLIE1PRCIsCiAgICAic2hhMjU2IjogWwogICAgICAiYzg4ZTY5MjZmMjBmMmMxNTQwMmJlNDMyY2UyZTFjYzgzMDQ0MGEwMzQzZmNiMzZjMTk0ODAwZjJmNDY4ZTYzMCIsCiAgICAgICIzN2M4ODhlYTA4YjZjOTIwNzMzNTI3ODQwZjE0NzZjN2VmZmVjZmVjZDQxMWZhNGIwYjc5YjVhNGFkYmI3NWE5IgogICAgXSwKICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwKICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwKICAgICJsb2NhbGVzIjogewogICAgICAiZW4iOiB7CiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiIKICAgICAgfSwKICAgICAgImRlIjogewogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iCiAgICAgIH0sCiAgICAgICJqYSI6IHsKICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiIKICAgICAgfSwKICAgICAgInJ1IjogewogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIgogICAgICB9CiAgICB9CiAgfQpdfQ==", "signature": "tCAdkJ3ypus4I38+CKT7O8le4BfrG6eQXUOi6K2vD86mncPDB+N8uxZQL2IXnnUjnfW3948dih3NwQOooUPjqA==" },
-            "updatedAt": "2026-10-17T04:46:00Z",
+            "updatedAt": "2026-10-17T05:20:00Z",
     "mods": [
         {
             "id": "show-grid",
             "name": "地面格线 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.2.0",
             "updatedAt": "2026-09-06",
             "summary": "按 G 开关永久地面格线；支持正式服与测试服。",
@@ -53,6 +57,10 @@
             "name": "快速道具 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
             "summary": "数字键 1/2/3 快捷使用护盾发生器、哨戒飞弹、导弹拦截器。",
@@ -99,6 +107,10 @@
             "name": "快速相机视角 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
             "summary": "小键盘 1/2/3 切换视角；Alt+小键盘 1/2/3 储存视角（最多 3 组）。",
@@ -145,6 +157,10 @@
             "name": "快速撤回 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.0",
             "updatedAt": "2026-09-02",
             "summary": "按住撤回键 1 秒后，每 0.2 秒连续快速撤回；支持正式服与测试服。",
@@ -191,6 +207,10 @@
             "name": "自动加速战斗 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.0",
             "updatedAt": "2026-08-31",
             "summary": "开战约 15 秒后出现 AUTO 按钮，勾选后自动加速投票。",
@@ -237,6 +257,10 @@
             "name": "回放试验工具 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.1",
             "updatedAt": "2026-09-11",
             "summary": "回放模式下可使用试验场工具；支持正式服与测试服。",
@@ -283,6 +307,10 @@
             "name": "快速标记 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.1",
             "updatedAt": "2026-09-29",
             "summary": "CTRL+左键标记地面，ALT+左键擦除地面，ALT+右键清除所有标记。在对局里给地面格子做标记，对局结束时清除。格子尺寸或网格轴对不上时不会乱点。",
@@ -329,6 +357,10 @@
             "name": "单位 DPS 显示 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.2",
             "updatedAt": "2026-10-03",
             "summary": "在单位伤害文字上补上 DPS。多发单位按单位编号计算弹数，不随显示名称变化。5000 及以上的编号会先折回基础编号，异步对战里的同一单位沿用同一套弹数。百夫长打出两发时不再同时按双倍攻击计算。覆盖暴雨、恶灵、霸主、泰山、先知、战争工厂、百夫长、钢球、熔点、丧钟和试验级丧钟。这份构建面向正式服。",
@@ -713,6 +745,10 @@
             "name": "移动轴锁定 MOD",
             "author": "巴巴",
             "feedback": "国内玩家请到 QQ 频道反馈帖：https://pd.qq.com/s/mrm8s2di\n国际玩家请打开巴巴的 Discord：https://discord.com/users/592955314635014155",
+            "feedbackChoices": [
+                {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                {"label": "Discord", "url": "https://discord.com/users/592955314635014155"}
+            ],
             "version": "1.0.1",
             "updatedAt": "2026-10-13",
             "summary": "在战斗场景里拖动单位时按住 Shift，单位只会沿水平或竖直一条轴移动，方便把阵型排齐；松开 Shift 即恢复自由移动。无其他热键。",

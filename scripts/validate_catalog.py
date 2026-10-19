@@ -288,6 +288,30 @@ def check_feedback(mod: dict, errors: list[str]) -> None:
             errors.append(f"id={mod.get('id')!r}: feedback mailto address is invalid: {raw!r}")
 
 
+def check_feedback_choices(mod: dict, errors: list[str]) -> None:
+    if "feedbackChoices" not in mod:
+        return
+    raw = mod.get("feedbackChoices")
+    label = f"id={mod.get('id')!r}: feedbackChoices"
+    if not isinstance(raw, list) or len(raw) == 0:
+        errors.append(f"{label} must be a non-empty array")
+        return
+    for index, item in enumerate(raw):
+        if not isinstance(item, dict):
+            errors.append(f"{label}[{index}] must be an object")
+            continue
+        name = item.get("label")
+        if not isinstance(name, str) or not name.strip():
+            errors.append(f"{label}[{index}].label must be a non-empty string")
+        url = item.get("url")
+        if not isinstance(url, str) or not url.strip():
+            errors.append(f"{label}[{index}].url must be a non-empty string")
+            continue
+        parts = urlsplit(url.strip())
+        if parts.scheme != "https" or not parts.netloc or "@" in parts.netloc:
+            errors.append(f"{label}[{index}].url must be https without userinfo: {url!r}")
+
+
 def asset_name(rel: str) -> str:
     """Must stay identical to stamp_hashes.asset_name and to publish-mods-release.ps1."""
     return rel.replace("\\", "/").replace("/", "__")
@@ -505,6 +529,7 @@ def main() -> int:
 
         check_usage(mod, errors)
         check_feedback(mod, errors)
+        check_feedback_choices(mod, errors)
 
         errors.extend(conflict_errors(mod, {m.get("id") for m in mods if isinstance(m, dict)}))
 

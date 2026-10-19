@@ -175,6 +175,40 @@ class ValidateFeedbackTests(unittest.TestCase):
             self.assertNotEqual(code, 0)
             self.assertIn("feedback", output)
 
+    def test_feedback_choices_are_optional(self):
+        errors: list[str] = []
+        v.check_feedback_choices({"id": "a"}, errors)
+        self.assertEqual(errors, [])
+
+    def test_feedback_choices_accept_https(self):
+        errors: list[str] = []
+        v.check_feedback_choices(
+            {
+                "id": "a",
+                "feedbackChoices": [
+                    {"label": "QQ 频道", "url": "https://pd.qq.com/s/mrm8s2di"},
+                    {"label": "Discord", "url": "https://discord.com/users/1"},
+                ],
+            },
+            errors,
+        )
+        self.assertEqual(errors, [])
+
+    def test_feedback_choices_reject_http_userinfo_and_blank_label(self):
+        errors: list[str] = []
+        v.check_feedback_choices(
+            {
+                "id": "a",
+                "feedbackChoices": [
+                    {"label": " ", "url": "https://example.com"},
+                    {"label": "web", "url": "http://example.com"},
+                    {"label": "bad", "url": "https://user@evil.example/x"},
+                ],
+            },
+            errors,
+        )
+        self.assertEqual(len(errors), 3)
+
 
 if __name__ == "__main__":
     unittest.main()
