@@ -142,5 +142,28 @@
         "reason": "Влияет на честность матча; снят с каталога."
       }
     }
+  },
+  {
+    "id": "quick-camera",
+    "name": "快速相机视角 MOD",
+    "sha256": [
+      "79fa30a736869fc1861809dffec6f89e1120036da1dc1fc4af97fd9b430da564"
+    ],
+    "reason": "官方 2.0.0.5 已自带自定义镜头，已下架。",
+    "since": "2026-10-23",
+    "locales": {
+      "en": {
+        "reason": "Official 2.0.0.5 now includes custom camera views; removed."
+      },
+      "de": {
+        "reason": "Die offizielle Version 2.0.0.5 hat eigene Kameraperspektiven; entfernt."
+      },
+      "ja": {
+        "reason": "公式 2.0.0.5 にカスタムカメラが付いたため、取り下げました。"
+      },
+      "ru": {
+        "reason": "В официальном обновлении 2.0.0.5 появились свои ракурсы камеры; снят с каталога."
+      }
+    }
   }
 ]

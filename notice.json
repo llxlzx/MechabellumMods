@@ -1,6 +1,29 @@
 {
-  "updatedAt": "2026-10-13T15:10:00Z",
+  "updatedAt": "2026-10-23T06:36:26Z",
   "items": [
+    {
+      "time": "2026-10-23T06:36:26Z",
+      "title": "下架快速相机视角",
+      "body": "正式服 2.0.0.5 加入了两项和目录里的模组同类的功能。\n\n快速相机视角已从目录下架。官方现在可以保存最多 3 个自定义镜头：左键点击镜头按钮，在默认镜头和已保存镜头之间切换；右键点击已保存的镜头按钮即可删除。已经安装的副本，会在下次启动管理器或刷新目录时，从本地库和游戏目录移除。之后请用游戏自带的镜头按钮。\n\n飞弹方向不会重新上架。它已在 10 月 14 日下架。同一次更新里，部署阶段的哨戒飞弹会显示可能的瞄准方向。官方说明：战争迷雾里敌人位置仍会变化，所以这个指示不一定准确。",
+      "locales": {
+        "en": {
+          "title": "Quick Camera Views removed",
+          "body": "Official update 2.0.0.5 added two features of the same kind as mods in this catalog.\n\nQuick Camera Views is removed from the catalog. The game can now save up to 3 custom camera views. Left-click the camera buttons to switch between the default view and a saved view; right-click a saved view to delete it. Copies already installed are removed from the library and the game folder the next time the manager starts or the catalog refreshes. Use the camera buttons in the game.\n\nMissile Direction will not return. It was removed on October 14. In the same update, a sentry missile shows its possible aiming direction during deployment. The developers note that enemy positions can still change inside the fog of war, so the indicator is not always accurate."
+        },
+        "de": {
+          "title": "Schnelle Kameraperspektiven entfernt",
+          "body": "Die offizielle Version 2.0.0.5 hat zwei Funktionen ergänzt, die Mods aus diesem Katalog entsprechen.\n\nSchnelle Kameraperspektiven sind aus dem Katalog entfernt. Das Spiel kann jetzt bis zu 3 eigene Kameraperspektiven speichern. Ein Linksklick auf die Kameraschaltflächen wechselt zwischen der Standardansicht und einer gespeicherten Ansicht; ein Rechtsklick auf eine gespeicherte Ansicht löscht sie. Bereits installierte Kopien werden beim nächsten Start des Managers oder beim Aktualisieren des Katalogs aus der Bibliothek und dem Spielordner entfernt. Bitte die Kameraschaltflächen im Spiel verwenden.\n\nFlugkörperrichtung kommt nicht zurück. Dieses Mod wurde am 14. Oktober entfernt. Im selben Update zeigt eine Wachrakete während der Aufstellung eine mögliche Zielrichtung. Die Entwickler schreiben, dass sich Gegner im Kriegsnebel noch bewegen können, daher ist die Anzeige nicht immer genau."
+        },
+        "ja": {
+          "title": "クイックカメラ視点を取り下げ",
+          "body": "公式アップデート 2.0.0.5 で、カタログの Mod と同じ種類の機能が二つ加わりました。\n\nクイックカメラ視点はカタログから取り下げました。ゲーム側でカスタムカメラを最大 3 つ保存できます。カメラボタンを左クリックすると、初期視点と保存した視点を切り替えられます。保存した視点のボタンを右クリックすると削除できます。すでに入っているコピーは、次回マネージャーを起動するかカタログを更新したときに、ライブラリとゲームフォルダから削除されます。以後はゲーム内のカメラボタンを使ってください。\n\nミサイル方向は再掲載しません。この Mod は 10 月 14 日に取り下げ済みです。同じアップデートで、配置中の哨戒ミサイルに、狙う可能性のある方向が表示されます。開発者の説明では、戦争の霧の中で敵の位置はまだ変わるため、この表示は常に正確ではありません。"
+        },
+        "ru": {
+          "title": "Мод быстрых ракурсов снят",
+          "body": "Официальное обновление 2.0.0.5 добавило две функции того же рода, что и моды из каталога.\n\nМод быстрых ракурсов снят с каталога. В игре теперь можно сохранить до 3 своих ракурсов камеры. Левая кнопка на кнопках камеры переключает стандартный вид и сохранённый; правая кнопка на сохранённом виде удаляет его. Уже установленные копии будут удалены из библиотеки и папки игры при следующем запуске менеджера или обновлении каталога. Дальше пользуйтесь кнопками камеры в игре.\n\nМод направления ракеты не вернётся. Его сняли 14 октября. В том же обновлении сторожевая ракета во время расстановки показывает возможное направление прицеливания. Разработчики пишут, что в тумане войны положение врага ещё может измениться, поэтому указатель не всегда точен."
+        }
+      }
+    },
     {
       "time": "2026-10-13T15:10:00Z",
       "title": "钢铁战局助手 1.2.0",
