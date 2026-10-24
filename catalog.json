@@ -1,7 +1,6 @@
 {
   "removedSigned": { "payload": "eyJpc3N1ZWRBdCI6IjIwMjYtMTAtMjNUMDY6MzY6NDVaIiwicmVtb3ZlZCI6Ww0KICB7DQogICAgImlkIjogImRhbWFnZS1yYW5rIiwNCiAgICAibmFtZSI6ICLkvKTlrrPmjpLlkI0gTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgIjAxYjUwYWRkYmNhNjBmNWUxYWJhY2FjYmYwZTU5MTYxNjZhMDFmY2ZmZDg0MDM4NTk2NTFjZjNmNjA0MTFhMDciDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogInNhbGVzLWNhbGN1bGF0aW9uIiwNCiAgICAibmFtZSI6ICLlop7mj7TorqHnrpflh4DotZogTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgImJjMDc1MjgzYWQyNjc1YjE0ZDNkZGEwZTE4Y2M2MmI2MWI5YjRhMWQ1MGM3YTQ0NWIzZDUyZDAyYjM0ZjI0MDEiDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogIm1pc3NpbGUtZGlyZWN0aW9uIiwNCiAgICAibmFtZSI6ICLpo57lvLnmlrnlkJEgTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgImIxZTZhOWU4ZGYxYWI2OTA5NjIzNDY5NjYyNzgwY2ViMjg0MTIzNjk5ODVlM2E2OWRlNmI5Y2U5NzQyNzRhNjQiLA0KICAgICAgIjFlZGIyMTA4ZDMzMjdkMzMwNmJhNWFjZGRmODcyNmU4ZDljODdjNmM1MDBjZThhMjZlZWZlMTFjOGY3ODkyYzgiLA0KICAgICAgIjNlMDJmZTk5ZTg3OTVkODcxZDUyOWViN2QyODUzMTRlZTU2MmEyZjFmY2YyMjEzZTBlYjk2MzgxNDEyZTg0ZWEiLA0KICAgICAgIjZlYTMyNGE1MTkxZWJjMWM2NDhlMmI3ZjU4NDI2MzYwOGQwZThkMTVkYWEyNTFlZmFjZTJiZjEwOTdkNWU3MDEiDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogIm9wcG9uZW50LWVjb25vbXkiLA0KICAgICJuYW1lIjogIuWvueaJi+e7j+a1jiBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiZDAyZGJmNzAyODFlYzczOTE5N2JmN2FkNzBiN2ZhZGEyMWZhMTMxOTgxNWJjNzA4NjQ5YWFiMWVhMTE5OTdhNyINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0sDQogIHsNCiAgICAiaWQiOiAidW5pdC1sZWRnZXIiLA0KICAgICJuYW1lIjogIuWNleS9jee7vOWQiOWIhuaekCBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiNDJjZjNhMWU3YmRiMTAwYmY4NTg4YmZlNGU2MmRkMjZlYmNkM2IyMThlNjA5YmU5ZGRkNjJiMTAzZjFiOTczZSIsDQogICAgICAiODBlNWQ4Njk2N2FhODZlYWVlNWRiZDQ5NzE1ZDEyOTFjYjhhNzYzMTc0NDlkYWRlNmEwNDVjYTZhYWI0ZGU0MCIsDQogICAgICAiYzU2MzlhZTEyZWI5MDk0YmZiNGUzYTk1Zjc4ZDY0YTE2MTZjNmRiNTY0ZTkyMTg0Nzk2MjY2NWNmZmNhNjVmNiINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0sDQogIHsNCiAgICAiaWQiOiAicHJlZGljdC1wb3NpdGlvbiIsDQogICAgIm5hbWUiOiAi5L2N572u6aKE5rWLIE1PRCIsDQogICAgInNoYTI1NiI6IFsNCiAgICAgICJjODhlNjkyNmYyMGYyYzE1NDAyYmU0MzJjZTJlMWNjODMwNDQwYTAzNDNmY2IzNmMxOTQ4MDBmMmY0NjhlNjMwIiwNCiAgICAgICIzN2M4ODhlYTA4YjZjOTIwNzMzNTI3ODQwZjE0NzZjN2VmZmVjZmVjZDQxMWZhNGIwYjc5YjVhNGFkYmI3NWE5Ig0KICAgIF0sDQogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLA0KICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwNCiAgICAibG9jYWxlcyI6IHsNCiAgICAgICJlbiI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiINCiAgICAgIH0sDQogICAgICAiZGUiOiB7DQogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iDQogICAgICB9LA0KICAgICAgImphIjogew0KICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiINCiAgICAgIH0sDQogICAgICAicnUiOiB7DQogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIg0KICAgICAgfQ0KICAgIH0NCiAgfSwNCiAgew0KICAgICJpZCI6ICJxdWljay1jYW1lcmEiLA0KICAgICJuYW1lIjogIuW/q+mAn+ebuOacuuinhuinkiBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiNzlmYTMwYTczNjg2OWZjMTg2MTgwOWRmZmVjNmY4OWUxMTIwMDM2ZGExZGMxZmM0YWY5N2ZkOWI0MzBkYTU2NCINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5a6Y5pa5IDIuMC4wLjUg5bey6Ieq5bim6Ieq5a6a5LmJ6ZWc5aS077yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0yMyIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiT2ZmaWNpYWwgMi4wLjAuNSBub3cgaW5jbHVkZXMgY3VzdG9tIGNhbWVyYSB2aWV3czsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkRpZSBvZmZpemllbGxlIFZlcnNpb24gMi4wLjAuNSBoYXQgZWlnZW5lIEthbWVyYXBlcnNwZWt0aXZlbjsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlhazlvI8gMi4wLjAuNSDjgavjgqvjgrnjgr/jg6Djgqvjg6Hjg6njgYzku5jjgYTjgZ/jgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCSINC+0YTQuNGG0LjQsNC70YzQvdC+0Lwg0L7QsdC90L7QstC70LXQvdC40LggMi4wLjAuNSDQv9C+0Y/QstC40LvQuNGB0Ywg0YHQstC+0Lgg0YDQsNC60YPRgNGB0Ysg0LrQsNC80LXRgNGLOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0NCl19", "signature": "gwv9K3zOYhqjTir9Hf1CZicBKtMQcec7WqTsYDDcbCtIUFlwWGsBcWDyptwADCWS/Cl8EzG656sfLT5HcXwMLg==" },
-            "updatedAt": "2026-10-23T06:36:26Z",
-    "mods": [
+            "updatedAt": "2026-10-24T04:20:00Z",    "mods": [
         {
             "id": "show-grid",
             "name": "地面格线 MOD",
@@ -451,12 +450,12 @@
             "name": "回放功能重置",
             "author": "llxmod",
             "feedback": "llxmod@foxmail.com",
-            "version": "0.3.3",
-            "updatedAt": "2026-10-13",
-            "summary": "重做回放列表：搜索、自定义分类、置顶、改名、日期分组，可按 1v1 / 2v2 / 4 人乱斗筛选；支持勾选批量处理，单独「查看」播放。条目显示对局、版本、模式与地图；过期清理仍走官方规则。支持正式服。",
+            "version": "0.3.4",
+            "updatedAt": "2026-10-24",
+            "summary": "重做回放列表：搜索、自定义分类、置顶、改名、日期分组，可按 1v1 / 2v2 / 4 人乱斗筛选；支持勾选批量处理，单独「查看」播放。条目显示对局、版本、模式与地图；过期清理仍走官方规则。改名和搜索可以输入中文。支持正式服。",
             "file": "mods/replay-reset/ReplayReset.dll",
-            "sha256": "240f74fe77e3e45bcb429e4d1fc610ed17dfe87ae5b780822062645ae6a20e00",
-            "size": 150528,
+            "sha256": "d1681b1be164171cda21ba75a26bb5d3b3c4d0f21be0764f4eeb5b7e2814dbd2",
+            "size": 154112,
             "preview": "mods/replay-reset/preview.png",
             "previewSha256": "3f3e3dbbb8b554b81336aebd0c685214d4c46945b926f37c154ca0c14474c210",
             "type": "MelonMod",
@@ -468,26 +467,26 @@
             "locales": {
                 "en": {
                     "name": "Replay Features Reset",
-                    "summary": "Rebuilds the replay list with search, custom categories, pins, rename, date groups, and filters for 1v1, 2v2, and 4-player FFA. Select rows for batch actions; Watch plays a replay. Each row shows matchup, version, mode, and map. Expired cleanup stays on the official rules. Supports Official."
+                    "summary": "Rebuilds the replay list with search, custom categories, pins, rename, date groups, and filters for 1v1, 2v2, and 4-player FFA. Select rows for batch actions; Watch plays a replay. Each row shows matchup, version, mode, and map. Expired cleanup stays on the official rules. Rename and search accept Chinese input. Supports Official."
                 },
                 "de": {
                     "name": "Replay-Funktionen zurücksetzen",
-                    "summary": "Baut die Replay-Liste neu: Suche, eigene Kategorien, Anpinnen, Umbenennen, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam bearbeiten; Ansehen startet die Wiedergabe. Jede Zeile zeigt Paarung, Version, Modus und Karte. Abgelaufene Replays räumt weiterhin das Spiel selbst auf. Unterstützt Offiziell."
+                    "summary": "Baut die Replay-Liste neu: Suche, eigene Kategorien, Anpinnen, Umbenennen, Datumsgruppen und Filter für 1v1, 2v2 und 4-Spieler-Gemenge. Markierte Zeilen lassen sich gemeinsam bearbeiten; Ansehen startet die Wiedergabe. Jede Zeile zeigt Paarung, Version, Modus und Karte. Abgelaufene Replays räumt weiterhin das Spiel selbst auf. Umbenennen und Suche nehmen chinesische Eingabe an. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "リプレイ機能リセット",
-                    "summary": "リプレイ一覧を作り直す。検索、独自分類、ピン留め、改名、日付グループ、1v1・2v2・4人乱戦の絞り込み。チェックで一括操作、視聴で再生。各行に対戦・バージョン・モード・マップを表示。期限切れの削除は公式のまま。正式版に対応。"
+                    "summary": "リプレイ一覧を作り直す。検索、独自分類、ピン留め、改名、日付グループ、1v1・2v2・4人乱戦の絞り込み。チェックで一括操作、視聴で再生。各行に対戦・バージョン・モード・マップを表示。期限切れの削除は公式のまま。改名と検索は中国語入力に対応。正式版に対応。"
                 },
                 "ru": {
                     "name": "Сброс функций повтора",
-                    "summary": "Заново собирает список повторов: поиск, свои категории, закрепление, переименование, группы по дате и фильтры 1v1, 2v2 и FFA на 4. Отмеченные записи можно обрабатывать пакетом; просмотр запускает повтор. В строке — составы, версия, режим и карта. Очистку просроченных по-прежнему делает игра. Поддерживается официальная ветка."
+                    "summary": "Заново собирает список повторов: поиск, свои категории, закрепление, переименование, группы по дате и фильтры 1v1, 2v2 и FFA на 4. Отмеченные записи можно обрабатывать пакетом; просмотр запускает повтор. В строке — составы, версия, режим и карта. Очистку просроченных по-прежнему делает игра. Переименование и поиск принимают китайский ввод. Поддерживается официальная ветка."
                 }
             },
             "parts": [
                 {
                     "file": "mods/replay-reset/parts/0000",
-                    "sha256": "240f74fe77e3e45bcb429e4d1fc610ed17dfe87ae5b780822062645ae6a20e00",
-                    "size": 150528
+                    "sha256": "d1681b1be164171cda21ba75a26bb5d3b3c4d0f21be0764f4eeb5b7e2814dbd2",
+                    "size": 154112
                 }
             ],
             "minManagerVersion": "1.3.14"
@@ -792,31 +791,31 @@
             "name": "信用点助手",
             "author": "llxmod",
             "feedback": "llxmod@foxmail.com",
-            "version": "1.0.0",
-            "updatedAt": "2026-10-17",
-            "summary": "回到主界面后，如果距上次领取已满 48 小时，并且还有没领的信用点，会自动领一次。信用点商店打开时，可以按你事先列好的商品和折扣自动购买皮肤、表情等。支持正式服。",
+            "version": "1.0.1",
+            "updatedAt": "2026-10-24",
+            "summary": "回到主界面后，如果距上次领取已满 48 小时，并且还有没领的信用点，会自动领一次。信用点商店打开时，可以搜索商品，并按兵种、皮肤、等级查看。按事先列好的商品和折扣自动购买皮肤、表情等。搜索可以输入中文。支持正式服。",
             "file": "mods/credit-helper/AutoClaimCredits.dll",
-            "sha256": "9b7940ede5816fb20e46bc7568d376d4f2e9a00ae5114692a724eade6f45bcca",
-            "size": 184832,
+            "sha256": "ebe3194128bc6c900e37ef6657397721598fbe00ece196223514ecfc56b8271a",
+            "size": 188928,
             "type": "MelonMod",
             "category": "Economy",
             "tags": ["商店", "信用点"],
             "locales": {
                 "en": {
                     "name": "Credit Helper",
-                    "summary": "After you return to the main menu, if 48 hours have passed since the last claim and unclaimed credits remain, it claims them once. While the credit shop is open, it can buy skins, emotes, and similar items from a list and discount you set. Supports Official."
+                    "summary": "After you return to the main menu, if 48 hours have passed since the last claim and unclaimed credits remain, it claims them once. While the credit shop is open, you can search the goods and browse them by unit, skin, and level. It can buy skins, emotes, and similar items from a list and discount you set. Search accepts Chinese input. Supports Official."
                 },
                 "de": {
                     "name": "Kredit-Helfer",
-                    "summary": "Nach der Rückkehr ins Hauptmenü holt er einmal ab, wenn seit dem letzten Abholen 48 Stunden vergangen sind und noch nicht abgeholte Kredite übrig sind. Solange der Kredit-Shop offen ist, kann er Skins, Emotes und Ähnliches nach deiner Liste und deinem Rabatt kaufen. Unterstützt Offiziell."
+                    "summary": "Nach der Rückkehr ins Hauptmenü holt er einmal ab, wenn seit dem letzten Abholen 48 Stunden vergangen sind und noch nicht abgeholte Kredite übrig sind. Im Kredit-Shop kann man Waren suchen und nach Einheit, Skin und Stufe ansehen. Er kann Skins, Emotes und Ähnliches nach deiner Liste und deinem Rabatt kaufen. Die Suche nimmt chinesische Eingabe an. Unterstützt Offiziell."
                 },
                 "ja": {
                     "name": "クレジット助手",
-                    "summary": "メインメニューに戻ったとき、前回の受け取りから 48 時間が経ち、まだ受け取っていないクレジットがあれば一度だけ受け取ります。クレジットショップを開いているあいだは、あらかじめ並べた商品と割引条件でスキンやスタンプなどを自動購入できます。正式版に対応。"
+                    "summary": "メインメニューに戻ったとき、前回の受け取りから 48 時間が経ち、まだ受け取っていないクレジットがあれば一度だけ受け取ります。クレジットショップでは商品を検索し、兵種・スキン・レベルで見られます。あらかじめ並べた商品と割引条件でスキンやスタンプなどを自動購入できます。検索は中国語入力に対応。正式版に対応。"
                 },
                 "ru": {
                     "name": "Помощник кредитов",
-                    "summary": "После возвращения в главное меню один раз забирает кредиты, если с прошлого получения прошло 48 часов и остались неполученные. Пока магазин кредитов открыт, может покупать облики, эмоции и похожие предметы по вашему списку и заданной скидке. Поддерживается официальная ветка."
+                    "summary": "После возвращения в главное меню один раз забирает кредиты, если с прошлого получения прошло 48 часов и остались неполученные. В магазине кредитов можно искать товары и смотреть их по юниту, облику и уровню. Может покупать облики, эмоции и похожие предметы по вашему списку и заданной скидке. Поиск принимает китайский ввод. Поддерживается официальная ветка."
                 }
             },
             "minManagerVersion": "1.3.14"
@@ -959,7 +958,6 @@
                     "summary": "Если аватар Steam не скачался с avatars.steamstatic.com, мод один раз пробует avatars.akamai.steamstatic.com. Включается сам, без клавиши. Поддерживается официальная ветка."
                 }
             },
-            "minManagerVersion": "1.3.14"
-        }
+            "minManagerVersion": "1.3.14"        }
     ]
 }
