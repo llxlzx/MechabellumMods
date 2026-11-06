@@ -1,6 +1,6 @@
 {
   "removedSigned": { "payload": "eyJpc3N1ZWRBdCI6IjIwMjYtMTAtMjNUMDY6MzY6NDVaIiwicmVtb3ZlZCI6Ww0KICB7DQogICAgImlkIjogImRhbWFnZS1yYW5rIiwNCiAgICAibmFtZSI6ICLkvKTlrrPmjpLlkI0gTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgIjAxYjUwYWRkYmNhNjBmNWUxYWJhY2FjYmYwZTU5MTYxNjZhMDFmY2ZmZDg0MDM4NTk2NTFjZjNmNjA0MTFhMDciDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogInNhbGVzLWNhbGN1bGF0aW9uIiwNCiAgICAibmFtZSI6ICLlop7mj7TorqHnrpflh4DotZogTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgImJjMDc1MjgzYWQyNjc1YjE0ZDNkZGEwZTE4Y2M2MmI2MWI5YjRhMWQ1MGM3YTQ0NWIzZDUyZDAyYjM0ZjI0MDEiDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogIm1pc3NpbGUtZGlyZWN0aW9uIiwNCiAgICAibmFtZSI6ICLpo57lvLnmlrnlkJEgTU9EIiwNCiAgICAic2hhMjU2IjogWw0KICAgICAgImIxZTZhOWU4ZGYxYWI2OTA5NjIzNDY5NjYyNzgwY2ViMjg0MTIzNjk5ODVlM2E2OWRlNmI5Y2U5NzQyNzRhNjQiLA0KICAgICAgIjFlZGIyMTA4ZDMzMjdkMzMwNmJhNWFjZGRmODcyNmU4ZDljODdjNmM1MDBjZThhMjZlZWZlMTFjOGY3ODkyYzgiLA0KICAgICAgIjNlMDJmZTk5ZTg3OTVkODcxZDUyOWViN2QyODUzMTRlZTU2MmEyZjFmY2YyMjEzZTBlYjk2MzgxNDEyZTg0ZWEiLA0KICAgICAgIjZlYTMyNGE1MTkxZWJjMWM2NDhlMmI3ZjU4NDI2MzYwOGQwZThkMTVkYWEyNTFlZmFjZTJiZjEwOTdkNWU3MDEiDQogICAgXSwNCiAgICAicmVhc29uIjogIuW9seWTjeWvueWxgOWFrOW5s++8jOW3suS4i+aetuOAgiIsDQogICAgInNpbmNlIjogIjIwMjYtMTAtMTQiLA0KICAgICJsb2NhbGVzIjogew0KICAgICAgImVuIjogew0KICAgICAgICAicmVhc29uIjogIkFmZmVjdHMgbWF0Y2ggZmFpcm5lc3M7IHJlbW92ZWQuIg0KICAgICAgfSwNCiAgICAgICJkZSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJCZWVpbnRyw6RjaHRpZ3QgZGllIEZhaXJuZXNzIGRlciBQYXJ0aWU7IGVudGZlcm50LiINCiAgICAgIH0sDQogICAgICAiamEiOiB7DQogICAgICAgICJyZWFzb24iOiAi5a++5bGA44Gu5YWs5bmz5oCn44Gr5b2x6Z+/44GZ44KL44Gf44KB44CB5Y+W44KK5LiL44GS44G+44GX44Gf44CCIg0KICAgICAgfSwNCiAgICAgICJydSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLQktC70LjRj9C10YIg0L3QsCDRh9C10YHRgtC90L7RgdGC0Ywg0LzQsNGC0YfQsDsg0YHQvdGP0YIg0YEg0LrQsNGC0LDQu9C+0LPQsC4iDQogICAgICB9DQogICAgfQ0KICB9LA0KICB7DQogICAgImlkIjogIm9wcG9uZW50LWVjb25vbXkiLA0KICAgICJuYW1lIjogIuWvueaJi+e7j+a1jiBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiZDAyZGJmNzAyODFlYzczOTE5N2JmN2FkNzBiN2ZhZGEyMWZhMTMxOTgxNWJjNzA4NjQ5YWFiMWVhMTE5OTdhNyINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0sDQogIHsNCiAgICAiaWQiOiAidW5pdC1sZWRnZXIiLA0KICAgICJuYW1lIjogIuWNleS9jee7vOWQiOWIhuaekCBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiNDJjZjNhMWU3YmRiMTAwYmY4NTg4YmZlNGU2MmRkMjZlYmNkM2IyMThlNjA5YmU5ZGRkNjJiMTAzZjFiOTczZSIsDQogICAgICAiODBlNWQ4Njk2N2FhODZlYWVlNWRiZDQ5NzE1ZDEyOTFjYjhhNzYzMTc0NDlkYWRlNmEwNDVjYTZhYWI0ZGU0MCIsDQogICAgICAiYzU2MzlhZTEyZWI5MDk0YmZiNGUzYTk1Zjc4ZDY0YTE2MTZjNmRiNTY0ZTkyMTg0Nzk2MjY2NWNmZmNhNjVmNiINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5b2x5ZON5a+55bGA5YWs5bmz77yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0xNCIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiQWZmZWN0cyBtYXRjaCBmYWlybmVzczsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkJlZWludHLDpGNodGlndCBkaWUgRmFpcm5lc3MgZGVyIFBhcnRpZTsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlr77lsYDjga7lhazlubPmgKfjgavlvbHpn7/jgZnjgovjgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCS0LvQuNGP0LXRgiDQvdCwINGH0LXRgdGC0L3QvtGB0YLRjCDQvNCw0YLRh9CwOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0sDQogIHsNCiAgICAiaWQiOiAicHJlZGljdC1wb3NpdGlvbiIsDQogICAgIm5hbWUiOiAi5L2N572u6aKE5rWLIE1PRCIsDQogICAgInNoYTI1NiI6IFsNCiAgICAgICJjODhlNjkyNmYyMGYyYzE1NDAyYmU0MzJjZTJlMWNjODMwNDQwYTAzNDNmY2IzNmMxOTQ4MDBmMmY0NjhlNjMwIiwNCiAgICAgICIzN2M4ODhlYTA4YjZjOTIwNzMzNTI3ODQwZjE0NzZjN2VmZmVjZmVjZDQxMWZhNGIwYjc5YjVhNGFkYmI3NWE5Ig0KICAgIF0sDQogICAgInJlYXNvbiI6ICLlvbHlk43lr7nlsYDlhazlubPvvIzlt7LkuIvmnrbjgIIiLA0KICAgICJzaW5jZSI6ICIyMDI2LTEwLTE0IiwNCiAgICAibG9jYWxlcyI6IHsNCiAgICAgICJlbiI6IHsNCiAgICAgICAgInJlYXNvbiI6ICJBZmZlY3RzIG1hdGNoIGZhaXJuZXNzOyByZW1vdmVkLiINCiAgICAgIH0sDQogICAgICAiZGUiOiB7DQogICAgICAgICJyZWFzb24iOiAiQmVlaW50csOkY2h0aWd0IGRpZSBGYWlybmVzcyBkZXIgUGFydGllOyBlbnRmZXJudC4iDQogICAgICB9LA0KICAgICAgImphIjogew0KICAgICAgICAicmVhc29uIjogIuWvvuWxgOOBruWFrOW5s+aAp+OBq+W9semfv+OBmeOCi+OBn+OCgeOAgeWPluOCiuS4i+OBkuOBvuOBl+OBn+OAgiINCiAgICAgIH0sDQogICAgICAicnUiOiB7DQogICAgICAgICJyZWFzb24iOiAi0JLQu9C40Y/QtdGCINC90LAg0YfQtdGB0YLQvdC+0YHRgtGMINC80LDRgtGH0LA7INGB0L3Rj9GCINGBINC60LDRgtCw0LvQvtCz0LAuIg0KICAgICAgfQ0KICAgIH0NCiAgfSwNCiAgew0KICAgICJpZCI6ICJxdWljay1jYW1lcmEiLA0KICAgICJuYW1lIjogIuW/q+mAn+ebuOacuuinhuinkiBNT0QiLA0KICAgICJzaGEyNTYiOiBbDQogICAgICAiNzlmYTMwYTczNjg2OWZjMTg2MTgwOWRmZmVjNmY4OWUxMTIwMDM2ZGExZGMxZmM0YWY5N2ZkOWI0MzBkYTU2NCINCiAgICBdLA0KICAgICJyZWFzb24iOiAi5a6Y5pa5IDIuMC4wLjUg5bey6Ieq5bim6Ieq5a6a5LmJ6ZWc5aS077yM5bey5LiL5p6244CCIiwNCiAgICAic2luY2UiOiAiMjAyNi0xMC0yMyIsDQogICAgImxvY2FsZXMiOiB7DQogICAgICAiZW4iOiB7DQogICAgICAgICJyZWFzb24iOiAiT2ZmaWNpYWwgMi4wLjAuNSBub3cgaW5jbHVkZXMgY3VzdG9tIGNhbWVyYSB2aWV3czsgcmVtb3ZlZC4iDQogICAgICB9LA0KICAgICAgImRlIjogew0KICAgICAgICAicmVhc29uIjogIkRpZSBvZmZpemllbGxlIFZlcnNpb24gMi4wLjAuNSBoYXQgZWlnZW5lIEthbWVyYXBlcnNwZWt0aXZlbjsgZW50ZmVybnQuIg0KICAgICAgfSwNCiAgICAgICJqYSI6IHsNCiAgICAgICAgInJlYXNvbiI6ICLlhazlvI8gMi4wLjAuNSDjgavjgqvjgrnjgr/jg6Djgqvjg6Hjg6njgYzku5jjgYTjgZ/jgZ/jgoHjgIHlj5bjgorkuIvjgZLjgb7jgZfjgZ/jgIIiDQogICAgICB9LA0KICAgICAgInJ1Ijogew0KICAgICAgICAicmVhc29uIjogItCSINC+0YTQuNGG0LjQsNC70YzQvdC+0Lwg0L7QsdC90L7QstC70LXQvdC40LggMi4wLjAuNSDQv9C+0Y/QstC40LvQuNGB0Ywg0YHQstC+0Lgg0YDQsNC60YPRgNGB0Ysg0LrQsNC80LXRgNGLOyDRgdC90Y/RgiDRgSDQutCw0YLQsNC70L7Qs9CwLiINCiAgICAgIH0NCiAgICB9DQogIH0NCl19", "signature": "gwv9K3zOYhqjTir9Hf1CZicBKtMQcec7WqTsYDDcbCtIUFlwWGsBcWDyptwADCWS/Cl8EzG656sfLT5HcXwMLg==" },
-            "updatedAt": "2026-10-24T04:20:00Z",    "mods": [
+            "updatedAt": "2026-11-06T05:00:00Z",    "mods": [
         {
             "id": "show-grid",
             "name": "地面格线 MOD",
@@ -958,6 +958,77 @@
                     "summary": "Если аватар Steam не скачался с avatars.steamstatic.com, мод один раз пробует avatars.akamai.steamstatic.com. Включается сам, без клавиши. Поддерживается официальная ветка."
                 }
             },
-            "minManagerVersion": "1.3.14"        }
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "replay-hotkeys",
+            "name": "回放快捷键",
+            "author": "Oddz",
+            "version": "1.0.0",
+            "updatedAt": "2026-11-06",
+            "summary": "在回放控制界面用键盘操作：= 或 + 加速，- 减速，P 或空格播放或暂停，O 切换快速部署，[ 或 ] 上一轮或下一轮。正在输入时不会触发。支持正式服和测试服。",
+            "file": "mods/replay-hotkeys/ReplayHotkeys.dll",
+            "sha256": "3a5ec02a5a45fed25c1eac7b6c7ab641153c4b9547fbe9ac26fb0eca35d1deb1",
+            "size": 10752,
+            "preview": "mods/replay-hotkeys/preview.png",
+            "previewSha256": "af501ac4f81cf0e53a09312a5a215f4589cb30461461e78df7408a885269a5ad",
+            "type": "MelonMod",
+            "category": "ReplayDebug",
+            "tags": ["replay", "hotkey", "speed"],
+            "locales": {
+                "en": {
+                    "name": "Replay Hotkeys",
+                    "summary": "In the replay control window, = or + speeds up, - slows down, P or Space plays or pauses, O toggles Quick Deploy, and [ or ] goes to the previous or next round. It does nothing while you are typing in an input field. Supports Official and Test."
+                },
+                "de": {
+                    "name": "Replay-Tasten",
+                    "summary": "Im Replay-Fenster beschleunigt = oder +, - verlangsamt, P oder die Leertaste spielt oder pausiert, O schaltet die Schnellaufstellung um, und [ oder ] geht zur vorigen oder nächsten Runde. In einem Eingabefeld bleibt es ohne Wirkung. Unterstützt Offiziell und Test."
+                },
+                "ja": {
+                    "name": "リプレイショートカット",
+                    "summary": "リプレイ操作画面で、= または + は加速、- は減速、P またはスペースは再生と一時停止、O はクイック配置の切り替え、[ または ] は前のラウンドと次のラウンドです。入力欄では反応しません。正式版とテスト版に対応。"
+                },
+                "ru": {
+                    "name": "Горячие клавиши повтора",
+                    "summary": "В окне управления повтором = или + ускоряет, - замедляет, P или пробел включает воспроизведение или паузу, O переключает быструю расстановку, [ или ] переходит к предыдущему или следующему раунду. В поле ввода не срабатывает. Поддерживаются официальная и тестовая ветки."
+                }
+            },
+            "minManagerVersion": "1.3.14"
+        },
+        {
+            "id": "unlimited-replay-timer",
+            "name": "无限回放计时",
+            "author": "Oddz",
+            "version": "1.0.0",
+            "updatedAt": "2026-11-06",
+            "summary": "在回放里点“接管回放”之后，部署倒计时变成 9999 秒。普通回放不变，退出接管后恢复正常计时。支持正式服和测试服。",
+            "file": "mods/unlimited-replay-timer/UnlimitedReplayTimer.dll",
+            "sha256": "2240b2777b2622e53f7aebfbbe6ba386cc7ce6aff1b345286c6b213cc0957bd8",
+            "size": 5632,
+            "preview": "mods/unlimited-replay-timer/preview.png",
+            "previewSha256": "fabc75ae1bffa0cfa906e546add86ebd1dbccd88adf7a7fc013d4fcedd94028e",
+            "type": "MelonMod",
+            "category": "ReplayDebug",
+            "tags": ["replay", "timer"],
+            "locales": {
+                "en": {
+                    "name": "Unlimited Replay Timer",
+                    "summary": "After you click Take over replay, the deploy countdown becomes 9999 seconds. A normal replay stays unchanged, and leaving takeover restores the usual timer. Supports Official and Test."
+                },
+                "de": {
+                    "name": "Unbegrenzter Replay-Timer",
+                    "summary": "Nach „Replay übernehmen“ wird der Countdown der Aufstellphase zu 9999 Sekunden. Ein normales Replay bleibt unverändert, und beim Verlassen gilt wieder die normale Zeit. Unterstützt Offiziell und Test."
+                },
+                "ja": {
+                    "name": "リプレイ無限タイマー",
+                    "summary": "リプレイで「リプレイを引き継ぐ」を押すと、配置のカウントダウンが 9999 秒になります。通常のリプレイは変わらず、引き継ぎを終えると元の時間に戻ります。正式版とテスト版に対応。"
+                },
+                "ru": {
+                    "name": "Бесконечный таймер повтора",
+                    "summary": "После «Перехватить повтор» отсчёт фазы расстановки становится 9999 секунд. Обычный повтор не меняется, а после выхода снова идёт обычный таймер. Поддерживаются официальная и тестовая ветки."
+                }
+            },
+            "minManagerVersion": "1.3.14"
+        }
     ]
 }
