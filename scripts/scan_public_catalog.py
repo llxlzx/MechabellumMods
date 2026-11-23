@@ -81,7 +81,8 @@ def scan_catalog(root, scratch, scan):
             check_file(item)
         if item.get("preview") or item.get("previewSha256"):
             digest, _ = contents(item.get("preview"))
-            if not isinstance(item.get("previewSha256"), str) or item["previewSha256"].lower() != digest:
+            declared = item.get("previewSha256")
+            if declared is not None and (not isinstance(declared, str) or declared.lower() != digest):
                 raise ValueError("Preview SHA-256 mismatch")
         if "bundle" in item:
             bundle = item["bundle"]

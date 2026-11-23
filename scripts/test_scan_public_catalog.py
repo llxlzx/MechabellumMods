@@ -66,6 +66,14 @@ class PublicCatalogTest(unittest.TestCase):
                 record[key] = old
                 (self.scratch / "assembled-0.dll").unlink(missing_ok=True)
 
+    def test_legacy_preview_without_digest_remains_in_scan_inventory(self):
+        del self.single["previewSha256"]
+        del self.split["file"]  # Split-only author updates can omit the logical whole-file path.
+        self.bundle["file"] = self.bundle_main["file"]
+        received = []
+        self.assertEqual(self.scan(received.extend), (6, 1))
+        self.assertIn(self.root / self.single["preview"], received)
+
 
 class ClamReceiptTest(unittest.TestCase):
     def setUp(self):
