@@ -1,0 +1,5 @@
+# Security checks and the rules that select reviewers require maintainer review.
+/.github/                 @llxlzx
+/scripts/                 @llxlzx
+/.gitattributes           @llxlzx
+/.gitmodules              @llxlzx
