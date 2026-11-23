@@ -1,0 +1,28 @@
+name: Scan public Mod files
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    name: Scan catalog files and assembled DLLs
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install ClamAV and update official signatures
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends clamav clamav-freshclam
+          sudo systemctl stop clamav-freshclam.service
+          sudo freshclam
+          clamscan --version
+      - name: Scan catalog
+        run: python3 -I scripts/scan_public_catalog.py
